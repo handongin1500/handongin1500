@@ -11,7 +11,7 @@
 <td align="center" width="50%">💻 <b>Frontend Developer</b><br/><sub>React · TypeScript · Vue.js</sub></td>
 </tr>
 <tr>
-<td align="center">🏦 <b>핀테크 · 🤖 로봇 관제 · 💼 취업 지원</b><br/><sub>SSAFY 프로젝트 3개</sub></td>
+<td align="center">🏦 <b>핀테크 · 🤖 로봇 관제 · 💼 AI 취업 준비</b><br/><sub>SSAFY 프로젝트 3개</sub></td>
 <td align="center">🔍 <b>프론트엔드 포지션을 찾고 있어요</b><br/><sub>편하게 연락 주세요</sub></td>
 </tr>
 </table>
@@ -55,7 +55,7 @@ ChatGPT가 등장해 사람들이 일하고 배우는 방식이 바뀌는 흐름
 |---|---|
 | **🤝 협력 · 존중** | 다른 파트에 보낼 요청은 번호 붙은 문안으로 관리하고, **보내기 전에 코드와 수치를 다시 재서** 이미 해결된 일을 요청하지 않았습니다. 팀원이 먼저 만든 해결책은 복사하지 않고 공용 함수로 빼서 함께 쓰게 했습니다. |
 | **🧱 논리 · 구조** | "FE는 도메인 수치를 계산하지 않는다" 같은 **불변 규칙 12개**를 세우고 eslint · 테스트로 강제했습니다. 라이브 시연 실패는 정상 주행 로그와 **대조 분석**해 하드웨어가 아닌 상태 교착임을 밝혔습니다. |
-| **🌱 적응 · 학습** | 수학 전공에서 개발로 넘어와 Django · Vue.js로 시작했고, 이후 WebSocket 관제 화면, React · TypeScript 핀테크 서비스까지 **프로젝트마다 새 스택으로 결과를 냈습니다.** |
+| **🌱 적응 · 학습** | 수학 전공에서 개발로 넘어와 Vue.js에 브라우저 음성 인식(Whisper)을 붙이는 것으로 시작했고, 로봇 관제 프로젝트의 검수 · 발표를 거쳐 React · TypeScript 핀테크 서비스의 프론트엔드를 혼자 맡기까지 **프로젝트마다 새 역할과 스택으로 결과를 냈습니다.** |
 | **🙇 겸손** | 테스트가 통과해도 믿지 않고 **가드를 일부러 되돌려 실패하는지 확인**합니다. 회고에서는 잘한 점만큼 아쉬운 점과 다음에 바꿀 점을 구체적으로 남깁니다. |
 
 <br/>
@@ -79,6 +79,8 @@ ChatGPT가 등장해 사람들이 일하고 배우는 방식이 바뀌는 흐름
 **Library · Test**<br/><br/>
 <img src="https://img.shields.io/badge/TanStack_Query-FF4154?style=flat-square&logo=reactquery&logoColor=white"/>
 <img src="https://img.shields.io/badge/Zustand-443E38?style=flat-square&logo=react&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pinia-FFD859?style=flat-square&logo=pinia&logoColor=black"/>
+<img src="https://img.shields.io/badge/Transformers.js-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
 <img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white"/>
 <img src="https://img.shields.io/badge/MSW-FF6A33?style=flat-square&logo=mockserviceworker&logoColor=white"/>
 <img src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white"/>
@@ -282,58 +284,176 @@ if (!known) return { date, sp: 0, unknown: true }
 
 <a id="ssacurity"></a>
 
-### 🤖 SSACURITY — 자율주행 보안 로봇 관제 시스템
+### 🤖 SSACURITY — 셔틀 승강장 출입 태깅을 로봇이 대신하는 관제 시스템
 
-<img src="https://img.shields.io/badge/SSAFY-2%ED%95%99%EA%B8%B0_%EA%B3%B5%ED%86%B5_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-3178C6?style=for-the-badge"/> <img src="https://img.shields.io/badge/%EC%97%AD%ED%95%A0-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C_%C2%B7_%EA%B4%80%EC%A0%9C_%ED%99%94%EB%A9%B4_%EC%84%A4%EA%B3%84_%C2%B7_%EA%B2%80%EC%A6%9D-61DAFB?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/%EA%B8%B0%EA%B0%84-2026.07.13_~_08.11-3178C6?style=for-the-badge"/> <img src="https://img.shields.io/badge/%EC%97%AD%ED%95%A0-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C_%C2%B7_%EB%B0%9C%ED%91%9C-61DAFB?style=for-the-badge"/> <img src="https://img.shields.io/badge/%ED%8C%80-6%EB%AA%85_%C2%B7_%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4_4_%ED%8F%AC%ED%95%A8-555555?style=for-the-badge"/>
+
+> **화면은 요원의 동선대로 써 보며 문제를 짚고, 실패한 시연은 로그로 끝까지 따라갔습니다.**
+
+보안 요원이 셔틀 시간마다 태깅 기기를 들고 나가 설치·회수하던 승강장에, 셔틀이 도착하면 로봇이 AprilTag를 따라 태깅 지점에 서고 미태깅 통과를 바로 경보하는 시스템입니다. 기능은 건물 보안 요원 인터뷰에서 정했습니다.<br/>
+저는 **첫 관제 화면 목업, 요원 동선 기준의 실사용 검수, 로봇 동작 검증, 최종 발표**를 맡았습니다. 관제 화면은 백엔드 담당 팀원이, 펌웨어는 모터 제어 담당 팀원이 구현했고, 제가 짚은 문제를 담당 팀원이 코드에 반영했습니다.
 
 <div align="center">
 
+<img src="https://img.shields.io/badge/%EA%B1%B0%EC%A7%93_%EC%9E%AC%EC%97%B0%EA%B2%B0_%EA%B2%BD%EB%B3%B4-%EC%A0%9C%EA%B1%B0-0B3D91?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/%EA%B6%8C%ED%95%9C_%EB%B6%80%EC%A1%B1_%EB%A1%9C%EA%B7%B8%EC%9D%B8_%EB%A3%A8%ED%94%84-%EC%A0%9C%EA%B1%B0-0B3D91?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/%EC%86%8D%EB%8F%84_%ED%9D%94%EB%93%A4%EB%A6%BC-%EC%95%BD_70%25_%EA%B0%90%EC%86%8C-0B3D91?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/%EC%86%8D%EB%8F%84_%EC%B6%94%EC%A2%85%EB%A5%A0-88%25_%E2%86%92_98%25-0B3D91?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/%EA%B1%B0%EC%A7%93_%EA%B2%BD%EB%B3%B4-%EC%A0%9C%EA%B1%B0-0B3D91?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/%EC%B5%9C%EC%A2%85_%EB%B0%9C%ED%91%9C-14%EB%B6%84_27%EC%B4%88_%C2%B7_Q%26A_44%EB%AC%B8%ED%95%AD-0B3D91?style=for-the-badge"/>
+
+<sub>코드 반영은 담당 팀원 · 속도 수치는 동일 조건 3회 반복 주행 기준 · 시연 미출발 원인은 로그 대조로 규명</sub>
 
 </div>
 
 **핵심 성과**
-- **거짓 경보 제거** — 화면 요소마다 달랐던 신선도 임계값(상단바만 6초)을 25초 단일 상수로 통합
-- **재로그인 무한 루프 차단** — WebSocket 인증 거절(1008)을 세션 만료와 권한 부족으로 분기
-- **끊겨도 놓치지 않는 재연결** — 지수 백오프(1.5초 → 15초 상한) + 재접속 시 스냅샷 재수신
-- **시연 실패를 구조적 원인으로 규명** — 로그 대조 분석으로 상태 교착을 찾아 수정안·재발 방지안 수립
+- **감지 → 확인 → 기록이 한 화면에서 끝나게** — 요원 동선대로 써 보며 흐름이 끊기는 두 자리를 짚어 전달
+- **거짓 경보와 로그인 루프 제거** — 상단바만 6초였던 신선도 임계, 1008을 전부 세션 만료로 읽던 안내를 짚어 전달
+- **"속도가 이상해요"가 아니라 "저속 구간에서만"** — 조건을 특정해 넘겨, 이동창 누적 + 피드포워드로 흔들림 약 70% 감소
+- **안 됐을 때를 먼저 쓴 발표** — 대본 14분 27초 · Q&A 44문항 · 8장면 시연 시나리오 · 실패 상황별 대응 문장 8개
+- **시연 실패를 구조적 원인으로** — 39분 뒤 정상 주행 로그와 대조해 하드웨어가 아닌 상태 교착임을 규명
+
+**화면** <sub>(관제 화면은 팀 결과물 · 목 모드 캡처)</sub>
+
+<table>
+<tr>
+<td width="50%"><img src="./assets/ssacurity-overview.png" alt="관제 개요"/><p align="center"><sub><b>관제 개요</b> · 로봇 위치 · 게이트 판정 · 경고를 한 화면에</sub></p></td>
+<td width="50%"><img src="./assets/ssacurity-telemetry.png" alt="텔레메트리"/><p align="center"><sub><b>텔레메트리</b> · 마지막 신호 11초 전이어도 정상</sub></p></td>
+</tr>
+<tr>
+<td width="50%"><img src="./assets/ssacurity-alert.png" alt="무단 통과 경보"/><p align="center"><sub><b>무단 통과 경보</b> · 경보 창에서 바로 신원 입력으로</sub></p></td>
+<td width="50%"><img src="./assets/ssacurity-ident.png" alt="신원 입력"/><p align="center"><sub><b>신원 입력</b> · 확인 요원은 로그인한 이름으로 채움</sub></p></td>
+</tr>
+</table>
+
+**발표 장표** <sub>(발표 담당)</sub>
+
+<table>
+<tr>
+<td width="33%"><img src="./assets/ssacurity-deck-tof.png" alt="ToF 판정"/><p align="center"><sub><b>ToF 판정</b> · 통과 · 방향을 잡고 태깅 기록과 대조</sub></p></td>
+<td width="33%"><img src="./assets/ssacurity-deck-demo.png" alt="시연 구성"/><p align="center"><sub><b>시연 구성</b> · 시연자 셋 · 촬영 둘</sub></p></td>
+<td width="33%"><img src="./assets/ssacurity-deck-apriltag.png" alt="AprilTag 보정"/><p align="center"><sub><b>AprilTag 보정</b> · 누적 오차 0에서 다시 시작</sub></p></td>
+</tr>
+</table>
 
 <details>
-<summary><b>🔧 트러블슈팅 — 통신은 정상인데 뜨는 "재연결 중" 경보</b></summary>
+<summary><b>🏗 요청이 가는 길 (아키텍처)</b></summary>
 <br/>
 
-- **문제** 실시간 관제 화면에서 통신이 정상인데도 회차마다 거짓 "재연결 중" 경보 발생
-- **원인** 신호 주기 상한은 20초인데, 상단바 · 로봇 카드 · 텔레메트리가 신선도 임계를 각자 다른 값으로 보유(상단바만 6초)
-- **해결 1** 임계를 **25초 단일 상수**로 통합해 화면 요소끼리 판단이 갈라지지 않게 함
-- **해결 2** WebSocket 인증 거절(1008)을 **세션 만료**와 **권한 부족**으로 분기 — "로그인이 필요합니다" 오안내로 재로그인 무한 루프에 빠지던 경로 차단
-- **해결 3** 재연결은 지수 백오프(1.5초 → 15초 상한), 재접속 시 스냅샷을 다시 받아 끊긴 동안의 이벤트 복구
+역할은 **실패했을 때 무엇이 위험한가**로 나눴습니다. 모터 제어와 안전 정지는 STM32가 혼자 판단하고, 무거운 인식은 젯슨이 맡습니다.
+
+```mermaid
+flowchart LR
+  UI["관제 화면<br/>단일 HTML"] <-->|"WebSocket /ws/dashboard"| API["FastAPI 관제 서버"]
+  RPI["라즈베리파이 5<br/>RFID · ToF · 스피커"] -->|"HTTPS 인입"| API
+  API --> DB[("PostgreSQL 16")]
+  API <-->|"WebSocket /ws/robot"| JET["Jetson Orin Nano<br/>ROS 2 · AprilTag 주행"]
+  JET <-->|"UART 115200"| MCU["STM32<br/>속도 PID · 조향 · 엔코더"]
+  API -.->|"역터널"| LLM["GPU 서버<br/>관제 보조 LLM"]
+```
 
 </details>
 
 <details>
-<summary><b>🔧 트러블슈팅 — 저속 구간에서만 튀는 속도 값</b></summary>
+<summary><b>🔍 화면 검수 — 감지에서 끝나면 안 되는 화면</b></summary>
 <br/>
 
-- **문제** 화면상 정상 주행인데 로그에선 저속 구간 속도가 크게 튐
-- **원인** 엔코더가 정수 펄스를 출력해, 10ms 샘플링 구간의 저속 펄스 수가 극히 적어 ±1 오차가 속도를 크게 왜곡
-- **해결** 5샘플 이동창(50ms) 누적 + 목표 속도 비례 피드포워드를 제안해 반영 → **흔들림 약 70% 감소, 추종률 88% → 98%**
+- **문제** 무단 통과 경보 → 현장 확인 → 신원 기록 → 사건 종료 순서대로 써 보니 흐름이 끊기는 자리가 둘
+- **신원 입력이 먼저** 상세 창에서 처리 완료를 눌러도 신원이 비어 반쪽 → 상세에는 신원 입력만, 경고 닫기는 알림 카드 한 자리로. 버튼 이름도 "수정 보내기"로 바꿔 버튼이 무엇을 하는지 말하게
+- **선택지는 없애도 정보는 남긴다** 로봇이 이미 나가 있을 때 셔틀이 또 오면 선택 창 대신 버튼 없는 알림을 5초 띄우고, 이력에 "셔틀이 도착했지만 로봇을 보내지 않았습니다"를 남기자고 제안
+- **결과** 관제 화면 담당 팀원이 반영
 
 </details>
 
 <details>
-<summary><b>🔧 트러블슈팅 — 라이브 시연에서 3회 연속 미출발</b></summary>
+<summary><b>🔍 화면 검수 — 통신은 정상인데 뜨는 "재연결 중" · 로그인 루프</b></summary>
 <br/>
 
-- **문제** 최종 발표에서 로봇이 3회 연속 출발하지 않았고, 재시도로도 복구 불가
-- **분석** 39분 뒤 같은 하드웨어의 주행 시험은 정상(명령 송신 202회 · fault 0). 유일한 차이는 **"명령 송신 여부"**
-- **원인** 대기 중 명령 미송신 → 300ms 후 `COMM_TIMEOUT` · `SAFE_STOP` → 출동 명령이 "READY 아님"으로 거절 → 다시 대기로 회귀하는 **상태 교착**
-- **해결** 준비 판정의 예외 기준을 "조치 등급"에서 "중립 명령 재송신으로 해제 가능한가"로 변경하는 수정안 도출, 시나리오 단위 리허설 · 출발 전 상태 점검 도입
+**거짓 경보**
+- **문제** 신호가 정상 주기로 오는데 시연 각본마다 상단바에 "재연결 중". 거짓 경보는 운영자가 진짜 경보까지 무시하게 만듦
+- **원인** 계약상 신호 주기 상한은 20초인데 상단바만 임계 6초. 요약 타일은 연결 상태만 봐서 한 화면이 "재연결 중"과 "정상"을 동시에 말함
+- **결과** 담당 팀원이 임계를 **단일 상수 25초**(20초 + 여유 5초)로 모아 상단바 · 로봇 카드 · 텔레메트리가 함께 사용
+
+**로그인 루프**
+- **문제** 교육생 계정은 관제 소켓이 1008로 닫히면 "로그인이 필요합니다" → 로그아웃 → 다시 로그인해도 같은 거절
+- **원인** 서버는 세션 없음과 권한 부족을 같은 1008로 닫는데, 화면은 전부 세션 만료로 읽음
+- **결과** 담당 팀원이 1008을 화면이 아는 역할로 분기. 로그인했는데 권한이 없으면 이유만 안내
+
+```javascript
+var HEARTBEAT_MAX_S = 20;
+var STALE_S = HEARTBEAT_MAX_S + 5;   // 신선도 임계는 한 곳에서만
+
+if (e && e.code === 1008) {
+  if (authUser && !can("agent")) {
+    toast("이 계정은 관제 화면 권한이 없습니다. 관리자에게 문의해 주세요.");
+    return;
+  }
+}
+```
 
 </details>
 
-`Vanilla JS` `WebSocket` `FastAPI` `ROS 2` `UART`
+<details>
+<summary><b>🔍 화면 검수 — 쓰다 보면 걸리는 자잘한 어긋남</b></summary>
+<br/>
+
+| 짚은 문제 | 원인 · 잰 값 | 반영 |
+|---|---|---|
+| 재연결 중일 때 챗봇 배지가 상태 칩에 겹침 | 가장 긴 문구의 칩 끝 x = 439 | 여유 60을 더해 배지를 `left: 500px`로 |
+| 표 머리와 첫 행이 한 덩어리로 보임 | 머리 글자와 칸 내용 시작점이 같은 선 | `th` 왼쪽 여백 10 → 18px |
+| 명부 행 높이가 들쭉날쭉 | 버튼 있는 행만 키가 큼 | 행 46px · 버튼 28px 고정 |
+| 입력 전후로 조회칸이 움직임 | 지우기 버튼 등장 · 건수 글자 길이 변화 | 자리를 차지한 채 숨김 → 항상 x=680px |
+
+</details>
+
+<details>
+<summary><b>🔧 로봇 동작 검증 — 저속 구간에서만 튀는 속도 값</b></summary>
+<br/>
+
+- **문제** 눈으로는 정상 주행인데 로그에선 저속 구간에서만 속도가 크게 튐
+- **원인** 제어 주기 10ms에서 1 count ≈ 24.4 mm/s. 100 mm/s 주행 시 한 주기 펄스가 4개 남짓이라 ±1 오차가 속도를 ±24% 흔듦. **속도가 아니라 측정이 흔들렸고**, 그 값이 PID 입력으로 들어가 제어까지 흔듦
+- **전달** 조건을 "저속 구간에서만"으로 특정해 모터 제어 담당 팀원에게 넘김
+- **결과** 5샘플(50ms) 이동창 → 1 count ≈ 4.9 mm/s, 흔들림 **약 70% 감소**. 피드포워드 추가로 추종률 **88% → 98%**. 반응 속도와 맞바꾼 결정
+- **남은 한계** ToF 두 개로는 바짝 붙어 지나가는 두 사람을 가르지 못함
+
+</details>
+
+<details>
+<summary><b>🎤 발표 — 안 됐을 때를 먼저 쓴 발표</b></summary>
+<br/>
+
+- **문제** 라이브 시연 필수. 로봇 이동 1분 동안 할 말이 없고, 자체 GPU 서버의 챗봇은 답이 몇 초씩 걸림
+- **판단** 기능 나열 대신 **보안 요원의 하루**로 흐름을 짬. 발표 대본 14분 27초, Q&A 44문항(담당자 배정), 6명 · 8장면 · 3분 42초 시연 시나리오
+- **실패 대응** 여덟 가지 실패 상황마다 발표자가 말할 한 문장을 미리 작성. 느린 챗봇은 "관제 기록이 한 글자도 밖으로 나가지 않는다"는 설계 근거로 말하게 함
+- **돌아보면** 여덟 문장이 전부 "한 번 더 하면 될 수도 있다"를 전제했고, 당일의 교착은 재시도로 풀리지 않는 실패였음
+
+</details>
+
+<details>
+<summary><b>🔧 원인 규명 — 라이브 시연 3회 연속 미출발</b></summary>
+<br/>
+
+| 항목 | 시연 (09:55 – 10:20) | 주행 시험 (10:59) |
+|---|---|---|
+| 명령 송신 | **없음** | **202회** |
+| fault 비트 | `COMM_TIMEOUT` | **0** |
+| `drive_state` | `SAFE_STOP` 고정 · READY 0회 | READY 73 · DRIVING 135 |
+
+- **원인** 대기 중 중립 명령이 끊겨 300ms 뒤 `COMM_TIMEOUT` → `SAFE_STOP`. 출동 명령은 출발 전 점검이 "READY 아님"으로 거절 → **출발해야 풀리는데 풀려야 출발할 수 있는 상태 교착**
+- **리허설에서 안 걸린 이유** 대기 후 출동하는 순서는 시연 시나리오에만 있었음. 버그는 기능이 아니라 **순서**에
+- **판단** 준비 판정도 재무장 판정과 같은 기준("중립 명령 재송신으로 풀리지 않는 fault만 막는다")을 따르는 수정안 제안. 프로젝트 종료 전 코드 반영은 못 함
+- **재발 방지** 출발 직전 READY 확인, 재시도 판단 담당 분리, 시나리오 그대로의 리허설
+
+```mermaid
+flowchart LR
+  A["대기<br/>중립 명령 끊김"] -->|"300 ms"| B["COMM_TIMEOUT"]
+  B --> C["SAFE_STOP"]
+  C -->|"출동 명령"| D["출발 전 점검 거절<br/>READY 아님"]
+  D --> A
+```
+
+</details>
+
+`관제 화면 검수` `Vanilla JS` `WebSocket` `FastAPI` `ROS 2` `UART` `초기 목업: React · TypeScript`
 
 <br/>
 
@@ -341,46 +461,121 @@ if (!known) return { date, sp: 0, unknown: true }
 
 <a id="jobssafy"></a>
 
-### 💼 잡싸피 — 취업 지원 서비스
+### 💼 잡싸피 — SSAFY 교육생을 위한 AI 취업 준비 플랫폼
 
-<img src="https://img.shields.io/badge/SSAFY-1%ED%95%99%EA%B8%B0_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-3178C6?style=for-the-badge"/> <img src="https://img.shields.io/badge/%EC%97%AD%ED%95%A0-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C_%C2%B7_AI-61DAFB?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/%EA%B8%B0%EA%B0%84-2026.05.08_~_06.26-3178C6?style=for-the-badge"/> <img src="https://img.shields.io/badge/%EC%97%AD%ED%95%A0-%ED%8C%80%EC%9E%A5_%C2%B7_%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C_%C2%B7_%EC%98%A8%EB%94%94%EB%B0%94%EC%9D%B4%EC%8A%A4_AI-61DAFB?style=for-the-badge"/> <img src="https://img.shields.io/badge/%ED%8C%80-2%EB%AA%85-555555?style=for-the-badge"/>
 
-Django 템플릿 중심이던 서비스를 **Vue.js + Django REST Framework**로 분리하고,<br/>
-분리 과정에서 생긴 **검색 정확도 문제**와 **목록 API 오버헤드**를 쿼리 레벨에서 해결했습니다.
+> **목소리가 브라우저 밖으로 나가지 않는 AI 면접 연습을 만들었습니다.**
+
+합격 자소서 추천, AI 자소서 평가, 면접 연습, 취업 커뮤니티를 한곳에 모은 서비스입니다.<br/>
+팀장이자 프론트엔드 담당으로 라우팅 · 인증 같은 공통 구조와 주요 화면을 만들었고, 면접 연습에는 **Whisper 음성 인식 모델을 브라우저 안에서 돌리는 온디바이스 AI**를 붙였습니다.
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98-%EB%8B%A8%EC%9D%BC_%E2%86%92_%ED%94%84%EB%A1%A0%ED%8A%B8_%C2%B7_%EB%B0%B1%EC%97%94%EB%93%9C_%EB%B6%84%EB%A6%AC-0B3D91?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/%EA%B2%80%EC%83%89-%EC%99%84%EC%A0%84_%EC%9D%BC%EC%B9%98_%E2%86%92_%EB%B6%80%EB%B6%84_%EC%9D%BC%EC%B9%98_%EB%8B%A4%EC%A4%91_%ED%95%84%ED%84%B0-0B3D91?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/%EB%AA%A9%EB%A1%9D_API-%5BN%5Dms_%E2%86%92_%5BM%5Dms-0B3D91?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/%EC%9D%8C%EC%84%B1_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EC%84%9C%EB%B2%84_%EC%A0%84%EC%86%A1-0%EA%B1%B4-0B3D91?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/25%EC%B4%88_%EB%8B%B5%EB%B3%80_%EC%9D%B8%EC%8B%9D-3.2%EC%B4%88-0B3D91?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/%EC%B2%AB_%ED%99%94%EB%A9%B4_JS-216.2_%E2%86%92_59.2_KB_%28%E2%88%9273%25%29-0B3D91?style=for-the-badge"/>
+
+<sub>WASM · 측정 PC 기준 · gzip · 화면 14개 중 12개 지연 로딩</sub>
 
 </div>
 
 **핵심 성과**
-- **구조 전환** — 서버가 HTML까지 그리던 구조를 Vue.js(화면) + DRF(JSON API)로 나눠, 화면과 API를 독립적으로 개발 · 배포할 수 있게 함
-- **실시간 다중 검색** — 입력이 조금만 어긋나도 결과가 비던 검색을, 코드 추가 없이 대소문자 무시 부분 일치로 개선
-- **목록 조회 경량화** — 목록에 쓰지 않는 자기소개서 본문을 DB에서 아예 읽지 않도록 해 응답 크기와 메모리 사용을 줄임
+- **서버 없는 음성 인식** — Transformers.js로 Whisper(tiny)를 브라우저에서 실행, 말하기 속도와 습관어 5종을 피드백
+- **첫 화면에서 AI 라이브러리 빼기** — 모든 화면 정적 import → 12개 지연 로딩으로 첫 화면 JS −73%
+- **어느 경로로 와도 같은 본인 판단** — 내 프로필에 '팔로우'가 뜨던 버그를 서버가 준 프로필 주인 기준으로 수정
+- **필드 성격에 맞춘 검색** — 글 유형은 exact, 직무는 icontains, 검색어는 제목 + 본문 OR 검색
+
+**화면**
+
+<table>
+<tr>
+<td colspan="2"><img src="./assets/jobssafy-interview-result.png" alt="면접 연습 결과"/><p align="center"><sub><b>면접 연습 결과</b> · 브라우저 안에서 텍스트로 바꾸고 말하기 속도와 습관어를 짚음</sub></p></td>
+</tr>
+<tr>
+<td width="50%"><img src="./assets/jobssafy-home.png" alt="홈"/><p align="center"><sub><b>홈</b> · 글래스모피즘 카드와 떠다니는 배경</sub></p></td>
+<td width="50%"><img src="./assets/jobssafy-career-tools.png" alt="취업 편의 툴"/><p align="center"><sub><b>취업 편의 툴</b> · 글자 수 계산 · 임시 저장 · 증명사진 변환</sub></p></td>
+</tr>
+</table>
+
+**기술 선택 이유** — Transformers.js는 Hugging Face의 음성 인식 모델을 브라우저에서 그대로 불러와, 2명 · 최종 구현 5일 조건에서 서버를 늘리지 않고 붙일 수 있었습니다.
 
 <details>
-<summary><b>🏗 구조 전환 — 단일 구조에서 프론트 · 백엔드 분리로</b></summary>
+<summary><b>🏗 요청이 가는 길 (아키텍처)</b></summary>
 <br/>
+
+음성은 브라우저 밖으로 나가지 않고, 네트워크를 타는 건 처음 한 번 받는 모델 파일뿐입니다. 서버 쪽 AI는 팀원이 맡았습니다.
 
 ```mermaid
 flowchart LR
-  subgraph Before["전 · 단일 구조"]
-    B1["브라우저"] -->|"페이지 요청"| B2["Django<br/>View + Template"]
-    B2 --> B3[("DB")]
+  subgraph Browser["브라우저 — 담당 영역"]
+    UI["Vue 3 SPA<br/>Vue Router · Pinia"]
+    STT["Whisper tiny<br/>Transformers.js"]
+    LS[("localStorage<br/>면접 기록 · 자소서 초안")]
+    UI -->|"녹음 → 16kHz PCM"| STT
+    UI --> LS
   end
-  subgraph After["후 · 분리 구조"]
-    A1["Vue.js SPA"] -->|"비동기 JSON 요청"| A2["Django REST Framework"]
-    A2 --> A3[("DB")]
-  end
-  Before ~~~ After
+  HF["Hugging Face Hub"] -.->|"모델 파일 · 최초 1회"| STT
+  UI -->|"REST · JWT"| DRF["Django REST Framework"]
+  UI -->|"자소서 문장 평가"| EVAL["FastAPI<br/>Qwen2.5-1.5B + LoRA"]
+  DRF --> DB[("SQLite")]
+  DRF -->|"임베딩 · 챗봇"| GPT["OpenAI API"]
 ```
 
-- **문제** 화면을 바꿀 때마다 서버 템플릿을 함께 고쳐야 했고, 검색처럼 입력마다 결과가 바뀌는 화면은 페이지 새로고침 방식으로는 구현하기 어려움
-- **판단** 화면은 Vue.js, 데이터는 DRF가 JSON으로만 내려주도록 역할을 분리
-- **결과** 입력 변화에 즉시 반응하는 실시간 검색이 가능해짐. 다만 분리 후 목록 API가 모든 필드를 JSON으로 보내면서 새로운 오버헤드가 생김 (아래 트러블슈팅)
+</details>
+
+<details>
+<summary><b>🔧 트러블슈팅 — 목소리를 서버로 보내지 않는 음성 인식</b></summary>
+<br/>
+
+- **문제** 녹음 파일을 서버로 보내면 사용자의 목소리가 밖으로 나가고, 음성 인식 서버나 유료 API를 새로 붙여야 하며, 답변마다 네트워크 왕복이 생김
+- **판단** Whisper(tiny)를 브라우저에서 직접 실행. MediaRecorder로 녹음해 **16kHz로 디코딩**한 뒤 모델에 넘기고, 모델은 화면 진입 시 한 번만 로드
+- **결과** 음성 데이터 서버 전송 0건. 분당 음절 수와 습관어 5종을 피드백하고 기록은 localStorage에 저장
+
+```javascript
+transcriber = await pipeline('automatic-speech-recognition', 'Xenova/whisper-tiny', { dtype: 'fp32' });
+
+const audioContext = new AudioContext({ sampleRate: 16000 });
+const audioBuffer = await audioContext.decodeAudioData(await audioBlob.arrayBuffer());
+const output = await transcriber(audioBuffer.getChannelData(0), {
+  chunk_length_s: 30, stride_length_s: 5, language: 'korean',
+});
+```
+
+</details>
+
+<details>
+<summary><b>🔧 트러블슈팅 — 첫 화면에 실려 가던 AI 라이브러리</b></summary>
+<br/>
+
+- **문제** 라우터가 모든 화면을 정적 import해, 면접 화면에서만 쓰는 Transformers.js까지 첫 화면 번들에 포함
+- **판단** 첫 화면인 홈만 두고 화면 14개 중 12개를 `() => import()`로 지연 로딩
+- **결과** 첫 화면 JS **216.2 KB → 59.2 KB(gzip, −73%)**. 면접 화면 코드 147.0 KB는 그 화면에 들어갈 때만 받음
+
+```javascript
+import HomeView from "@/views/HomeView.vue";   // 첫 화면은 바로
+const InterviewSimulationView = () => import("@/views/InterviewSimulationView.vue");
+const CareerToolsView = () => import("@/views/CareerToolsView.vue");
+```
+
+</details>
+
+<details>
+<summary><b>🔧 트러블슈팅 — 내 프로필에 뜨는 '팔로우' 버튼</b></summary>
+<br/>
+
+- **문제** 게시글에서 내 이름을 눌러 들어간 `/profile/내아이디`에 '팔로우' 버튼이 뜨고 관리 버튼이 사라짐
+- **원인** 주소창 아이디와 스토어의 로그인 사용자를 비교했는데, 스토어는 `/profile`을 한 번 거쳐야 채워짐. 새로고침하면 비어 있어 늘 '남의 프로필'로 판단
+- **판단** 비교 기준을 **서버가 돌려준 프로필 주인**으로 바꾸고, 스토어가 비면 내 정보를 한 번 더 조회. `/profile/내아이디`는 `/profile`로 replace
+- **결과** 헤더 · 게시글 · 새로고침 어느 경로로 와도 같은 판단
+
+```javascript
+const isMyProfile = computed(() => {
+  if (!route.params.username) return true;
+  if (!person.value) return true;   // 불러오기 전엔 '팔로우'를 띄우지 않는다
+  return person.value.username === authStore.user?.username;
+});
+```
 
 </details>
 
@@ -388,56 +583,33 @@ flowchart LR
 <summary><b>🔧 트러블슈팅 — 조금만 달라도 결과가 비는 검색</b></summary>
 <br/>
 
-- **문제** 사용자가 입력할 때마다 결과를 보여 주는 실시간 검색이 필요했는데, django-filter 기본값은 **완전 일치(exact)** 라 대소문자나 일부 글자만 달라도 결과가 0건
-- **검토** 필드마다 커스텀 필터 메서드를 쓰면 되지만, 검색 조건이 늘 때마다 코드가 같이 늘어남
-- **판단** `Meta.fields`를 **lookup 확장 딕셔너리**로 바꿔 필드별로 `icontains`를 선언 — 조건이 늘어도 한 줄씩만 추가
-- **결과** 추가 코드 복잡도 없이 **대소문자 무시 · 부분 일치 · 다중 조건** 검색 구현
-
-**전 · 완전 일치만 가능**
+- **문제** django-filter는 필드만 나열하면 완전 일치(exact). '프론트'로 찾으면 '프론트엔드' 글이 안 나오고, 제목과 본문을 함께 찾을 수도 없음
+- **판단** 필드 성격에 맞춰 lookup 분리 — 정해진 값인 글 유형은 exact, 직무는 icontains, 검색어는 `Q` 객체로 제목 OR 본문
+- **결과** 부분 일치 · 대소문자 무시 · 다중 조건(유형 + 직무 + 검색어) 검색. 커뮤니티 백엔드는 팀원과 분담
 
 ```python
-class PostingFilter(django_filters.FilterSet):
-    class Meta:
-        model = Posting
-        fields = ['title', 'company', 'location']  # exact
-```
+search = django_filters.CharFilter(method="filter_by_search_keyword")
+post_type = django_filters.ChoiceFilter(choices=POST_TYPE_CHOICES, lookup_expr="exact")
+job_role = django_filters.CharFilter(field_name="job_role", lookup_expr="icontains")
 
-**후 · 필드별 부분 일치 선언**
-
-```python
-class PostingFilter(django_filters.FilterSet):
-    class Meta:
-        model = Posting
-        fields = {
-            'title':    ['icontains'],
-            'company':  ['icontains'],
-            'location': ['icontains'],
-        }
-# ?title__icontains=프론트&company__icontains=삼성
+def filter_by_search_keyword(self, queryset, name, value):
+    return queryset.filter(Q(title__icontains=value) | Q(content__icontains=value))
 ```
 
 </details>
 
 <details>
-<summary><b>🔧 트러블슈팅 — 목록 API에 실려 가던 자기소개서 본문</b></summary>
+<summary><b>📜 그 밖에 만든 것</b></summary>
 <br/>
 
-- **문제** 구조 분리 후 목록 조회 API가 화면에 쓰지도 않는 **자기소개서 본문**까지 모든 행에 담아 보내 패킷 오버헤드 발생
-- **검토** 시리얼라이저에서 필드만 빼면 응답에서는 사라지지만, DB에서는 여전히 본문을 읽어 메모리에 올림
-- **판단** `defer()`로 본문 컬럼을 **DB 조회 단계에서부터 제외** — 상세 조회에서만 읽도록 분리
-- **결과** 불필요한 메모리 낭비 방지, 목록 API 응답 속도 개선 (**[N]ms → [M]ms**)
-
-```python
-# 목록: 본문은 DB에서 읽지 않음
-queryset = CoverLetter.objects.defer('content')
-
-# 상세: 본문 포함 전체 조회
-CoverLetter.objects.get(pk=pk)
-```
+- **인증 가드** — `requiresAuth` · `guestOnly`를 전역 `beforeEach`에서 한 번에 검사, 서비스 화면 13개를 로그인 사용자만 열게 함
+- **홈 배경 애니메이션** — `transform`만 움직여 레이아웃 · 페인트 재계산 없이 합성 단계에서 처리
+- **취업 편의 툴** — 자소서 글자 수(공백 포함 · 제외 · 바이트) 즉시 계산, 자동 임시 저장, 캔버스로 증명사진 규격 자르기
+- **면접장 분위기** — 실제 면접장 같은 영상을 질문 카드 위에 소리 없이 반복 재생
 
 </details>
 
-`Vue.js` `Django REST Framework` `django-filter`
+`Vue 3` `Vite` `Vue Router` `Pinia` `Transformers.js` `Whisper` `Web Audio API` `Django REST Framework` `django-filter`
 
 <br/>
 
