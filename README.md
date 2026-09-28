@@ -642,7 +642,7 @@ def filter_by_search_keyword(self, queryset, name, value):
 
 <div align="center">
 
-프로젝트는 SSAFY 사내 **GitLab**에서 진행했습니다. 아래는 쮸토피아 저장소 기록 기준입니다.
+프로젝트는 SSAFY 사내 **GitLab**에서 진행했습니다. 아래는 JJUTOPIA 저장소 기록 기준입니다.
 
 <br/>
 
