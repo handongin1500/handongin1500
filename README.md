@@ -1,11 +1,13 @@
 <div align="center">
 
 <picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/header-mobile-dark.svg"/>
+  <source media="(max-width: 600px)" srcset="./assets/header-mobile.svg"/>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg"/>
   <img src="./assets/header.svg" width="100%" alt="Han Dongin · Frontend Developer — 화면이 사실만 말하게 만드는 개발자"/>
 </picture>
 
-<br/>
+<br/><br/>
 
 <!-- ▼ 헤더 카드: 여기부터 -->
 <table>
@@ -132,12 +134,12 @@ ChatGPT가 등장해 사람들이 일하고 배우는 방식이 바뀌는 흐름
 
 | 분야 · 기술 · 숙련도 | 그걸로 한 일 |
 |---|---|
-| **프론트엔드** ■■■■□<br/>React 19 · TypeScript | 주주 웹과 IR 콘솔을 한 SPA로 만들고 프론트엔드 코드의 88%를 썼습니다. IR 콘솔은 지연 로딩으로 나눠 주주가 받지 않게 했습니다. <sub>쮸토피아</sub> |
-| **프론트엔드** ■■■■□<br/>Vue 3 · Vue Router · Pinia | 로그인 여부를 전역 가드 한곳에서 판단하고, 화면 14개 중 12개를 지연 로딩해 첫 화면 JS를 73% 줄였습니다. <sub>잡싸피</sub> |
-| **상태 · 데이터** ■■■□□<br/>TanStack Query · Zustand · Zod | 서버 값은 쿼리 캐시에, 화면에서만 생기는 값은 스토어 두 개에 나눠 담았습니다. 요청마다 기본 12초 상한과 재시도 규칙을 걸어 멈추는 대신 실패를 알리고, 제도 설계 입력은 Zod로 칸마다 검사합니다. <sub>쮸토피아</sub> |
-| **목 · 테스트** ■■■□□<br/>MSW · Vitest · Testing Library · Playwright · axe-core | 백엔드보다 먼저 목 서버로 화면을 완성하고 경로 단위로 실서버에 옮겼습니다. 테스트 1,212개를 모두 통과시켰고, 손으로 쓴 타입 34쌍은 CI에서 서버 OpenAPI와 대조했습니다. <sub>쮸토피아</sub> |
-| **온디바이스 AI** ■■■□□<br/>Transformers.js · Whisper | 음성 인식 모델을 브라우저 안에서 돌려, 음성을 서버로 보내지 않는 면접 연습을 만들었습니다(23.5초 답변 인식 3.2초). <sub>잡싸피</sub> |
-| **백엔드(공동)** ■■■■□<br/>Python · Django REST Framework · django-filter | 커뮤니티 검색을 필드 성격에 맞춰 완전 일치 · 부분 일치 · 제목 + 본문 통합 검색으로 나눴습니다. <sub>잡싸피</sub> |
+| **프론트엔드** <img src="./assets/level-4.svg" height="12" alt="숙련도 4/5"/><br/>React 19 · TypeScript | 주주 웹과 IR 콘솔을 한 SPA로 만들고 프론트엔드 코드의 88%를 썼습니다. IR 콘솔은 지연 로딩으로 나눠 주주가 받지 않게 했습니다. <sub>쮸토피아</sub> |
+| **프론트엔드** <img src="./assets/level-4.svg" height="12" alt="숙련도 4/5"/><br/>Vue 3 · Vue Router · Pinia | 로그인 여부를 전역 가드 한곳에서 판단하고, 화면 14개 중 12개를 지연 로딩해 첫 화면 JS를 73% 줄였습니다. <sub>잡싸피</sub> |
+| **상태 · 데이터** <img src="./assets/level-3.svg" height="12" alt="숙련도 3/5"/><br/>TanStack Query · Zustand · Zod | 서버 값은 쿼리 캐시에, 화면에서만 생기는 값은 스토어 두 개에 나눠 담았습니다. 요청마다 기본 12초 상한과 재시도 규칙을 걸어 멈추는 대신 실패를 알리고, 제도 설계 입력은 Zod로 칸마다 검사합니다. <sub>쮸토피아</sub> |
+| **목 · 테스트** <img src="./assets/level-3.svg" height="12" alt="숙련도 3/5"/><br/>MSW · Vitest · Testing Library · Playwright · axe-core | 백엔드보다 먼저 목 서버로 화면을 완성하고 경로 단위로 실서버에 옮겼습니다. 테스트 1,212개를 모두 통과시켰고, 손으로 쓴 타입 34쌍은 CI에서 서버 OpenAPI와 대조했습니다. <sub>쮸토피아</sub> |
+| **온디바이스 AI** <img src="./assets/level-3.svg" height="12" alt="숙련도 3/5"/><br/>Transformers.js · Whisper | 음성 인식 모델을 브라우저 안에서 돌려, 음성을 서버로 보내지 않는 면접 연습을 만들었습니다(23.5초 답변 인식 3.2초). <sub>잡싸피</sub> |
+| **백엔드(공동)** <img src="./assets/level-4.svg" height="12" alt="숙련도 4/5"/><br/>Python · Django REST Framework · django-filter | 커뮤니티 검색을 필드 성격에 맞춰 완전 일치 · 부분 일치 · 제목 + 본문 통합 검색으로 나눴습니다. <sub>잡싸피</sub> |
 
 **🤖 AI 코딩 도구** — Claude Code와 함께 구현하되, 수정을 되돌려 테스트가 정말 깨지는지 보고 프리뷰 배포본과 실제 AI 서버에서 다시 확인했습니다. <sub>쮸토피아</sub>
 
@@ -161,10 +163,10 @@ ChatGPT가 등장해 사람들이 일하고 배우는 방식이 바뀌는 흐름
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/FE_%EC%BD%94%EB%93%9C_%EC%9E%91%EC%84%B1_%EB%B9%84%EC%A4%91-88%25-0B3D91?style=for-the-badge&logo=git&logoColor=white" alt="FE 코드 작성 비중: 88%"/>
-<img src="https://img.shields.io/badge/%EC%9E%90%EB%8F%99%ED%99%94_%ED%85%8C%EC%8A%A4%ED%8A%B8-1%2C212%EA%B0%9C_%EC%A0%84%EB%B6%80_%ED%86%B5%EA%B3%BC-0B3D91?style=for-the-badge&logo=vitest&logoColor=white" alt="자동화 테스트: 1,212개 전부 통과"/>
-<img src="https://img.shields.io/badge/%EC%9A%B4%EC%98%81_%EB%B9%8C%EB%93%9C_%EB%AA%A9_%EC%BD%94%EB%93%9C-0_KB-0B3D91?style=for-the-badge&logo=vite&logoColor=white" alt="운영 빌드 목 코드: 0 KB"/>
-<img src="https://img.shields.io/badge/%EC%A0%91%EA%B7%BC%EC%84%B1_%EC%9C%84%EB%B0%98-0%EA%B1%B4-0B3D91?style=for-the-badge" alt="접근성 위반: 0건"/>
+<img src="https://img.shields.io/badge/FE_%EC%BD%94%EB%93%9C_%EC%9E%91%EC%84%B1_%EB%B9%84%EC%A4%91-88%25-1A7F37?style=for-the-badge&logo=git&logoColor=white" alt="FE 코드 작성 비중: 88%"/>
+<img src="https://img.shields.io/badge/%EC%9E%90%EB%8F%99%ED%99%94_%ED%85%8C%EC%8A%A4%ED%8A%B8-1%2C212%EA%B0%9C_%EC%A0%84%EB%B6%80_%ED%86%B5%EA%B3%BC-1A7F37?style=for-the-badge&logo=vitest&logoColor=white" alt="자동화 테스트: 1,212개 전부 통과"/>
+<img src="https://img.shields.io/badge/%EC%9A%B4%EC%98%81_%EB%B9%8C%EB%93%9C_%EB%AA%A9_%EC%BD%94%EB%93%9C-0_KB-1A7F37?style=for-the-badge&logo=vite&logoColor=white" alt="운영 빌드 목 코드: 0 KB"/>
+<img src="https://img.shields.io/badge/%EC%A0%91%EA%B7%BC%EC%84%B1_%EC%9C%84%EB%B0%98-0%EA%B1%B4-1A7F37?style=for-the-badge" alt="접근성 위반: 0건"/>
 
 <sub>FE 코드 비중: git blame 3.5만 줄 중 3.1만 줄 · 테스트: Vitest 898 + Playwright 314 · 주주가 받지 않는 콘솔 코드 38.4 KB(gzip) · 접근성: axe serious · critical, E2E 24곳 검사 · 2026.09.28 기준</sub>
 
@@ -176,6 +178,7 @@ ChatGPT가 등장해 사람들이 일하고 배우는 방식이 바뀌는 흐름
 - **숫자를 지어낸 AI 답변 차단** — 개인 수치 답변은 본문 숫자를 서버 도구 결과와 대조해, 없는 숫자가 하나라도 있으면 본문을 표시하지 않음(실서버는 개인 수치 답변을 내지 않아 목에서만 검증)
 - **모르는 날을 "0"이라 말하지 않기** — '적립' · '적립 없음'에 '기록 없음'을 세 번째 상태로 더하고, 회색 명도 대신 빗금으로 구분
 - **타입 불일치를 CI가 잡게** — 서버 OpenAPI와 손으로 쓴 타입 34쌍을 `npm test`로 자동 대조
+- **비어 있던 AI 서버 경로 채우기** — 백엔드가 부르던 공지 문맥 검토 경로가 AI 서버에 없어 원고 재검토와 배포가 늘 500이던 것을, 마지막 날(09.28) FastAPI로 직접 만듦(실제 키로 프롬프트 품질은 미확인)
 
 **화면**
 
@@ -226,13 +229,14 @@ flowchart LR
   BE --> DB[("PostgreSQL · Redis")]
   BE -->|"챗봇 · 공지 검토"| AI["FastAPI<br/>RAG"]
   AND["Android 주주 앱"] --> BE
+  style Browser fill:#1A7F3714,stroke:#1A7F37,stroke-width:2px
 ```
 
 </details>
 
 📖 사례마다 **문제와 판단 · 결과**, 코드는 [Notion 쮸토피아 페이지](https://app.notion.com/p/3e91b429679f81728bb5ed4cedc72a62?source=copy_link)에 정리했습니다.
 
-`React 19` `TypeScript` `Vite 8` `TanStack Query` `Zustand` `Zod` `Tailwind CSS 4` `MSW 2` `Vitest` `Playwright` `axe-core`
+`React 19` `TypeScript` `Vite 8` `TanStack Query` `Zustand` `Zod` `Tailwind CSS 4` `MSW 2` `Vitest` `Playwright` `axe-core` · AI 서버 경로: `FastAPI`
 
 
 <br/>
@@ -252,11 +256,11 @@ flowchart LR
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/%EA%B1%B0%EC%A7%93_%EC%9E%AC%EC%97%B0%EA%B2%B0_%EA%B2%BD%EB%B3%B4%28%EC%8B%9C%EC%97%B0_%EA%B0%81%EB%B3%B8%29-%EC%A7%9A%EC%96%B4_%EC%A0%84%EB%8B%AC_%E2%86%92_%ED%8C%80%EC%9B%90_%EB%B0%98%EC%98%81-0B3D91?style=for-the-badge" alt="거짓 재연결 경보(시연 각본): 짚어 전달 → 팀원 반영"/>
-<img src="https://img.shields.io/badge/%EA%B6%8C%ED%95%9C_%EB%B6%80%EC%A1%B1_%EB%A1%9C%EA%B7%B8%EC%9D%B8_%EB%A3%A8%ED%94%84-%EC%A7%9A%EC%96%B4_%EC%A0%84%EB%8B%AC_%E2%86%92_%ED%8C%80%EC%9B%90_%EB%B0%98%EC%98%81-0B3D91?style=for-the-badge" alt="권한 부족 로그인 루프: 짚어 전달 → 팀원 반영"/>
-<img src="https://img.shields.io/badge/%EC%B8%A1%EC%A0%95_%EC%86%8D%EB%8F%84_%ED%9D%94%EB%93%A4%EB%A6%BC-%EC%95%BD_70%25_%EA%B0%90%EC%86%8C-0B3D91?style=for-the-badge" alt="측정 속도 흔들림: 약 70% 감소"/>
-<img src="https://img.shields.io/badge/%EB%AA%85%EB%A0%B9_%EC%86%A1%EC%8B%A0_%EB%A1%9C%EA%B7%B8_%EB%8C%80%EC%A1%B0-0%ED%9A%8C_%E2%86%94_202%ED%9A%8C-0B3D91?style=for-the-badge" alt="명령 송신 로그 대조: 0회 ↔ 202회"/>
-<img src="https://img.shields.io/badge/%EB%B0%9C%ED%91%9C_%EB%8C%80%EB%B3%B8-14%EB%B6%84_27%EC%B4%88_%C2%B7_Q%26A_%EB%8C%80%EB%B3%B8_44%EB%AC%B8%ED%95%AD-0B3D91?style=for-the-badge" alt="발표 대본: 14분 27초 · Q&A 대본 44문항"/>
+<img src="https://img.shields.io/badge/%EA%B1%B0%EC%A7%93_%EC%9E%AC%EC%97%B0%EA%B2%B0_%EA%B2%BD%EB%B3%B4%28%EC%8B%9C%EC%97%B0_%EA%B0%81%EB%B3%B8%29-%EC%A7%9A%EC%96%B4_%EC%A0%84%EB%8B%AC_%E2%86%92_%ED%8C%80%EC%9B%90_%EB%B0%98%EC%98%81-0969DA?style=for-the-badge" alt="거짓 재연결 경보(시연 각본): 짚어 전달 → 팀원 반영"/>
+<img src="https://img.shields.io/badge/%EA%B6%8C%ED%95%9C_%EB%B6%80%EC%A1%B1_%EB%A1%9C%EA%B7%B8%EC%9D%B8_%EB%A3%A8%ED%94%84-%EC%A7%9A%EC%96%B4_%EC%A0%84%EB%8B%AC_%E2%86%92_%ED%8C%80%EC%9B%90_%EB%B0%98%EC%98%81-0969DA?style=for-the-badge" alt="권한 부족 로그인 루프: 짚어 전달 → 팀원 반영"/>
+<img src="https://img.shields.io/badge/%EC%B8%A1%EC%A0%95_%EC%86%8D%EB%8F%84_%ED%9D%94%EB%93%A4%EB%A6%BC-%EC%95%BD_70%25_%EA%B0%90%EC%86%8C-0969DA?style=for-the-badge" alt="측정 속도 흔들림: 약 70% 감소"/>
+<img src="https://img.shields.io/badge/%EB%AA%85%EB%A0%B9_%EC%86%A1%EC%8B%A0_%EB%A1%9C%EA%B7%B8_%EB%8C%80%EC%A1%B0-0%ED%9A%8C_%E2%86%94_202%ED%9A%8C-0969DA?style=for-the-badge" alt="명령 송신 로그 대조: 0회 ↔ 202회"/>
+<img src="https://img.shields.io/badge/%EB%B0%9C%ED%91%9C_%EB%8C%80%EB%B3%B8-14%EB%B6%84_27%EC%B4%88_%C2%B7_Q%26A_%EB%8C%80%EB%B3%B8_44%EB%AC%B8%ED%95%AD-0969DA?style=for-the-badge" alt="발표 대본: 14분 27초 · Q&A 대본 44문항"/>
 
 <sub>관제 화면 사례는 짚어 전달, 로봇 사례는 로그로 조건을 좁혀 넘김 · 코드 반영은 담당 팀원 · 흔들림은 동일 조건 3회 반복 주행 기준(이동창을 거친 측정값) · 시연 미출발은 멈춘 조건만 특정(중립 명령이 끊긴 이유는 남은 질문)</sub>
 
@@ -327,9 +331,9 @@ flowchart LR
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/%EC%9D%8C%EC%84%B1_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EC%84%9C%EB%B2%84_%EC%A0%84%EC%86%A1-0%EA%B1%B4-0B3D91?style=for-the-badge" alt="음성 데이터 서버 전송: 0건"/>
-<img src="https://img.shields.io/badge/23.5%EC%B4%88_%EB%8B%B5%EB%B3%80_%EC%9D%B8%EC%8B%9D-3.2%EC%B4%88-0B3D91?style=for-the-badge" alt="23.5초 답변 인식: 3.2초"/>
-<img src="https://img.shields.io/badge/%EC%B2%AB_%ED%99%94%EB%A9%B4_JS-216.2_%E2%86%92_59.2_KB_%28%E2%88%9273%25%29-0B3D91?style=for-the-badge" alt="첫 화면 JS: 216.2 → 59.2 KB (−73%)"/>
+<img src="https://img.shields.io/badge/%EC%9D%8C%EC%84%B1_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EC%84%9C%EB%B2%84_%EC%A0%84%EC%86%A1-0%EA%B1%B4-BC4C00?style=for-the-badge" alt="음성 데이터 서버 전송: 0건"/>
+<img src="https://img.shields.io/badge/23.5%EC%B4%88_%EB%8B%B5%EB%B3%80_%EC%9D%B8%EC%8B%9D-3.2%EC%B4%88-BC4C00?style=for-the-badge" alt="23.5초 답변 인식: 3.2초"/>
+<img src="https://img.shields.io/badge/%EC%B2%AB_%ED%99%94%EB%A9%B4_JS-216.2_%E2%86%92_59.2_KB_%28%E2%88%9273%25%29-BC4C00?style=for-the-badge" alt="첫 화면 JS: 216.2 → 59.2 KB (−73%)"/>
 
 <sub>인식 시간은 WASM · Edge · Core Ultra 7 155H 기준 · JS는 gzip · 화면 14개 중 12개 지연 로딩</sub>
 
@@ -376,6 +380,7 @@ flowchart LR
   UI -->|"자소서 문장 평가"| EVAL["FastAPI<br/>Qwen2.5-1.5B + LoRA"]
   DRF --> DB[("SQLite")]
   DRF -->|"임베딩 · 챗봇"| GPT["OpenAI API"]
+  style Browser fill:#BC4C0014,stroke:#BC4C00,stroke-width:2px
 ```
 
 </details>
