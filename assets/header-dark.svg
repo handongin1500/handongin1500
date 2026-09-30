@@ -10,6 +10,7 @@
       .tag{font:600 20px 'Pretendard','Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif;fill:#79C0FF;opacity:0;animation:cycle 9s infinite}
       .t2{animation-delay:3s}.t3{animation-delay:6s}
       @keyframes cycle{0%{opacity:0;transform:translateY(8px)}5%,28%{opacity:1;transform:translateY(0)}33%,100%{opacity:0}}
+      @media (prefers-reduced-motion: reduce){.tag{animation:none}.tag:not(.t2):not(.t3){opacity:1}}
     </style>
   </defs>
   <path d="M0 0H1200V190C1000 240 800 150 600 190C400 230 200 150 0 200Z" fill="url(#g)"/>

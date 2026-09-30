@@ -10,33 +10,24 @@
 <!-- ▼ 헤더 카드: 여기부터 -->
 <table>
 <tr>
-<td align="center" width="50%">🎓 <b>수학 전공</b><br/><sub>삼성청년SW·AI아카데미(SSAFY) 15기 재학 중 · 2026.01 ~</sub></td>
+<td align="center" width="50%">🎓 <b>수⁠학 전⁠공</b><br/><sub>삼⁠성⁠청⁠년SW·AI아⁠카⁠데⁠미(SSAFY)<br/>15기 재⁠학 중 · 2026.01 ~</sub></td>
 <td align="center" width="50%">💻 <b>Frontend Developer</b><br/><sub>React · TypeScript · Vue.js</sub></td>
 </tr>
 <tr>
-<td align="center">🏦 <b>핀테크 · 🤖 로봇 관제 · 💼 AI 취업 준비</b><br/><sub>SSAFY 프로젝트 3개</sub></td>
-<td align="center">🔍 <b>프론트엔드 포지션을 찾고 있어요</b><br/><sub>편하게 연락 주세요</sub></td>
+<td align="center">🏦 <b>핀⁠테⁠크</b> · 🤖 <b>로⁠봇 관⁠제</b> · 💼 <b>AI 취⁠업 준⁠비</b><br/><sub>SSAFY 프⁠로⁠젝⁠트 3개</sub></td>
+<td align="center">🔍 <b>프⁠론⁠트⁠엔⁠드 포⁠지⁠션⁠을 찾⁠고 있⁠어⁠요</b><br/><sub>편⁠하⁠게 연⁠락 주⁠세⁠요 · d5353973@gmail.com</sub></td>
 </tr>
 </table>
 
-<a href="mailto:d5353973@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<a href="https://app.notion.com/p/3e91b429679f8183ae77c26eb318da9e"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=notion&logoColor=white"/></a>
+<a href="mailto:d5353973@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email d5353973@gmail.com"/></a>
+<a href="https://app.notion.com/p/3e91b429679f8183ae77c26eb318da9e"><img src="https://img.shields.io/badge/Portfolio-3178C6?style=for-the-badge&logo=notion&logoColor=white" alt="Notion 포트폴리오"/></a>
 
-<sub>📂 프로젝트별 포트폴리오</sub><br/>
-<a href="https://app.notion.com/p/3e91b429679f81728bb5ed4cedc72a62?source=copy_link"><img src="https://img.shields.io/badge/%F0%9F%8F%A6_%EC%AE%B8%ED%86%A0%ED%94%BC%EC%95%84-3178C6?style=flat-square"/></a>
-<a href="https://app.notion.com/p/SSACURITY-3e91b429679f814da3e4d88472095981?source=copy_link"><img src="https://img.shields.io/badge/%F0%9F%A4%96_SSACURITY-3178C6?style=flat-square"/></a>
-<a href="https://app.notion.com/p/3e91b429679f81a8b22cf2e8cb2e0702?source=copy_link"><img src="https://img.shields.io/badge/%F0%9F%92%BC_%EC%9E%A1%EC%8B%B8%ED%94%BC-3178C6?style=flat-square"/></a>
+<sub>📂 프로젝트별 포트폴리오(Notion) — <a href="https://app.notion.com/p/3e91b429679f81728bb5ed4cedc72a62?source=copy_link">🏦 쮸토피아</a> · <a href="https://app.notion.com/p/SSACURITY-3e91b429679f814da3e4d88472095981?source=copy_link">🤖 SSACURITY</a> · <a href="https://app.notion.com/p/3e91b429679f81a8b22cf2e8cb2e0702?source=copy_link">💼 잡싸피</a><br/>저장소는 SSAFY GitLab 비공개 · 요청 시 공개</sub>
 <!-- ▲ 헤더 카드: 여기까지 -->
 
 <br/>
 
-<a href="#about"><img src="https://img.shields.io/badge/About_Me-F2F6FC?style=flat-square"/></a>
-<a href="#stack"><img src="https://img.shields.io/badge/Tech_Stack-F2F6FC?style=flat-square"/></a>
-<a href="#zzutopia"><img src="https://img.shields.io/badge/%EC%AE%B8%ED%86%A0%ED%94%BC%EC%95%84-F2F6FC?style=flat-square"/></a>
-<a href="#ssacurity"><img src="https://img.shields.io/badge/SSACURITY-F2F6FC?style=flat-square"/></a>
-<a href="#jobssafy"><img src="https://img.shields.io/badge/%EC%9E%A1%EC%8B%B8%ED%94%BC-F2F6FC?style=flat-square"/></a>
-<a href="#principles"><img src="https://img.shields.io/badge/%EC%9D%BC%ED%95%98%EB%8A%94_%EC%9B%90%EC%B9%99-F2F6FC?style=flat-square"/></a>
-<a href="#retro"><img src="https://img.shields.io/badge/%EB%8F%8C%EC%95%84%EB%B3%B4%EB%A9%B0-F2F6FC?style=flat-square"/></a>
+<a href="#about">About Me</a> · <a href="#stack">Tech Stack</a> · <a href="#projects">Projects</a> · <a href="#principles">일하는 원칙</a> · <a href="#retro">돌아보며</a>
 
 </div>
 
@@ -46,24 +37,24 @@
 
 ## 🙋 About Me
 
-**화면이 사실만 말하게 만드는 프론트엔드 개발자**입니다. 받지 못한 데이터는 '기록 없음'으로, 실패는 실패로 보여 주고, 기준값은 근거를 남겨 정합니다.<br/>
+**화면이 사실만 말하게 만드는 프론트엔드 개발자, 한동인**입니다. 받지 못한 데이터는 '기록 없음'으로, 실패는 실패로 보여 주고, 기준값은 근거를 남겨 정합니다.<br/>
 가까이는 React · TypeScript 실무에서 로딩 · 실패 · 빈 데이터까지 책임지는 화면을 만들고, 길게는 서버 · AI 파트와 API 계약을 먼저 세워 팀 전체의 품질 기준을 만드는 개발자가 되려 합니다.
 
 수학을 전공했고, **삼성청년SW·AI아카데미(SSAFY) 15기**(2026.01부터 12개월 · 총 1,725시간) 수료를 앞두고 있습니다.
 
 ChatGPT가 등장해 사람들이 일하고 배우는 방식이 바뀌는 흐름을 보며, **바라보는 쪽이 아니라 그 흐름을 만드는 쪽에 서고 싶어** 개발을 시작했습니다.<br/>
-그래서 첫 프로젝트부터 AI 파트를 맡았고, 이후에는 **AI가 실제 데이터와 일치하도록** 만드는 데 집중했습니다.
+그래서 첫 프로젝트부터 브라우저에서 도는 음성 인식(온디바이스 AI)을 맡았고, 이후에는 **AI가 실제 데이터와 일치하도록** 만드는 데 집중했습니다.
 
 <br/>
 
 ### 💪 이런 방식으로 일합니다
 
-| 강점 | 근거가 된 경험 |
+| 강⁠점 | 근거가 된 경험 |
 |---|---|
-| **🤝 협력** | 다른 파트에 보낼 요청은 번호 붙은 문안으로 관리하고, **보내기 전에 코드와 수치를 다시 재서** 이미 해결된 일을 요청하지 않았습니다. |
-| **🧱 논리** | "FE는 도메인 수치를 계산하지 않는다" 같은 **불변 규칙 12개**를 세우고 eslint · 테스트로 강제했습니다. 라이브 시연 실패는 정상 주행 로그와 **대조 분석**해, 하드웨어가 아니라 끊긴 중립 명령이 로봇을 세웠다는 조건까지 좁혔습니다. |
-| **🌱 학습** | 수학 전공에서 개발로 넘어와 Vue.js에 브라우저 음성 인식(Whisper)을 붙이는 것으로 시작했고, 로봇 관제 프로젝트의 검수 · 발표를 거쳐 React · TypeScript 핀테크 서비스의 프론트엔드를 유일한 담당으로 맡기까지 **프로젝트마다 새 역할과 스택으로 결과를 냈습니다.** |
-| **🙇 검증** | 테스트가 통과해도 믿지 않고 **가드를 일부러 되돌려 실패하는지 확인**합니다. 회고에서는 잘한 점만큼 아쉬운 점과 다음에 바꿀 점을 구체적으로 남깁니다. |
+| **🤝 협⁠력** | 다른 파트에 보낼 요청은 번호 붙은 문안으로 관리하고, **보내기 전에 코드와 수치를 다시 재서** 이미 해결된 일을 요청하지 않았습니다. |
+| **🧱 논⁠리** | "FE는 도메인 수치를 계산하지 않는다" 같은 **불변 규칙 12개**를 세우고 eslint · 테스트로 강제했습니다. 라이브 시연 실패는 정상 주행 로그와 **대조 분석**해, 하드웨어가 아니라 끊긴 중립 명령이 로봇을 세웠다는 조건까지 좁혔습니다(끊긴 이유는 남은 질문). |
+| **🌱 학⁠습** | 수학 전공에서 개발로 넘어와 Vue.js에 브라우저 음성 인식(Whisper)을 붙이는 것으로 시작했고, 로봇 관제 프로젝트의 검수 · 발표를 거쳐 React · TypeScript 핀테크 서비스의 프론트엔드를 유일한 담당으로 맡기까지 **프로젝트마다 새 역할과 스택으로 결과를 냈습니다.** |
+| **🙇 검⁠증** | 테스트가 통과해도 믿지 않고 **가드를 일부러 되돌려 실패하는지 확인**합니다. 회고에서는 잘한 점만큼 아쉬운 점과 다음에 바꿀 점을 구체적으로 남깁니다. |
 
 <br/>
 
@@ -73,29 +64,29 @@ ChatGPT가 등장해 사람들이 일하고 배우는 방식이 바뀌는 흐름
 <tr>
 <td width="33%" valign="top">
 <a href="#zzutopia"><img src="./assets/jjutopia-home.png" alt="쮸토피아 주주 홈"/></a>
-<p><b>🏦 쮸토피아</b><br/><sub>주주 우대 제도를 설계 · 운영하는 B2B SaaS</sub></p>
-<p><sub>2026.08 – 09 · 프론트엔드 담당 · 7명 팀</sub></p>
-<p>“실패는 실패라고, 모르는 숫자는 모른다고 말하는 화면”</p>
-<p><sub>✅ 테스트 1,212개 통과<br/>✅ 프론트엔드 코드 88% 작성</sub></p>
+<p><b>🏦 쮸⁠토⁠피⁠아</b><br/><sub>주⁠주 우⁠대 제⁠도⁠를 설⁠계 · 운⁠영⁠하⁠는 B2B SaaS</sub></p>
+<p><sub>2026.08 – 09 · 프⁠론⁠트⁠엔⁠드 담⁠당 · 7명 팀</sub></p>
+<p>“실⁠패⁠는 실⁠패⁠라⁠고, 모⁠르⁠는 숫⁠자⁠는 모⁠른⁠다⁠고 말⁠하⁠는 화⁠면”</p>
+<p><sub>✅ 테⁠스⁠트 1,212개 통⁠과<br/>✅ 프⁠론⁠트⁠엔⁠드 코⁠드 88% 작⁠성</sub></p>
 </td>
 <td width="33%" valign="top">
 <a href="#ssacurity"><img src="./assets/ssacurity-overview.png" alt="SSACURITY 관제 개요"/></a>
-<p><b>🤖 SSACURITY</b><br/><sub>셔틀 승강장 출입을 관제하는 무인 태깅 로봇</sub></p>
-<p><sub>2026.07 – 08 · 프론트엔드 · 발표 · 6명 팀</sub></p>
-<p>“보안 요원의 동선대로 써 보며 짚은 문제, 로그로 좁혀 간 시연 실패의 원인”</p>
-<p><sub>✅ 거짓 경보 · 로그인 루프 짚어 전달<br/>✅ 시연 미출발 조건을 로그로 특정</sub></p>
+<p><b>🤖 SSACURITY</b><br/><sub>셔⁠틀 승⁠강⁠장 출⁠입⁠을 관⁠제⁠하⁠는 무⁠인 태⁠깅 로⁠봇</sub></p>
+<p><sub>2026.07 – 08 · 프⁠론⁠트⁠엔⁠드 · 발⁠표 · 6명 팀</sub></p>
+<p>“보⁠안 요⁠원⁠의 동⁠선⁠대⁠로 써 보⁠며 짚⁠은 문⁠제, 로⁠그⁠로 좁⁠혀 간 시⁠연 실⁠패⁠의 원⁠인”</p>
+<p><sub>✅ 거⁠짓 경⁠보 · 로⁠그⁠인 루⁠프 짚⁠어 전⁠달<br/>✅ 시⁠연 미⁠출⁠발 조⁠건⁠을 로⁠그⁠로 특⁠정</sub></p>
 </td>
 <td width="33%" valign="top">
 <a href="#jobssafy"><img src="./assets/jobssafy-interview-result.png" alt="잡싸피 면접 연습 결과"/></a>
-<p><b>💼 잡싸피</b><br/><sub>SSAFY 교육생 AI 취업 준비 플랫폼</sub></p>
-<p><sub>2026.05 – 06 · 팀장 · 프론트엔드 · 2명 팀</sub></p>
-<p>“목소리가 브라우저 밖으로 나가지 않는 AI 면접 연습”</p>
-<p><sub>✅ 음성 데이터 서버 전송 0건<br/>✅ 첫 화면 JS −73%</sub></p>
+<p><b>💼 잡⁠싸⁠피</b><br/><sub>SSAFY 교⁠육⁠생 AI 취⁠업 준⁠비 플⁠랫⁠폼</sub></p>
+<p><sub>2026.05 – 06 · 팀⁠장 · 프⁠론⁠트⁠엔⁠드 · 2명 팀</sub></p>
+<p>“목⁠소⁠리⁠가 브⁠라⁠우⁠저 밖⁠으⁠로 나⁠가⁠지 않⁠는 AI 면⁠접 연⁠습”</p>
+<p><sub>✅ 음⁠성 데⁠이⁠터 서⁠버 전⁠송 0건<br/>✅ 첫 화⁠면 JS −73%</sub></p>
 </td>
 </tr>
 </table>
 
-<sub>그림을 누르면 아래 프로젝트 설명으로 갑니다 · 쮸토피아 화면의 회사와 수치는 목 데이터, SSACURITY 관제 화면은 팀 결과물(목 모드)입니다.</sub>
+<sub>그림을 누르면 아래 프로젝트 설명으로 갑니다 · 쮸토피아는 목 모드 화면(회사와 수치는 목 데이터), SSACURITY 관제 화면은 팀 결과물(목 모드), 잡싸피 면접 결과는 예시 답변입니다.</sub>
 
 <br/>
 
@@ -105,33 +96,33 @@ ChatGPT가 등장해 사람들이 일하고 배우는 방식이 바뀌는 흐름
 
 <div align="center">
 
-**Frontend**<br/><br/>
+**Frontend**<br/>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=react,ts,vue,js,html,css,vite,tailwind&theme=dark"/>
-  <img src="https://skillicons.dev/icons?i=react,ts,vue,js,html,css,vite,tailwind&theme=light" height="44"/>
+  <img src="https://skillicons.dev/icons?i=react,ts,vue,js,html,css,vite,tailwind&theme=light" height="44" alt="React · TypeScript · Vue · JavaScript · HTML · CSS · Vite · Tailwind CSS"/>
 </picture>
 
 <br/>
 
-**Backend · Tools**<br/><br/>
+**Backend · Tools**<br/>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,django,fastapi,git,gitlab,docker&theme=dark"/>
-  <img src="https://skillicons.dev/icons?i=python,django,fastapi,git,gitlab,docker&theme=light" height="44"/>
+  <img src="https://skillicons.dev/icons?i=python,django,fastapi,git,gitlab,docker&theme=light" height="44" alt="Python · Django · FastAPI · Git · GitLab · Docker"/>
 </picture>
 
 <br/>
 
-**Library · Test**<br/><br/>
-<img src="https://img.shields.io/badge/TanStack_Query-FF4154?style=flat-square&logo=reactquery&logoColor=white"/>
-<img src="https://img.shields.io/badge/Zustand-443E38?style=flat-square&logo=react&logoColor=white"/>
-<img src="https://img.shields.io/badge/Pinia-FFD859?style=flat-square&logo=pinia&logoColor=black"/>
-<img src="https://img.shields.io/badge/Transformers.js-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
-<img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white"/>
-<img src="https://img.shields.io/badge/MSW-FF6A33?style=flat-square&logo=mockserviceworker&logoColor=white"/>
-<img src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white"/>
-<img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white"/>
-<img src="https://img.shields.io/badge/axe--core-663399?style=flat-square"/>
-<img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white"/>
+**Library · Test · 협업**<br/>
+<img src="https://img.shields.io/badge/TanStack_Query-FF4154?style=flat-square&logo=reactquery&logoColor=white" alt="TanStack Query"/>
+<img src="https://img.shields.io/badge/Zustand-443E38?style=flat-square&logo=react&logoColor=white" alt="Zustand"/>
+<img src="https://img.shields.io/badge/Pinia-FFD859?style=flat-square&logo=pinia&logoColor=black" alt="Pinia"/>
+<img src="https://img.shields.io/badge/Transformers.js-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Transformers.js"/>
+<img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white" alt="Zod"/>
+<img src="https://img.shields.io/badge/MSW-FF6A33?style=flat-square&logo=mockserviceworker&logoColor=white" alt="MSW"/>
+<img src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" alt="Vitest"/>
+<img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright"/>
+<img src="https://img.shields.io/badge/axe--core-663399?style=flat-square" alt="axe-core"/>
+<img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white" alt="Jira"/>
 
 </div>
 
@@ -139,20 +130,20 @@ ChatGPT가 등장해 사람들이 일하고 배우는 방식이 바뀌는 흐름
 
 **숙련도와 쓴 곳** <sub>프로젝트에서 쓴 것만 · 숙련도는 5단계 자기 평가입니다.</sub>
 
-| 분야 · 기술 | 숙련도 | 그걸로 한 일 |
-|---|:---:|---|
-| **프론트엔드**<br/>React 19 · TypeScript | ■■■■□ | 주주 웹과 IR 콘솔을 한 SPA로 만들고 프론트엔드 코드의 88%를 썼습니다. IR 콘솔은 지연 로딩으로 나눠 주주가 받지 않게 했습니다. <sub>쮸토피아</sub> |
-| **프론트엔드**<br/>Vue 3 · Vue Router · Pinia | ■■■■□ | 로그인 여부를 전역 가드 한곳에서 판단하고, 화면 14개 중 12개를 지연 로딩해 첫 화면 JS를 73% 줄였습니다. <sub>잡싸피</sub> |
-| **상태 · 데이터**<br/>TanStack Query · Zustand · Zod | ■■■□□ | 서버 값은 쿼리 캐시에, 화면에서만 생기는 값은 스토어 두 개에 나눠 담았습니다. 요청마다 기본 12초 상한과 재시도 규칙을 걸어 멈추는 대신 실패를 알리고, 제도 설계 입력은 Zod로 칸마다 검사합니다. <sub>쮸토피아</sub> |
-| **목 · 테스트**<br/>MSW · Vitest · Testing Library · Playwright · axe-core | ■■■□□ | 백엔드보다 먼저 목 서버로 화면을 완성하고 경로 단위로 실서버에 옮겼습니다. 테스트 1,212개를 모두 통과시켰고, 손으로 쓴 타입 34쌍은 CI에서 서버 OpenAPI와 대조했습니다. <sub>쮸토피아</sub> |
-| **온디바이스 AI**<br/>Transformers.js · Whisper | ■■■□□ | 음성 인식 모델을 브라우저 안에서 돌려, 음성을 서버로 보내지 않는 면접 연습을 만들었습니다(23.5초 답변 인식 3.2초). <sub>잡싸피</sub> |
-| **백엔드(공동)**<br/>Python · Django REST Framework · django-filter | ■■■■□ | 커뮤니티 검색을 필드 성격에 맞춰 완전 일치 · 부분 일치 · 제목 + 본문 통합 검색으로 나눴습니다. <sub>잡싸피</sub> |
+| 분야 · 기술 · 숙련도 | 그걸로 한 일 |
+|---|---|
+| **프론트엔드** ■■■■□<br/>React 19 · TypeScript | 주주 웹과 IR 콘솔을 한 SPA로 만들고 프론트엔드 코드의 88%를 썼습니다. IR 콘솔은 지연 로딩으로 나눠 주주가 받지 않게 했습니다. <sub>쮸토피아</sub> |
+| **프론트엔드** ■■■■□<br/>Vue 3 · Vue Router · Pinia | 로그인 여부를 전역 가드 한곳에서 판단하고, 화면 14개 중 12개를 지연 로딩해 첫 화면 JS를 73% 줄였습니다. <sub>잡싸피</sub> |
+| **상태 · 데이터** ■■■□□<br/>TanStack Query · Zustand · Zod | 서버 값은 쿼리 캐시에, 화면에서만 생기는 값은 스토어 두 개에 나눠 담았습니다. 요청마다 기본 12초 상한과 재시도 규칙을 걸어 멈추는 대신 실패를 알리고, 제도 설계 입력은 Zod로 칸마다 검사합니다. <sub>쮸토피아</sub> |
+| **목 · 테스트** ■■■□□<br/>MSW · Vitest · Testing Library · Playwright · axe-core | 백엔드보다 먼저 목 서버로 화면을 완성하고 경로 단위로 실서버에 옮겼습니다. 테스트 1,212개를 모두 통과시켰고, 손으로 쓴 타입 34쌍은 CI에서 서버 OpenAPI와 대조했습니다. <sub>쮸토피아</sub> |
+| **온디바이스 AI** ■■■□□<br/>Transformers.js · Whisper | 음성 인식 모델을 브라우저 안에서 돌려, 음성을 서버로 보내지 않는 면접 연습을 만들었습니다(23.5초 답변 인식 3.2초). <sub>잡싸피</sub> |
+| **백엔드(공동)** ■■■■□<br/>Python · Django REST Framework · django-filter | 커뮤니티 검색을 필드 성격에 맞춰 완전 일치 · 부분 일치 · 제목 + 본문 통합 검색으로 나눴습니다. <sub>잡싸피</sub> |
 
 **🤖 AI 코딩 도구** — Claude Code와 함께 구현하되, 수정을 되돌려 테스트가 정말 깨지는지 보고 프리뷰 배포본과 실제 AI 서버에서 다시 확인했습니다. <sub>쮸토피아</sub>
 
 <br/>
 
----
+<a id="projects"></a>
 
 ## 🚀 Projects
 
@@ -160,27 +151,28 @@ ChatGPT가 등장해 사람들이 일하고 배우는 방식이 바뀌는 흐름
 
 ### 🏦 쮸토피아 — 주주 우대 제도를 설계 · 운영하는 B2B SaaS
 
-<img src="https://img.shields.io/badge/%EA%B8%B0%EA%B0%84-2026.08.31_~_09.28-3178C6?style=for-the-badge"/> <img src="https://img.shields.io/badge/%EC%97%AD%ED%95%A0-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C_%EB%8B%B4%EB%8B%B9_%C2%B7_%ED%8C%80_%EB%82%B4_FE_1%EB%AA%85-61DAFB?style=for-the-badge"/> <img src="https://img.shields.io/badge/%ED%8C%80-7%EB%AA%85_%C2%B7_FE_%C2%B7_BE_%C2%B7_Android_%C2%B7_AI_%C2%B7_Infra-555555?style=for-the-badge"/> <a href="https://jjutopia.site"><img src="https://img.shields.io/badge/%EB%B0%B0%ED%8F%AC-jjutopia.site-0B3D91?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
+**기간** 2026.08.31 – 09.28 · **역할** 프론트엔드 담당(팀 내 FE 1명) · **팀** 7명(FE · BE · Android · AI · Infra)<br/>
+**배포** [jjutopia.site](https://jjutopia.site) <sub>09.09 배포판 · 실제 로그인(09.10)이 붙기 전이라 데이터는 보이지 않습니다</sub>
 
 > **실패는 실패라고, 모르는 숫자는 모른다고 말하는 화면을 만들었습니다.**
 
-발행사 IR 담당자가 법적 위험 없이 주주 우대 제도를 설계 · 검증 · 운영하고, 주주는 '보유 주식 수 × 보유 일수'로 쌓인 혜택을 확인하는 서비스입니다.<br/>
-7명 팀의 유일한 프론트엔드로 **주주 웹과 IR 콘솔을 한 SPA로** 만들었습니다. 백엔드보다 먼저 MSW 목 서버로 화면을 완성하고, 준비된 API부터 경로 단위로 실서버에 옮겼습니다.
+발행사 IR 담당자가 법적 위험을 미리 걸러 내며 주주 우대 제도를 설계 · 검증 · 운영하고, 주주는 '보유 주식 수 × 보유 일수'로 쌓이는 포인트(SP)와 혜택을 확인하는 서비스입니다.<br/>
+7명 팀의 유일한 프론트엔드로 **주주 웹과 IR 콘솔을 한 SPA로** 만들고 프론트엔드 코드의 88%를 썼습니다(나머지는 주로 백엔드 담당 팀원이 보탠 거래 내역 카드 · 튜토리얼 · 혜택 사용 버튼 등). 백엔드보다 먼저 MSW 목 서버로 화면을 완성하고, 준비된 API부터 경로 단위로 실서버에 옮겼습니다.
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/FE_%EC%BD%94%EB%93%9C_%EC%9E%91%EC%84%B1_%EB%B9%84%EC%A4%91-88%25-0B3D91?style=for-the-badge&logo=git&logoColor=white"/>
-<img src="https://img.shields.io/badge/%EC%9E%90%EB%8F%99%ED%99%94_%ED%85%8C%EC%8A%A4%ED%8A%B8-1%2C212%EA%B0%9C_%EC%A0%84%EB%B6%80_%ED%86%B5%EA%B3%BC-0B3D91?style=for-the-badge&logo=vitest&logoColor=white"/>
-<img src="https://img.shields.io/badge/%EC%9A%B4%EC%98%81_%EB%B9%8C%EB%93%9C_%EB%AA%A9_%EC%BD%94%EB%93%9C-0_KB-0B3D91?style=for-the-badge&logo=vite&logoColor=white"/>
-<img src="https://img.shields.io/badge/%EC%A0%91%EA%B7%BC%EC%84%B1_%EC%9C%84%EB%B0%98-0%EA%B1%B4-0B3D91?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/FE_%EC%BD%94%EB%93%9C_%EC%9E%91%EC%84%B1_%EB%B9%84%EC%A4%91-88%25-0B3D91?style=for-the-badge&logo=git&logoColor=white" alt="FE 코드 작성 비중: 88%"/>
+<img src="https://img.shields.io/badge/%EC%9E%90%EB%8F%99%ED%99%94_%ED%85%8C%EC%8A%A4%ED%8A%B8-1%2C212%EA%B0%9C_%EC%A0%84%EB%B6%80_%ED%86%B5%EA%B3%BC-0B3D91?style=for-the-badge&logo=vitest&logoColor=white" alt="자동화 테스트: 1,212개 전부 통과"/>
+<img src="https://img.shields.io/badge/%EC%9A%B4%EC%98%81_%EB%B9%8C%EB%93%9C_%EB%AA%A9_%EC%BD%94%EB%93%9C-0_KB-0B3D91?style=for-the-badge&logo=vite&logoColor=white" alt="운영 빌드 목 코드: 0 KB"/>
+<img src="https://img.shields.io/badge/%EC%A0%91%EA%B7%BC%EC%84%B1_%EC%9C%84%EB%B0%98-0%EA%B1%B4-0B3D91?style=for-the-badge" alt="접근성 위반: 0건"/>
 
-<sub>테스트: Vitest 898 + Playwright 314 · 주주가 받지 않는 콘솔 코드 38.4 KB(gzip) · axe serious·critical, E2E 24곳 검사 · 2026-09-28 기준</sub>
+<sub>FE 코드 비중: git blame 3.5만 줄 중 3.1만 줄 · 테스트: Vitest 898 + Playwright 314 · 주주가 받지 않는 콘솔 코드 38.4 KB(gzip) · 접근성: axe serious · critical, E2E 24곳 검사 · 2026.09.28 기준</sub>
 
 </div>
 
 **핵심 성과**
 - **멈추지 않고 실패를 말하는 화면** — 모든 요청에 기본 12초 상한을 걸어, API가 죽거나 답하지 않아도 카드마다 무엇을 못 불러왔는지 표시
-- **백엔드를 기다리지 않는 개발** — 목에서 뺄 경로만 적는 `VITE_LIVE_API` 스위치를 만들어, 종료 시점까지 팀이 함께 핸들러 33개를 실서버로 이전
+- **백엔드를 기다리지 않는 개발** — 목에서 뺄 경로만 적는 `VITE_LIVE_API` 스위치를 만들어, 종료 시점까지 팀이 함께 데모 빌드의 핸들러 33개를 실서버로 이전
 - **숫자를 지어낸 AI 답변 차단** — 본문 숫자를 서버 도구 결과와 대조해, 없는 숫자가 있으면 본문을 표시하지 않음(개인 수치 대조는 목에서만 검증)
 - **모르는 날을 "0"이라 말하지 않기** — '적립' · '적립 없음'에 '기록 없음'을 세 번째 상태로 더하고, 회색 명도 대신 빗금으로 구분
 - **타입 불일치를 CI가 잡게** — 서버 OpenAPI와 손으로 쓴 타입 34쌍을 `npm test`로 자동 대조
@@ -190,10 +182,10 @@ ChatGPT가 등장해 사람들이 일하고 배우는 방식이 바뀌는 흐름
 <table>
 <tr>
 <td width="50%"><img src="./assets/jjutopia-home.png" alt="주주 홈"/><p align="center"><sub><b>주주 홈</b> · 승급 조건 두 가지(SP · 보유일수)를 따로 표시</sub></p></td>
-<td width="50%"><img src="./assets/jjutopia-api-failure.png" alt="API 장애 시 홈"/><p align="center"><sub><b>API 장애 시 홈</b> · 멈추지 않고 카드마다 실패를 말함</sub></p></td>
+<td width="50%"><img src="./assets/jjutopia-api-failure-crop.png" alt="API 장애 시 홈"/><p align="center"><sub><b>API 장애 시 홈</b> · 멈추지 않고 카드마다 실패를 말함</sub></p></td>
 </tr>
 <tr>
-<td width="50%"><img src="./assets/jjutopia-chat-personal.png" alt="AI 개인 수치 답변"/><p align="center"><sub><b>AI 개인 수치 답변</b> · 도구 결과와 숫자가 같을 때만 표시</sub></p></td>
+<td width="50%"><img src="./assets/jjutopia-chat-answer.png" alt="AI 개인 수치 답변"/><p align="center"><sub><b>AI 개인 수치 답변</b> · 도구 결과와 숫자가 같을 때만 표시</sub></p></td>
 <td width="50%"><img src="./assets/jjutopia-compliance-review.png" alt="공지 컴플라이언스 검토"/><p align="center"><sub><b>공지 검토</b> · 차단 항목이 있으면 배포 잠금</sub></p></td>
 </tr>
 <tr>
@@ -201,15 +193,15 @@ ChatGPT가 등장해 사람들이 일하고 배우는 방식이 바뀌는 흐름
 </tr>
 </table>
 
-<sub>화면 속 회사와 수치는 모두 목 데이터입니다.</sub>
+<sub>화면은 모두 목 모드에서 찍었고, 회사와 수치는 목 데이터입니다. API 장애 시 홈과 AI 답변은 해당 부분만 잘라 키웠습니다.</sub>
 
 **기술 선택 이유**
 
 | 기술 | 왜 이걸 골랐나 |
 |---|---|
-| TanStack Query | 화면의 도메인 수치를 전부 서버 값으로 쓰기로 했기 때문에, 서버 상태의 캐싱 · 재조회를 전담시킴 |
-| Zustand | 서버 상태와 섞이지 않는 순수 클라이언트 상태만 가볍게 관리 |
-| MSW | 백엔드보다 먼저 화면을 완성하고, 화면 코드를 바꾸지 않고 경로 단위로 실서버에 붙이기 위해 |
+| TanStack Query | 기획 때 상태의 대부분이 서버에서 오는 값이라고 보고, 캐시와 다시 불러오기를 맡김 |
+| Zustand | 브라우저에만 있는 작은 상태용(스토어는 끝까지 두 개) |
+| MSW | 백엔드 완성을 기다리지 않고 화면을 먼저 만들려고. 서비스워커가 요청을 가로채 앱 코드를 그대로 둔 채 경로 단위로 실서버에 옮길 수 있었음 |
 | Zod | 입력 형식 검증에만 사용. 법적 판단은 서버 컴플라이언스 API에만 맡기도록 역할을 분리 |
 | Next.js 미사용 | 모든 화면이 세션 쿠키 뒤라 SSR로 얻을 검색 노출이 없고, 정적 배포 전제 · 서비스워커 기반 MSW와 맞지 않음 (ADR 기록) |
 
@@ -238,7 +230,7 @@ flowchart LR
 
 </details>
 
-📖 사례마다 **문제 → 원인 → 판단 → 결과**와 코드는 [Notion 쮸토피아 페이지](https://app.notion.com/p/3e91b429679f81728bb5ed4cedc72a62?source=copy_link)에 정리했습니다.
+📖 사례마다 **문제와 판단 · 결과**, 코드는 [Notion 쮸토피아 페이지](https://app.notion.com/p/3e91b429679f81728bb5ed4cedc72a62?source=copy_link)에 정리했습니다.
 
 `React 19` `TypeScript` `Vite 8` `TanStack Query` `Zustand` `Zod` `Tailwind CSS 4` `MSW 2` `Vitest` `Playwright` `axe-core`
 
@@ -251,31 +243,31 @@ flowchart LR
 
 ### 🤖 SSACURITY — 셔틀 승강장 출입 태깅을 로봇이 대신하는 관제 시스템
 
-<img src="https://img.shields.io/badge/%EA%B8%B0%EA%B0%84-2026.07.13_~_08.11-3178C6?style=for-the-badge"/> <img src="https://img.shields.io/badge/%EC%97%AD%ED%95%A0-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C_%C2%B7_%EB%B0%9C%ED%91%9C-61DAFB?style=for-the-badge"/> <img src="https://img.shields.io/badge/%ED%8C%80-6%EB%AA%85_%C2%B7_%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4_4_%ED%8F%AC%ED%95%A8-555555?style=for-the-badge"/>
+**기간** 2026.07.13 – 08.11 · **역할** 프론트엔드 · 발표 · **팀** 6명(하드웨어 4 포함)
 
 > **화면은 요원의 동선대로 써 보며 문제를 짚고, 실패한 시연은 로그로 따라가 멈춘 조건을 좁혔습니다.**
 
-보안 요원이 셔틀 시간마다 태깅 기기를 들고 나가 설치·회수하던 승강장에, 셔틀이 도착하면 로봇이 AprilTag를 따라 태깅 지점에 서고 미태깅 통과를 바로 경보하는 시스템입니다. 기능은 건물 보안 요원 인터뷰에서 정했습니다.<br/>
-저는 **첫 관제 화면 목업, 요원 동선 기준의 실사용 검수, 로봇 동작 검증, 최종 발표**를 맡았습니다. 관제 화면은 백엔드 담당 팀원이, 펌웨어는 STM32 주행 제어 담당 팀원과 모터 제어 담당 팀원이 구현했고, 제가 짚은 문제를 담당 팀원이 코드에 반영했습니다.
+보안 요원이 셔틀 시간마다 태깅 기기를 들고 나가 설치 · 회수하던 승강장에, 셔틀이 도착하면 로봇이 AprilTag를 따라 태깅 지점에 서고 미태깅 통과를 바로 경보하는 시스템입니다. 기능은 건물 보안 요원 인터뷰에서 정했습니다.<br/>
+저는 **첫 관제 화면 목업, 요원 동선 기준의 실사용 검수, 로봇 동작 검증, 최종 발표**를 맡았습니다. 관제 화면은 백엔드 담당 팀원이, 펌웨어는 STM32 주행 제어 담당 팀원과 모터 제어 담당 팀원이 구현했고, 제가 짚은 문제를 담당 팀원이 코드에 반영했습니다(시연 미출발 수정안은 반영 전에 프로젝트가 끝남).
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/%EA%B1%B0%EC%A7%93_%EC%9E%AC%EC%97%B0%EA%B2%B0_%EA%B2%BD%EB%B3%B4-%EC%A0%9C%EA%B1%B0-0B3D91?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/%EA%B6%8C%ED%95%9C_%EB%B6%80%EC%A1%B1_%EB%A1%9C%EA%B7%B8%EC%9D%B8_%EB%A3%A8%ED%94%84-%EC%A0%9C%EA%B1%B0-0B3D91?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/%EC%B8%A1%EC%A0%95_%EC%86%8D%EB%8F%84_%ED%9D%94%EB%93%A4%EB%A6%BC-%EC%95%BD_70%25_%EA%B0%90%EC%86%8C-0B3D91?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/%EC%86%8D%EB%8F%84_%EC%B6%94%EC%A2%85%EB%A5%A0-88%25_%E2%86%92_98%25-0B3D91?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/%EC%B5%9C%EC%A2%85_%EB%B0%9C%ED%91%9C-14%EB%B6%84_27%EC%B4%88_%C2%B7_Q%26A_44%EB%AC%B8%ED%95%AD-0B3D91?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/%EA%B1%B0%EC%A7%93_%EC%9E%AC%EC%97%B0%EA%B2%B0_%EA%B2%BD%EB%B3%B4%28%EC%8B%9C%EC%97%B0_%EA%B0%81%EB%B3%B8%29-%EC%A7%9A%EC%96%B4%EC%84%9C_%EC%A0%9C%EA%B1%B0-0B3D91?style=for-the-badge" alt="거짓 재연결 경보(시연 각본): 짚어서 제거"/>
+<img src="https://img.shields.io/badge/%EA%B6%8C%ED%95%9C_%EB%B6%80%EC%A1%B1_%EB%A1%9C%EA%B7%B8%EC%9D%B8_%EB%A3%A8%ED%94%84-%EC%A7%9A%EC%96%B4%EC%84%9C_%EC%A0%9C%EA%B1%B0-0B3D91?style=for-the-badge" alt="권한 부족 로그인 루프: 짚어서 제거"/>
+<img src="https://img.shields.io/badge/%EC%B8%A1%EC%A0%95_%EC%86%8D%EB%8F%84_%ED%9D%94%EB%93%A4%EB%A6%BC-%EC%95%BD_70%25_%EA%B0%90%EC%86%8C-0B3D91?style=for-the-badge" alt="측정 속도 흔들림: 약 70% 감소"/>
+<img src="https://img.shields.io/badge/%EB%AA%85%EB%A0%B9_%EC%86%A1%EC%8B%A0_%EB%A1%9C%EA%B7%B8_%EB%8C%80%EC%A1%B0-0%ED%9A%8C_%E2%86%94_202%ED%9A%8C-0B3D91?style=for-the-badge" alt="명령 송신 로그 대조: 0회 ↔ 202회"/>
+<img src="https://img.shields.io/badge/%EB%B0%9C%ED%91%9C_%EB%8C%80%EB%B3%B8-14%EB%B6%84_27%EC%B4%88_%C2%B7_Q%26A_%EB%8C%80%EB%B3%B8_44%EB%AC%B8%ED%95%AD-0B3D91?style=for-the-badge" alt="발표 대본: 14분 27초 · Q&A 대본 44문항"/>
 
-<sub>코드 반영은 담당 팀원 · 속도 수치는 동일 조건 3회 반복 주행 기준(흔들림은 이동창을 거친 측정값) · 시연 미출발은 로그 대조로 멈춘 조건 특정</sub>
+<sub>관제 화면 사례는 짚어 전달, 로봇 사례는 로그로 조건을 좁혀 넘김 · 코드 반영은 담당 팀원 · 흔들림은 동일 조건 3회 반복 주행 기준(이동창을 거친 측정값) · 시연 미출발은 멈춘 조건만 특정(중립 명령이 끊긴 이유는 남은 질문)</sub>
 
 </div>
 
 **핵심 성과**
 - **감지 → 확인 → 기록이 한 화면에서 끝나게** — 요원 동선대로 써 보며 흐름이 끊기는 두 자리를 짚어 전달
-- **거짓 경보와 로그인 루프 제거** — 정상 신호에도 뜨던 "재연결 중"과, 로그인한 교육생 계정에 "로그인이 필요합니다"라던 안내를 짚어 전달(원인 수정은 담당 팀원)
+- **거짓 경보와 로그인 루프 제거** — 시연 각본에서 정상 신호에도 뜨던 "재연결 중"과, 로그인한 교육생 계정에 "로그인이 필요합니다"라던 안내를 짚어 전달(원인 수정은 담당 팀원)
 - **"속도가 이상해요"가 아니라 "저속 구간에서만"** — 조건을 특정해 넘겼고, 팀원이 속도를 이동창으로 재도록 바꿔 측정 흔들림 약 70% 감소
-- **안 됐을 때를 먼저 쓴 발표** — 대본 14분 27초 · Q&A 44문항 · 8장면 시연 시나리오 · 실패 상황별 대응 문장 8개
-- **시연 실패를 로그로 좁히기** — 39분 뒤 정상 주행 로그와 대조해, 하드웨어가 아니라 끊긴 중립 명령이 로봇을 세웠다는 조건까지 특정
+- **안 됐을 때를 먼저 쓴 발표** — 대본 14분 27초 · Q&A 대본 44문항 · 8장면 시연 시나리오 · 실패 상황별 대응 문장 8개
+- **시연 실패를 로그로 좁히기** — 39분 뒤 정상 주행 로그와 대조해, 하드웨어가 아니라 끊긴 중립 명령이 로봇을 세웠다는 조건까지 특정(끊긴 이유는 남은 질문)
 
 **화면** <sub>(관제 화면은 팀 결과물 · 목 모드 캡처)</sub>
 
@@ -291,7 +283,7 @@ flowchart LR
 <table>
 <tr>
 <td width="33%"><img src="./assets/ssacurity-deck-tof.png" alt="ToF 판정"/><p align="center"><sub><b>ToF 판정</b> · 통과 · 방향을 잡고 태깅 기록과 대조</sub></p></td>
-<td width="33%"><img src="./assets/ssacurity-deck-demo.png" alt="시연 구성"/><p align="center"><sub><b>시연 구성</b> · 시연자 셋 · 촬영 둘</sub></p></td>
+<td width="33%"><img src="./assets/ssacurity-deck-demo.png" alt="시연 구성"/><p align="center"><sub><b>시연 구성</b> · 시연자 셋 · 촬영 · 송출 둘</sub></p></td>
 <td width="33%"><img src="./assets/ssacurity-deck-apriltag.png" alt="AprilTag 보정"/><p align="center"><sub><b>AprilTag 보정</b> · 태그 지점에서 쌓인 오차를 끊고 다시 맞춤</sub></p></td>
 </tr>
 </table>
@@ -314,9 +306,9 @@ flowchart LR
 
 </details>
 
-📖 화면 검수 · 로봇 동작 검증 · 발표 · 로그 분석의 **문제 → 원인 → 판단 → 결과**는 [Notion SSACURITY 페이지](https://app.notion.com/p/SSACURITY-3e91b429679f814da3e4d88472095981?source=copy_link)에 정리했습니다.
+📖 화면 검수 · 로봇 동작 검증 · 발표 · 로그 분석의 **문제와 판단 · 결과**는 [Notion SSACURITY 페이지](https://app.notion.com/p/SSACURITY-3e91b429679f814da3e4d88472095981?source=copy_link)에 정리했습니다.
 
-`관제 화면 검수` `Vanilla JS` `WebSocket` `FastAPI` `ROS 2` `UART` `초기 목업: React · TypeScript`
+`관제 화면 검수` `주행 로그 분석` `초기 목업: React · TypeScript` · 팀 스택: `Vanilla JS` `WebSocket` `FastAPI` `ROS 2` `UART`
 
 <br/>
 
@@ -326,28 +318,28 @@ flowchart LR
 
 ### 💼 잡싸피 — SSAFY 교육생을 위한 AI 취업 준비 플랫폼
 
-<img src="https://img.shields.io/badge/%EA%B8%B0%EA%B0%84-2026.05.08_~_06.26-3178C6?style=for-the-badge"/> <img src="https://img.shields.io/badge/%EC%97%AD%ED%95%A0-%ED%8C%80%EC%9E%A5_%C2%B7_%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C_%C2%B7_%EC%98%A8%EB%94%94%EB%B0%94%EC%9D%B4%EC%8A%A4_AI-61DAFB?style=for-the-badge"/> <img src="https://img.shields.io/badge/%ED%8C%80-2%EB%AA%85-555555?style=for-the-badge"/>
+**기간** 2026.05.08 – 06.26 · **역할** 팀장 · 프론트엔드 · 온디바이스 AI · **팀** 2명
 
 > **목소리가 브라우저 밖으로 나가지 않는 AI 면접 연습을 만들었습니다.**
 
 합격 자소서 추천, AI 자소서 평가, 면접 연습, 취업 커뮤니티를 한곳에 모은 서비스입니다.<br/>
-팀장이자 프론트엔드 담당으로 라우팅 · 인증 같은 공통 구조와 주요 화면을 만들었고, 면접 연습에는 **Whisper 음성 인식 모델을 브라우저 안에서 돌리는 온디바이스 AI**를 붙였습니다.
+팀장이자 프론트엔드 담당으로 라우팅 · 인증 상태 같은 공통 구조와 홈 · 면접 연습 · 취업 편의 툴 · 커뮤니티 · 프로필 화면을 만들었고, 면접 연습에는 **Whisper 음성 인식 모델을 브라우저 안에서 돌리는 온디바이스 AI**를 붙였습니다.
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/%EC%9D%8C%EC%84%B1_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EC%84%9C%EB%B2%84_%EC%A0%84%EC%86%A1-0%EA%B1%B4-0B3D91?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/23.5%EC%B4%88_%EB%8B%B5%EB%B3%80_%EC%9D%B8%EC%8B%9D-3.2%EC%B4%88-0B3D91?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/%EC%B2%AB_%ED%99%94%EB%A9%B4_JS-216.2_%E2%86%92_59.2_KB_%28%E2%88%9273%25%29-0B3D91?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/%EC%9D%8C%EC%84%B1_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EC%84%9C%EB%B2%84_%EC%A0%84%EC%86%A1-0%EA%B1%B4-0B3D91?style=for-the-badge" alt="음성 데이터 서버 전송: 0건"/>
+<img src="https://img.shields.io/badge/23.5%EC%B4%88_%EB%8B%B5%EB%B3%80_%EC%9D%B8%EC%8B%9D-3.2%EC%B4%88-0B3D91?style=for-the-badge" alt="23.5초 답변 인식: 3.2초"/>
+<img src="https://img.shields.io/badge/%EC%B2%AB_%ED%99%94%EB%A9%B4_JS-216.2_%E2%86%92_59.2_KB_%28%E2%88%9273%25%29-0B3D91?style=for-the-badge" alt="첫 화면 JS: 216.2 → 59.2 KB (−73%)"/>
 
-<sub>WASM · 측정 PC 기준 · gzip · 화면 14개 중 12개 지연 로딩</sub>
+<sub>인식 시간은 WASM · Edge · Core Ultra 7 155H 기준 · JS는 gzip · 화면 14개 중 12개 지연 로딩</sub>
 
 </div>
 
 **핵심 성과**
 - **서버 없는 음성 인식** — Transformers.js로 Whisper(tiny)를 브라우저에서 실행, 말하기 속도와 습관어 5종을 피드백
 - **첫 화면에서 AI 라이브러리 빼기** — 모든 화면 정적 import → 12개 지연 로딩으로 첫 화면 JS −73%
-- **어느 경로로 와도 같은 본인 판단** — 내 프로필에 '팔로우'가 뜨던 버그를 서버가 준 프로필 주인 기준으로 수정
-- **필드 성격에 맞춘 검색** — 글 유형은 exact, 직무는 icontains, 검색어는 제목 + 본문 OR 검색
+- **어느 경로로 와도 같은 본인 판단** — 내 정보가 비어 있으면 먼저 조회해 채운 뒤 서버가 준 프로필 주인과 비교하게 고쳐, 내 프로필에 '팔로우'가 뜨던 버그를 수정(응답 사이 잠깐 보이는 틈은 남음)
+- **필드 성격에 맞춘 검색** — 글 유형은 exact, 직무는 icontains, 검색어는 제목 + 본문 OR 검색(커뮤니티 백엔드는 팀원과 나눠 만듦)
 
 **화면**
 
@@ -356,8 +348,8 @@ flowchart LR
 <td colspan="2"><img src="./assets/jobssafy-interview-result.png" alt="면접 연습 결과"/><p align="center"><sub><b>면접 연습 결과</b>(예시 답변) · 브라우저 안에서 텍스트로 바꾸고 말하기 속도와 습관어를 짚음 · tiny 모델이라 '면접 → 면적'처럼 발음이 비슷한 단어는 틀리기도 함 · 화면의 답변 시간 25초는 녹음 버튼 기준(음성은 23.5초)</sub></p></td>
 </tr>
 <tr>
-<td width="50%"><img src="./assets/jobssafy-home.png" alt="홈"/><p align="center"><sub><b>홈</b> · 글래스모피즘 카드와 떠다니는 배경</sub></p></td>
-<td width="50%"><img src="./assets/jobssafy-career-tools.png" alt="취업 편의 툴"/><p align="center"><sub><b>취업 편의 툴</b> · 글자 수 계산 · 임시 저장 · 증명사진 변환</sub></p></td>
+<td width="50%"><img src="./assets/jobssafy-home.png" alt="홈"/><p align="center"><sub><b>홈</b> · 떠다니는 배경은 transform만 움직여 레이아웃 · 페인트를 다시 계산하지 않음</sub></p></td>
+<td width="50%"><img src="./assets/jobssafy-career-tools.png" alt="취업 편의 툴"/><p align="center"><sub><b>취업 편의 툴</b>(예시 문장) · 글자 수 계산 · 임시 저장 · 증명사진 변환</sub></p></td>
 </tr>
 </table>
 
@@ -367,7 +359,7 @@ flowchart LR
 <summary><b>🏗 요청이 가는 길 (아키텍처)</b></summary>
 <br/>
 
-음성은 브라우저 밖으로 나가지 않고, 네트워크를 타는 건 처음 한 번 받는 모델 파일(Hugging Face)과 WASM 런타임(jsDelivr CDN)뿐입니다. 서버 쪽 AI는 팀원이 맡았습니다.
+음성은 브라우저 밖으로 나가지 않고, 음성 인식을 위해 받는 건 처음 한 번 받는 모델 파일(Hugging Face)과 WASM 런타임(jsDelivr CDN)뿐입니다. 서버 쪽 AI와 챗봇 · 자소서 평가 · 합격 자소서 화면은 팀원이 맡았습니다.
 
 ```mermaid
 flowchart LR
@@ -388,13 +380,11 @@ flowchart LR
 
 </details>
 
-📖 사례마다 **문제 → 원인 → 판단 → 결과**와 코드는 [Notion 잡싸피 페이지](https://app.notion.com/p/3e91b429679f81a8b22cf2e8cb2e0702?source=copy_link)에 정리했습니다.
+📖 사례마다 **문제와 판단 · 결과**, 코드는 [Notion 잡싸피 페이지](https://app.notion.com/p/3e91b429679f81a8b22cf2e8cb2e0702?source=copy_link)에 정리했습니다.
 
 `Vue 3` `Vite` `Vue Router` `Pinia` `Transformers.js` `Whisper` `Web Audio API` `Django REST Framework` `django-filter`
 
 <br/>
-
----
 
 <a id="principles"></a>
 
@@ -466,8 +456,6 @@ flowchart LR
 
 <br/>
 
----
-
 <a id="retro"></a>
 
 ## 📈 돌아보며
@@ -479,7 +467,7 @@ flowchart LR
 **잘한 점 · 증상이 아니라 길을 고쳤다**
 - 에러 화면이 안 뜰 때 화면을 고치지 않고, **그 화면에 도달하지 못하는 길**(없던 시간 상한)을 찾아 막았습니다.
 - 기준값은 근거를 남겨 정했습니다. 5초 목 부팅 시한은 정상 부팅 실측(0.6–1.0초)에서, 12초 요청 상한은 느린 네트워크 기준(3초)의 4배로 정했습니다.
-- 제 변경도 틀리면 바로 되돌리거나 고쳤습니다. 증권사 부분 연동은 병합 전 검토에서 13분 만에 되돌렸고, 추적 번호 회귀는 18분 만에 고쳤습니다.
+- 제 변경도 틀리면 바로 되돌리거나 고쳤습니다. 증권사 부분 연동은 병합 전 검토에서 13분 만에 되돌렸고, dev에 바로 올렸던 추적 번호 회귀는 18분 만에 고쳤습니다.
 
 **아쉬운 점 · 목에서만 참인 것들**
 - 개인 수치 대조는 끝내 실서버에서 돌지 못하고 목에서만 증명됐습니다.
@@ -488,10 +476,8 @@ flowchart LR
 
 **다음엔 · 목도 서버만큼 엄격하게**
 - 목에도 **권한 경계**를 넣어 E2E가 역할 문제를 잡게 하겠습니다.
-- OpenAPI 스냅샷 갱신을 CI에 넣고, 수기 타입 대신 **생성 타입**을 검토하겠습니다.
-- 서버가 개인 수치를 `figures`와 함께 내려주는 계약을 **처음부터** AI · BE와 맞추겠습니다.
-
-> 잡싸피에서 숨긴 실패는 실패를 실패라고 말하는 화면으로, 무거운 AI 라이브러리를 첫 화면에서 뺐던 일은 IR 콘솔 · 데모 도구 분리로 이어졌습니다. SSACURITY에서 먼저 만든 목업을 다시 만들어야 했던 일은 목 서버로 계약을 먼저 세우는 방식으로 이어졌습니다.
+- OpenAPI 스냅샷 갱신을 CI에 넣고, 손으로 쓴 타입 대신 **생성 타입**을 검토하겠습니다.
+- 서버가 개인 수치를 `figures`와 함께 내려 주는 계약을 **처음부터** AI · BE와 맞추겠습니다.
 
 </details>
 
@@ -518,8 +504,6 @@ flowchart LR
 - 통합 직전에는 **안전 관련 정의만이라도 문서와 코드를 대조**하고, 상태 판단에 쓰는 임계는 처음부터 **단일 상수**로 두겠습니다.
 - 화면은 **서버 창구와 메시지 형식을 먼저 정하고** 목 데이터로 시작하겠습니다.
 
-> 이 경험은 쮸토피아에서 목 서버로 API 계약을 먼저 세우고, 준비된 경로부터 실서버로 옮기는 방식으로 이어졌습니다.
-
 </details>
 
 <details>
@@ -543,30 +527,25 @@ flowchart LR
 - 본인 여부 · 권한처럼 **서버가 아는 사실은 응답에 넣자고** API 설계 단계에서 먼저 맞추겠습니다.
 - 요청은 **API 클라이언트 한곳**을 지나게 해, 주소와 인증 헤더를 한 번만 적겠습니다.
 
-> 숨긴 실패는 쮸토피아에서 실패를 실패라고 말하는 화면으로, 무거운 라이브러리를 첫 화면에서 뺀 일은 IR 콘솔 · 데모 도구를 떼어 내는 번들 분리로 이어졌습니다.
-
 </details>
 
 <br/>
-
----
 
 ## 📊 Activity
 
 <div align="center">
 
-프로젝트는 SSAFY 사내 **GitLab**에서 진행했습니다. 아래는 JJUTOPIA 저장소 기록 기준입니다.
+프로젝트는 SSAFY **GitLab**(비공개 · 요청 시 공개)에서 진행했습니다. 아래는 쮸토피아(JJUTOPIA) 저장소 기록입니다.
 
 <br/>
 
-<img src="https://img.shields.io/badge/%EC%BB%A4%EB%B0%8B-224_%C2%B7_%ED%8C%80_%EB%82%B4_%EC%B5%9C%EB%8B%A4-0B3D91?style=for-the-badge&logo=gitlab&logoColor=white"/>
-<img src="https://img.shields.io/badge/%EB%A8%B8%EC%A7%80%EB%90%9C_MR-62-0B3D91?style=for-the-badge&logo=gitlab&logoColor=white"/>
-<img src="https://img.shields.io/badge/%EB%AC%B8%EC%84%9C_%EC%BB%A4%EB%B0%8B-117-0B3D91?style=for-the-badge&logo=gitlab&logoColor=white"/>
-<img src="https://img.shields.io/badge/%EC%9E%90%EB%8F%99%ED%99%94_%ED%85%8C%EC%8A%A4%ED%8A%B8-1%2C212-0B3D91?style=for-the-badge&logo=gitlab&logoColor=white"/>
+<img src="https://img.shields.io/badge/%EC%BB%A4%EB%B0%8B-224_%C2%B7_%ED%8C%80_%EB%82%B4_%EC%B5%9C%EB%8B%A4-0B3D91?style=for-the-badge&logo=gitlab&logoColor=white" alt="커밋: 224 · 팀 내 최다"/>
+<img src="https://img.shields.io/badge/%EB%A8%B8%EC%A7%80%EB%90%9C_MR-62-0B3D91?style=for-the-badge&logo=gitlab&logoColor=white" alt="머지된 MR: 62"/>
+<img src="https://img.shields.io/badge/%EA%B7%B8%EC%A4%91_%EB%AC%B8%EC%84%9C_%EC%BB%A4%EB%B0%8B-117-0B3D91?style=for-the-badge&logo=gitlab&logoColor=white" alt="그중 문서 커밋: 117"/>
 
 <br/>
 
-<sub>최종 dev(2026-09-28) 기준 · 커밋은 병합 제외 · MR은 dev에 병합된 본인 MR · 문서 커밋은 📝 커밋</sub><br/>
+<sub>최종 dev(2026.09.28) 기준 · 커밋은 병합 제외 · MR은 dev에 병합된 본인 MR · 문서 커밋은 커밋 224개 가운데 📝 커밋</sub><br/>
 <sub>GitHub에는 앞으로의 개인 작업과 학습 기록을 쌓아 갈 예정입니다.</sub>
 
 </div>
