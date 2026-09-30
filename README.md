@@ -16,7 +16,7 @@
 </tr>
 </table>
 
-<a href="mailto:handongin15@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="mailto:d5353973@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 <a href="https://app.notion.com/p/3e91b429679f8183ae77c26eb318da9e"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=notion&logoColor=white"/></a>
 
 <sub>📂 프로젝트별 포트폴리오</sub><br/>
