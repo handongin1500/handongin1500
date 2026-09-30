@@ -7,7 +7,7 @@
     <style>
       .name{font:700 56px 'Pretendard','Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR','Segoe UI',sans-serif;fill:#fff}
       .role{font:500 22px 'Pretendard','Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR','Segoe UI',sans-serif;fill:#fff;opacity:.9;letter-spacing:4px}
-      .tag{font:600 20px 'Pretendard','Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif;fill:#0B3D91;opacity:0;animation:cycle 9s infinite}
+      .tag{font:600 20px 'Pretendard','Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif;fill:#79C0FF;opacity:0;animation:cycle 9s infinite}
       .t2{animation-delay:3s}.t3{animation-delay:6s}
       @keyframes cycle{0%{opacity:0;transform:translateY(8px)}5%,28%{opacity:1;transform:translateY(0)}33%,100%{opacity:0}}
     </style>
