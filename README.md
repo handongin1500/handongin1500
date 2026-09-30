@@ -1,13 +1,13 @@
 <div align="center">
 
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/header-mobile-dark.svg"/>
-  <source media="(max-width: 600px)" srcset="./assets/header-mobile.svg"/>
+  <source media="(max-width: 1011px) and (prefers-color-scheme: dark)" srcset="./assets/header-mobile-dark.svg"/>
+  <source media="(max-width: 1011px)" srcset="./assets/header-mobile.svg"/>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg"/>
-  <img src="./assets/header.svg" width="100%" alt="Han Dongin · Frontend Developer — 화면이 사실만 말하게 만드는 개발자"/>
+  <img src="./assets/header.svg" alt="Han Dongin · Frontend Developer — 화면이 사실만 말하게 만드는 개발자. 오른쪽은 쮸토피아 화면 예시: 받지 못한 달은 '기록 없음', 실패한 카드는 무엇을 못 불러왔는지 말함"/>
 </picture>
 
-<br/><br/>
+<br/>
 
 <!-- ▼ 헤더 카드: 여기부터 -->
 <table>
@@ -16,7 +16,7 @@
 <td align="center" width="50%">💻 <b>Frontend Developer</b><br/><sub>React · TypeScript · Vue.js</sub></td>
 </tr>
 <tr>
-<td align="center">🏦 <b>핀⁠테⁠크</b> · 🤖 <b>로⁠봇 관⁠제</b> · 💼 <b>AI 취⁠업 준⁠비</b><br/><sub>SSAFY 프⁠로⁠젝⁠트 3개</sub></td>
+<td align="center">🏦 <b>핀⁠테⁠크</b> · 🤖 <b>로⁠봇 관⁠제</b> · 💼 <b>AI&nbsp;취⁠업&nbsp;준⁠비</b><br/><sub>SSAFY 프⁠로⁠젝⁠트 3개</sub></td>
 <td align="center">🔍 <b>프⁠론⁠트⁠엔⁠드 포⁠지⁠션⁠을 찾⁠고 있⁠어⁠요</b><br/><sub>편⁠하⁠게 연⁠락 주⁠세⁠요 · d5353973@gmail.com</sub></td>
 </tr>
 </table>
@@ -24,7 +24,7 @@
 <a href="mailto:d5353973@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email d5353973@gmail.com"/></a>
 <a href="https://app.notion.com/p/3e91b429679f8183ae77c26eb318da9e"><img src="https://img.shields.io/badge/Portfolio-3178C6?style=for-the-badge&logo=notion&logoColor=white" alt="Notion 포트폴리오"/></a>
 
-<sub>📂 프로젝트별 포트폴리오(Notion) — <a href="https://app.notion.com/p/3e91b429679f81728bb5ed4cedc72a62?source=copy_link">🏦 쮸토피아</a> · <a href="https://app.notion.com/p/SSACURITY-3e91b429679f814da3e4d88472095981?source=copy_link">🤖 SSACURITY</a> · <a href="https://app.notion.com/p/3e91b429679f81a8b22cf2e8cb2e0702?source=copy_link">💼 잡싸피</a><br/>저장소는 SSAFY GitLab 비공개 · 요청 시 공개</sub>
+<sub>📂 프로젝트별 포트폴리오(Notion) — <a href="https://app.notion.com/p/3e91b429679f81728bb5ed4cedc72a62?source=copy_link">🌳 쮸토피아</a> · <a href="https://app.notion.com/p/SSACURITY-3e91b429679f814da3e4d88472095981?source=copy_link">🤖 SSACURITY</a> · <a href="https://app.notion.com/p/3e91b429679f81a8b22cf2e8cb2e0702?source=copy_link">💼 잡싸피</a><br/>저장소는 SSAFY GitLab 비공개 · 요청 시 공개</sub>
 <!-- ▲ 헤더 카드: 여기까지 -->
 
 <br/>
@@ -66,7 +66,7 @@ ChatGPT가 등장해 사람들이 일하고 배우는 방식이 바뀌는 흐름
 <tr>
 <td width="33%" valign="top">
 <a href="#zzutopia"><img src="./assets/jjutopia-home.png" alt="쮸토피아 주주 홈"/></a>
-<p><b>🏦 쮸⁠토⁠피⁠아</b><br/><sub>주⁠주 우⁠대 제⁠도⁠를 설⁠계 · 운⁠영⁠하⁠는 B2B SaaS</sub></p>
+<p><b>🌳 쮸⁠토⁠피⁠아</b><br/><sub>주⁠주 우⁠대 제⁠도⁠를 설⁠계 · 운⁠영⁠하⁠는 B2B SaaS</sub></p>
 <p><sub>2026.08 – 09 · 프⁠론⁠트⁠엔⁠드 담⁠당 · 7명 팀</sub></p>
 <p>“실⁠패⁠는 실⁠패⁠라⁠고, 모⁠르⁠는 숫⁠자⁠는 모⁠른⁠다⁠고 말⁠하⁠는 화⁠면”</p>
 <p><sub>✅ 테⁠스⁠트 1,212개 통⁠과<br/>✅ 프⁠론⁠트⁠엔⁠드 코⁠드 88% 작⁠성</sub></p>
@@ -132,16 +132,16 @@ ChatGPT가 등장해 사람들이 일하고 배우는 방식이 바뀌는 흐름
 
 **숙련도와 쓴 곳** <sub>프로젝트에서 쓴 것만 · 숙련도는 5단계 자기 평가입니다.</sub>
 
-| 분야 · 기술 · 숙련도 | 그걸로 한 일 |
+| 분야 · 기술 · 숙⁠련⁠도 | 그걸로 한 일 |
 |---|---|
-| **프론트엔드** <img src="./assets/level-4.svg" height="12" alt="숙련도 4/5"/><br/>React 19 · TypeScript | 주주 웹과 IR 콘솔을 한 SPA로 만들고 프론트엔드 코드의 88%를 썼습니다. IR 콘솔은 지연 로딩으로 나눠 주주가 받지 않게 했습니다. <sub>쮸토피아</sub> |
-| **프론트엔드** <img src="./assets/level-4.svg" height="12" alt="숙련도 4/5"/><br/>Vue 3 · Vue Router · Pinia | 로그인 여부를 전역 가드 한곳에서 판단하고, 화면 14개 중 12개를 지연 로딩해 첫 화면 JS를 73% 줄였습니다. <sub>잡싸피</sub> |
-| **상태 · 데이터** <img src="./assets/level-3.svg" height="12" alt="숙련도 3/5"/><br/>TanStack Query · Zustand · Zod | 서버 값은 쿼리 캐시에, 화면에서만 생기는 값은 스토어 두 개에 나눠 담았습니다. 요청마다 기본 12초 상한과 재시도 규칙을 걸어 멈추는 대신 실패를 알리고, 제도 설계 입력은 Zod로 칸마다 검사합니다. <sub>쮸토피아</sub> |
-| **목 · 테스트** <img src="./assets/level-3.svg" height="12" alt="숙련도 3/5"/><br/>MSW · Vitest · Testing Library · Playwright · axe-core | 백엔드보다 먼저 목 서버로 화면을 완성하고 경로 단위로 실서버에 옮겼습니다. 테스트 1,212개를 모두 통과시켰고, 손으로 쓴 타입 34쌍은 CI에서 서버 OpenAPI와 대조했습니다. <sub>쮸토피아</sub> |
-| **온디바이스 AI** <img src="./assets/level-3.svg" height="12" alt="숙련도 3/5"/><br/>Transformers.js · Whisper | 음성 인식 모델을 브라우저 안에서 돌려, 음성을 서버로 보내지 않는 면접 연습을 만들었습니다(23.5초 답변 인식 3.2초). <sub>잡싸피</sub> |
-| **백엔드(공동)** <img src="./assets/level-4.svg" height="12" alt="숙련도 4/5"/><br/>Python · Django REST Framework · django-filter | 커뮤니티 검색을 필드 성격에 맞춰 완전 일치 · 부분 일치 · 제목 + 본문 통합 검색으로 나눴습니다. <sub>잡싸피</sub> |
+| **프론트엔드** <picture><img src="./assets/level-4.svg" height="12" alt="숙련도 4/5"/></picture><br/>React 19 · TypeScript | 주주 웹과 IR 콘솔을 한 SPA로 만들고 프론트엔드 코드의 88%를 썼습니다. IR 콘솔은 지연 로딩으로 나눠 주주가 받지 않게 했습니다. <sub>쮸⁠토⁠피⁠아</sub> |
+| **프론트엔드** <picture><img src="./assets/level-4.svg" height="12" alt="숙련도 4/5"/></picture><br/>Vue 3 · Vue Router · Pinia | 로그인 여부를 전역 가드 한곳에서 판단하고, 화면 14개 중 12개를 지연 로딩해 첫 화면 JS를 73% 줄였습니다. <sub>잡⁠싸⁠피</sub> |
+| **상태 · 데이터** <picture><img src="./assets/level-3.svg" height="12" alt="숙련도 3/5"/></picture><br/>TanStack Query · Zustand · Zod | 서버 값은 쿼리 캐시에, 화면에서만 생기는 값은 스토어 두 개에 나눠 담았습니다. 요청마다 기본 12초 상한과 재시도 규칙을 걸어 멈추는 대신 실패를 알리고, 제도 설계 입력은 Zod로 칸마다 검사합니다. <sub>쮸⁠토⁠피⁠아</sub> |
+| **목 · 테스트** <picture><img src="./assets/level-3.svg" height="12" alt="숙련도 3/5"/></picture><br/>MSW · Vitest · Testing Library · Playwright · axe-core | 백엔드보다 먼저 목 서버로 화면을 완성하고 경로 단위로 실서버에 옮겼습니다. 테스트 1,212개를 모두 통과시켰고, 손으로 쓴 타입 34쌍은 CI에서 서버 OpenAPI와 대조했습니다. <sub>쮸⁠토⁠피⁠아</sub> |
+| **온디바이스 AI** <picture><img src="./assets/level-3.svg" height="12" alt="숙련도 3/5"/></picture><br/>Transformers.js · Whisper | 음성 인식 모델을 브라우저 안에서 돌려, 음성을 서버로 보내지 않는 면접 연습을 만들었습니다(23.5초 답변 인식 3.2초). <sub>잡⁠싸⁠피</sub> |
+| **백엔드(공동)** <picture><img src="./assets/level-4.svg" height="12" alt="숙련도 4/5"/></picture><br/>Python · Django REST Framework · django-filter | 커뮤니티 검색을 필드 성격에 맞춰 완전 일치 · 부분 일치 · 제목 + 본문 통합 검색으로 나눴습니다. <sub>잡⁠싸⁠피</sub> |
 
-**🤖 AI 코딩 도구** — Claude Code와 함께 구현하되, 수정을 되돌려 테스트가 정말 깨지는지 보고 프리뷰 배포본과 실제 AI 서버에서 다시 확인했습니다. <sub>쮸토피아</sub>
+**🤖 AI 코딩 도구** — Claude Code와 함께 구현하되, 수정을 되돌려 테스트가 정말 깨지는지 보고 프리뷰 배포본과 실제 AI 서버에서 다시 확인했습니다(마지막 날 만든 공지 검토 경로만 실제 키로 확인하지 못함). <sub>쮸토피아</sub>
 
 <br/>
 
@@ -151,7 +151,7 @@ ChatGPT가 등장해 사람들이 일하고 배우는 방식이 바뀌는 흐름
 
 <a id="zzutopia"></a>
 
-### 🏦 쮸토피아 — 주주 우대 제도를 설계 · 운영하는 B2B SaaS
+### 🌳 쮸토피아 — 주주 우대 제도를 설계 · 운영하는 B2B SaaS
 
 **기간** 2026.08.31 – 09.28 · **역할** 프론트엔드 담당(팀 내 FE 1명) · **팀** 7명(FE · BE · Android · AI · Infra)<br/>
 **배포** [jjutopia.site](https://jjutopia.site) <sub>09.09 배포판 · 실제 로그인(09.10)이 붙기 전이라 데이터는 보이지 않습니다</sub>
@@ -178,7 +178,7 @@ ChatGPT가 등장해 사람들이 일하고 배우는 방식이 바뀌는 흐름
 - **숫자를 지어낸 AI 답변 차단** — 개인 수치 답변은 본문 숫자를 서버 도구 결과와 대조해, 없는 숫자가 하나라도 있으면 본문을 표시하지 않음(실서버는 개인 수치 답변을 내지 않아 목에서만 검증)
 - **모르는 날을 "0"이라 말하지 않기** — '적립' · '적립 없음'에 '기록 없음'을 세 번째 상태로 더하고, 회색 명도 대신 빗금으로 구분
 - **타입 불일치를 CI가 잡게** — 서버 OpenAPI와 손으로 쓴 타입 34쌍을 `npm test`로 자동 대조
-- **비어 있던 AI 서버 경로 채우기** — 백엔드가 부르던 공지 문맥 검토 경로가 AI 서버에 없어 원고 재검토와 배포가 늘 500이던 것을, 마지막 날(09.28) FastAPI로 직접 만듦(실제 키로 프롬프트 품질은 미확인)
+- **비어 있던 AI 서버 경로 채우기** — 차단 항목이 없는 공지 원고를 넘겨받을 AI 서버 경로가 없어 재검토와 배포가 늘 500이어서, 마지막 날(09.28) 그 경로를 FastAPI로 직접 만듦. AI 지적은 배포를 막지 않는 경고로만 씀(실제 키로 프롬프트 품질은 미확인 · AI 파트 검토 전)
 
 **화면**
 
@@ -236,7 +236,7 @@ flowchart LR
 
 📖 사례마다 **문제와 판단 · 결과**, 코드는 [Notion 쮸토피아 페이지](https://app.notion.com/p/3e91b429679f81728bb5ed4cedc72a62?source=copy_link)에 정리했습니다.
 
-`React 19` `TypeScript` `Vite 8` `TanStack Query` `Zustand` `Zod` `Tailwind CSS 4` `MSW 2` `Vitest` `Playwright` `axe-core` · AI 서버 경로: `FastAPI`
+`React 19` `TypeScript` `Vite 8` `TanStack Query` `Zustand` `Zod` `Tailwind CSS 4` `MSW 2` `Vitest` `Playwright` `axe-core` · 공지 검토 경로:&nbsp;`FastAPI`
 
 
 <br/>
@@ -374,8 +374,8 @@ flowchart LR
     UI -->|"녹음 → 16kHz PCM"| STT
     UI --> LS
   end
-  HF["Hugging Face Hub"] -.->|"모델 파일 · 최초 1회"| STT
-  CDN["jsDelivr CDN"] -.->|"WASM 런타임 · 최초 1회"| STT
+  HF["Hugging Face Hub<br/>모델 파일 · 최초 1회"] -.-> STT
+  CDN["jsDelivr CDN<br/>WASM 런타임 · 최초 1회"] -.-> STT
   UI -->|"REST · JWT"| DRF["Django REST Framework"]
   UI -->|"자소서 문장 평가"| EVAL["FastAPI<br/>Qwen2.5-1.5B + LoRA"]
   DRF --> DB[("SQLite")]
@@ -405,7 +405,7 @@ flowchart LR
 
 - **💼 잡싸피** — 마이크 권한이 없거나 음성 분석에 실패해도 예시 문장으로 피드백을 만들어 기록에 남겨, 사용자가 진짜 결과로 오해할 수 있었습니다.
 - **🤖 SSACURITY** — 로그인에 성공한 교육생 계정에 "로그인이 필요합니다"라고 말하던 안내를 짚었습니다. 틀린 안내를 믿고 따르면 같은 고리를 계속 돌게 됩니다.
-- **🏦 쮸토피아** — 서버가 죽거나 답하지 않아도 카드마다 무엇을 못 불러왔는지 말하고, 받지 못한 날은 '기록 없음'으로 따로 세고, 도구 결과와 맞지 않는 AI 숫자는 화면에 올리지 않습니다(실서버는 개인 수치 답변을 내지 않아 이 대조는 목에서만 검증).
+- **🌳 쮸토피아** — 서버가 죽거나 답하지 않아도 카드마다 무엇을 못 불러왔는지 말하고, 받지 못한 날은 '기록 없음'으로 따로 세고, 도구 결과와 맞지 않는 AI 숫자는 화면에 올리지 않습니다(실서버는 개인 수치 답변을 내지 않아 이 대조는 목에서만 검증).
 
 </details>
 
@@ -415,7 +415,7 @@ flowchart LR
 
 - **💼 잡싸피** — 음성 인식 모델을 불러오는 동안에는 녹음 버튼을 막았지만, 불러오지 못했을 때의 길은 정하지 않았습니다. 실패는 콘솔에만 남고 버튼이 다시 열려, 답변을 마친 뒤에야 예시 문장 피드백으로 넘어갔습니다.
 - **🤖 SSACURITY** — 시연 실패에 대비한 문장 여덟 개가 모두 재시도를 전제로 쓰여, 재시도로 풀리지 않는 멈춤 앞에서는 소용이 없었습니다. 필요했던 건 출발 직전 로봇 상태를 확인하는 점검표 한 줄이었습니다.
-- **🏦 쮸토피아** — 요청마다 기본 12초 상한을 걸어 멈추는 대신 실패하게 했고, 목 서버가 뜨지 않아 빈 화면으로 남던 실패는 5초 시한으로 막았습니다. 증권사 목록만 실서버로 켜는 부분 연동이 전부 목일 때보다 나빠진다는 걸 병합 전에 찾아, 13분 만에 되돌렸습니다.
+- **🌳 쮸토피아** — 요청마다 기본 12초 상한을 걸어 멈추는 대신 실패하게 했고, 목 서버가 뜨지 않아 빈 화면으로 남던 실패는 5초 시한으로 막았습니다. 증권사 목록만 실서버로 켜는 부분 연동이 전부 목일 때보다 나빠진다는 걸 병합 전에 찾아, 13분 만에 되돌렸습니다.
 
 </details>
 
@@ -425,7 +425,7 @@ flowchart LR
 
 - **💼 잡싸피** — '내 프로필인가'를 프론트가 추측하다가 "팔로우" 버튼 버그를 냈습니다. 서버가 아는 사실은 응답에 넣자고 먼저 맞췄어야 했습니다.
 - **🤖 SSACURITY** — 서버와 메시지 형식을 맞추기 전에 먼저 만든 React 관제 화면 목업은 손대지 않고 살릴 코드가 약 18%뿐이라(팀 전수 측정), 팀이 화면을 새로 만들었습니다.
-- **🏦 쮸토피아** — 목 서버로 계약을 먼저 세우고 경로 단위로 목을 끄는 스위치를 만들어, 응답 모양까지 맞는 경로부터 팀이 함께 실서버로 옮겼습니다(마칠 때 핸들러 33개). 손으로 쓴 타입 34쌍은 CI에서 서버 OpenAPI와 대조했습니다.
+- **🌳 쮸토피아** — 목 서버로 계약을 먼저 세우고 경로 단위로 목을 끄는 스위치를 만들어, 응답 모양까지 맞는 경로부터 팀이 함께 실서버로 옮겼습니다(마칠 때 핸들러 33개). 손으로 쓴 타입 34쌍은 CI에서 서버 OpenAPI와 대조했습니다.
 
 </details>
 
@@ -435,7 +435,7 @@ flowchart LR
 
 - **💼 잡싸피** — 로그인이 필요한 화면인지는 라우트마다 따로 막지 않고 전역 가드 한곳에서 판단했습니다.
 - **🤖 SSACURITY** — 상단바만 다른 신선도 임계(6초)를 들고 있어, 시연 각본에서 신호가 정상 주기로 와도 "재연결 중"이 떴습니다. 이 거짓 경보를 짚었고, 팀원이 임계를 단일 상수로 모았습니다.
-- **🏦 쮸토피아** — 모든 요청이 API 클라이언트 한곳을 지나며 시간 상한 · 추적 번호 · 오류 해석을 한꺼번에 받고, 실서버로 보낼 경로 목록은 테스트가 CI 설정을 직접 읽어 잠급니다.
+- **🌳 쮸토피아** — 모든 요청이 API 클라이언트 한곳을 지나며 시간 상한 · 추적 번호 · 오류 해석을 한꺼번에 받고, 실서버로 보낼 경로 목록은 테스트가 CI 설정을 직접 읽어 잠급니다.
 
 </details>
 
@@ -445,7 +445,7 @@ flowchart LR
 
 - **💼 잡싸피** — 면접 화면에서만 쓰는 AI 라이브러리를 지연 로딩으로 빼 첫 화면 JS를 216.2 KB에서 59.2 KB로 줄였습니다(−73%).
 - **🤖 SSACURITY** — 나누지 않는 쪽이 맞았던 사례입니다. 팀이 다시 만든 관제 화면은 빌드 없는 파일 한 장이었고, 1920×1200 화면 하나에서 탭 여섯을 오가는 구조라 라우팅 · 코드 분할 없이도 충분했습니다.
-- **🏦 쮸토피아** — IR 콘솔 38.4 KB를 주주가 받지 않게 나누고, 운영 빌드에는 목 · 데모 도구 코드를 싣지 않았습니다(0 KB).
+- **🌳 쮸토피아** — IR 콘솔 38.4 KB를 주주가 받지 않게 나누고, 운영 빌드에는 목 · 데모 도구 코드를 싣지 않았습니다(0 KB).
 
 </details>
 
@@ -455,7 +455,7 @@ flowchart LR
 
 - **💼 잡싸피** — 음성 인식 모델을 양자화 버전과 비교해 보지 않고 fp32(약 145 MB)로 정했습니다. 끝난 뒤 다시 측정해 보니 면접 화면 첫 로딩이 약 34초였습니다. 같은 모델의 q8 버전은 fp32의 4분의 1쯤인 약 39 MB입니다.
 - **🤖 SSACURITY** — 저속 구간에서만 튀는 속도 값을 로그에서 찾아 조건을 특정했고, 실패한 시연 로그를 39분 뒤 성공한 주행 로그와 나란히 놓고 명령 송신 횟수(0회 ↔ 202회)로 원인을 좁혔습니다.
-- **🏦 쮸토피아** — 5초 목 부팅 시한은 정상 부팅 실측(0.6–1.0초)에서 정했고, 숫자 대조가 조문 번호 · 연도 · 단계 수까지 막아 제도 설명 예문 3개가 모두 숨는 것을 확인한 뒤, AI 답변 범위를 나누자고 요청했습니다.
+- **🌳 쮸토피아** — 5초 목 부팅 시한은 정상 부팅 실측(0.6–1.0초)에서 정했고, 숫자 대조가 조문 번호 · 연도 · 단계 수까지 막아 제도 설명 예문 3개가 모두 숨는 것을 확인한 뒤, AI 답변 범위를 나누자고 요청했습니다.
 
 </details>
 
@@ -466,7 +466,7 @@ flowchart LR
 ## 📈 돌아보며
 
 <details>
-<summary><b>🏦 쮸토피아</b> — 증상이 아니라 길을 고쳤다 · 목에서만 참인 것들</summary>
+<summary><b>🌳 쮸토피아</b> — 증상이 아니라 길을 고쳤다 · 목에서만 참인 것들</summary>
 <br/>
 
 **잘한 점 · 증상이 아니라 길을 고쳤다**
@@ -544,9 +544,9 @@ flowchart LR
 
 <br/>
 
-<img src="https://img.shields.io/badge/%EC%BB%A4%EB%B0%8B-224_%C2%B7_%ED%8C%80_%EB%82%B4_%EC%B5%9C%EB%8B%A4-0B3D91?style=for-the-badge&logo=gitlab&logoColor=white" alt="커밋: 224 · 팀 내 최다"/>
-<img src="https://img.shields.io/badge/%EB%A8%B8%EC%A7%80%EB%90%9C_MR-62-0B3D91?style=for-the-badge&logo=gitlab&logoColor=white" alt="머지된 MR: 62"/>
-<img src="https://img.shields.io/badge/%EA%B7%B8%EC%A4%91_%EB%AC%B8%EC%84%9C_%EC%BB%A4%EB%B0%8B-117-0B3D91?style=for-the-badge&logo=gitlab&logoColor=white" alt="그중 문서 커밋: 117"/>
+<img src="https://img.shields.io/badge/%EC%BB%A4%EB%B0%8B-224_%C2%B7_%ED%8C%80_%EB%82%B4_%EC%B5%9C%EB%8B%A4-1A7F37?style=for-the-badge&logo=gitlab&logoColor=white" alt="커밋: 224 · 팀 내 최다"/>
+<img src="https://img.shields.io/badge/%EB%A8%B8%EC%A7%80%EB%90%9C_MR-62-1A7F37?style=for-the-badge&logo=gitlab&logoColor=white" alt="머지된 MR: 62"/>
+<img src="https://img.shields.io/badge/%EA%B7%B8%EC%A4%91_%EB%AC%B8%EC%84%9C_%EC%BB%A4%EB%B0%8B-117-1A7F37?style=for-the-badge&logo=gitlab&logoColor=white" alt="그중 문서 커밋: 117"/>
 
 <br/>
 
@@ -555,4 +555,7 @@ flowchart LR
 
 </div>
 
-<img src="./assets/footer.svg" width="100%" alt=""/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg"/>
+  <img src="./assets/footer.svg" width="100%" alt=""/>
+</picture>

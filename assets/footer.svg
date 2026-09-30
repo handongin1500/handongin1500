@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 60" width="1200" height="60" role="img" aria-label="">
   <defs><pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="6" stroke="#8C959F" stroke-width="2"/></pattern></defs>
-    <rect x="420.0" y="22" width="25.4" height="16" rx="4" fill="url(#hatch)" stroke="#8C959F" stroke-opacity=".55"/>
-    <rect x="450.4" y="22" width="25.4" height="16" rx="4" fill="url(#hatch)" stroke="#8C959F" stroke-opacity=".55"/>
-    <rect x="480.8" y="22" width="25.4" height="16" rx="4" fill="url(#hatch)" stroke="#8C959F" stroke-opacity=".55"/>
-    <rect x="511.2" y="22" width="25.4" height="16" rx="4" fill="url(#hatch)" stroke="#8C959F" stroke-opacity=".55"/>
-    <rect x="541.7" y="22" width="25.4" height="16" rx="4" fill="#AFB8C1"/>
-    <rect x="572.1" y="22" width="25.4" height="16" rx="4" fill="#AFB8C1"/>
-    <rect x="602.5" y="22" width="25.4" height="16" rx="4" fill="#2F81F7"/>
-    <rect x="632.9" y="22" width="25.4" height="16" rx="4" fill="#2F81F7"/>
-    <rect x="663.3" y="22" width="25.4" height="16" rx="4" fill="#2F81F7"/>
-    <rect x="693.8" y="22" width="25.4" height="16" rx="4" fill="#2F81F7"/>
-    <rect x="724.2" y="22" width="25.4" height="16" rx="4" fill="#2F81F7"/>
-    <rect x="754.6" y="22" width="25.4" height="16" rx="4" fill="#2F81F7"/>
+    <rect x="420.0" y="20" width="25.4" height="20" rx="4" fill="url(#hatch)" stroke="#8C959F" stroke-opacity=".55"/>
+    <rect x="450.4" y="20" width="25.4" height="20" rx="4" fill="url(#hatch)" stroke="#8C959F" stroke-opacity=".55"/>
+    <rect x="480.8" y="20" width="25.4" height="20" rx="4" fill="url(#hatch)" stroke="#8C959F" stroke-opacity=".55"/>
+    <rect x="511.2" y="20" width="25.4" height="20" rx="4" fill="url(#hatch)" stroke="#8C959F" stroke-opacity=".55"/>
+    <rect x="541.7" y="20" width="25.4" height="20" rx="4" fill="#D0D7DE"/>
+    <rect x="572.1" y="20" width="25.4" height="20" rx="4" fill="#D0D7DE"/>
+    <rect x="602.5" y="20" width="25.4" height="20" rx="4" fill="#2DA44E"/>
+    <rect x="632.9" y="20" width="25.4" height="20" rx="4" fill="#2DA44E"/>
+    <rect x="663.3" y="20" width="25.4" height="20" rx="4" fill="#2DA44E"/>
+    <rect x="693.8" y="20" width="25.4" height="20" rx="4" fill="#2DA44E"/>
+    <rect x="724.2" y="20" width="25.4" height="20" rx="4" fill="#2DA44E"/>
+    <rect x="754.6" y="20" width="25.4" height="20" rx="4" fill="#2DA44E"/>
 </svg>
