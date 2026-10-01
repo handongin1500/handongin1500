@@ -101,12 +101,12 @@ ChatGPT가 등장해 사람들이 일하고 배우는 방식이 바뀌는 흐름
 <div align="center">
 
 **Frontend**<br/>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=react,ts,vue,js,html,css,vite,tailwind&theme=dark"/><img src="https://skillicons.dev/icons?i=react,ts,vue,js,html,css,vite,tailwind&theme=light" height="44" alt="React · TypeScript · Vue · JavaScript · HTML · CSS · Vite · Tailwind CSS"/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=react%2Cts%2Cvue%2Cjs%2Chtml%2Ccss%2Cvite%2Ctailwind&theme=dark"/><img src="https://skillicons.dev/icons?i=react,ts,vue,js,html,css,vite,tailwind&theme=light" height="44" alt="React · TypeScript · Vue · JavaScript · HTML · CSS · Vite · Tailwind CSS"/></picture>
 
 <br/>
 
 **Backend · Tools**<br/>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,django,fastapi,git,gitlab,docker&theme=dark"/><img src="https://skillicons.dev/icons?i=python,django,fastapi,git,gitlab,docker&theme=light" height="44" alt="Python · Django · FastAPI · Git · GitLab · Docker"/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python%2Cdjango%2Cfastapi%2Cgit%2Cgitlab%2Cdocker&theme=dark"/><img src="https://skillicons.dev/icons?i=python,django,fastapi,git,gitlab,docker&theme=light" height="44" alt="Python · Django · FastAPI · Git · GitLab · Docker"/></picture>
 
 <br/>
 
