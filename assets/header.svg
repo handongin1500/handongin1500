@@ -2,7 +2,7 @@
   <defs>
     <pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#FFFFFF"/><line x1="0" y1="0" x2="0" y2="6" stroke="#8C959F" stroke-width="2"/></pattern><filter id="sh" x="-10%" y="-10%" width="120%" height="140%"><feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#1F2328" flood-opacity="0.08"/></filter>
     <style>
-      .role{font:700 15px 'Segoe UI','Pretendard',-apple-system,'Helvetica Neue',Arial,sans-serif;letter-spacing:3px;fill:#0969DA}
+      .role{font:700 17px 'Segoe UI','Pretendard',-apple-system,'Helvetica Neue',Arial,sans-serif;letter-spacing:2px;fill:#0969DA}
       .name{font:700 60px 'Segoe UI','Pretendard',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#1F2328}
       .tag{font:600 25px 'Pretendard','Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR','Segoe UI',sans-serif;fill:#1F2328;opacity:0}
       .t1{opacity:1}
@@ -10,6 +10,7 @@
       .title{font:700 18px 'Pretendard','Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR','Segoe UI',sans-serif;fill:#1F2328}
       .legend{font:500 17px 'Pretendard','Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR','Segoe UI',sans-serif;fill:#59636E}
       .bad{font:700 18px 'Pretendard','Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR','Segoe UI',sans-serif;fill:#CF222E}
+      .ctx{font:600 16px 'Pretendard','Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR','Segoe UI',sans-serif;fill:#59636E}
       @keyframes cycle{0%{opacity:0;transform:translateY(6px)}5%,28%{opacity:1;transform:translateY(0)}33%,100%{opacity:0}}
       @media (prefers-reduced-motion: no-preference){
         .tag{animation:cycle 9s infinite both}
@@ -18,8 +19,8 @@
     </style>
   </defs>
   <rect x="1" y="1" width="998" height="298" rx="18" fill="#F6F8FA" stroke="#D0D7DE"/>
-  <rect x="48" y="46" width="250" height="34" rx="17.0" fill="#DDF4FF"/>
-  <text x="173.0" y="68.4" text-anchor="middle" class="role">FRONTEND DEVELOPER</text>
+  <rect x="48" y="46" width="280" height="34" rx="17.0" fill="#DDF4FF"/>
+  <text x="188.0" y="68.4" text-anchor="middle" class="role">FRONTEND DEVELOPER</text>
   <text x="44" y="150" class="name">Han Dongin</text>
   <text x="48" y="198" class="tag t1">화면이 사실만 말하게 만드는 개발자</text>
   <text x="48" y="198" class="tag t2">실패는 실패라고, 모르는 숫자는 모른다고</text>
@@ -36,22 +37,22 @@
     <rect x="611.7" y="92" width="25.7" height="36" rx="4" fill="url(#hatch)" stroke="#8C959F" stroke-opacity=".55"/>
     <rect x="641.3" y="92" width="25.7" height="36" rx="4" fill="url(#hatch)" stroke="#8C959F" stroke-opacity=".55"/>
     <rect x="671.0" y="92" width="25.7" height="36" rx="4" fill="url(#hatch)" stroke="#8C959F" stroke-opacity=".55"/>
-    <rect x="700.7" y="92" width="25.7" height="36" rx="4" fill="#D0D7DE"/>
-    <rect x="730.3" y="92" width="25.7" height="36" rx="4" fill="#D0D7DE"/>
+    <rect x="700.7" y="92" width="25.7" height="36" rx="4" fill="#2DA44E"/>
+    <rect x="730.3" y="92" width="25.7" height="36" rx="4" fill="#2DA44E"/>
     <rect x="760.0" y="92" width="25.7" height="36" rx="4" fill="#2DA44E"/>
     <rect x="789.7" y="92" width="25.7" height="36" rx="4" fill="#2DA44E"/>
-    <rect x="819.3" y="92" width="25.7" height="36" rx="4" fill="#2DA44E"/>
-    <rect x="849.0" y="92" width="25.7" height="36" rx="4" fill="#2DA44E"/>
+    <rect x="819.3" y="92" width="25.7" height="36" rx="4" fill="#D0D7DE" stroke="#8C959F" stroke-opacity=".55"/>
+    <rect x="849.0" y="92" width="25.7" height="36" rx="4" fill="#D0D7DE" stroke="#8C959F" stroke-opacity=".55"/>
     <rect x="878.7" y="92" width="25.7" height="36" rx="4" fill="#2DA44E"/>
     <rect x="908.3" y="92" width="25.7" height="36" rx="4" fill="#2DA44E"/>
     <rect x="582.0" y="152.0" width="14" height="14" rx="3" fill="#2DA44E"/>
     <text x="602.0" y="164" class="legend">적립</text>
-    <rect x="659.8" y="152.0" width="14" height="14" rx="3" fill="#D0D7DE"/>
+    <rect x="659.8" y="152.0" width="14" height="14" rx="3" fill="#D0D7DE" stroke="#8C959F" stroke-opacity=".55"/>
     <text x="679.8" y="164" class="legend">적립 없음</text>
     <rect x="788.6" y="152.0" width="14" height="14" rx="3" fill="url(#hatch)" stroke="#8C959F" stroke-opacity=".55"/>
     <text x="808.6" y="164" class="legend">기록 없음</text>
   <g filter="url(#sh)"><rect x="560" y="200" width="396" height="60" rx="12" fill="#FFEBE9" stroke="#FFB8B0"/></g>
-  <circle cx="592" cy="230" r="12" fill="#CF222E"/>
-  <text x="592" y="236" text-anchor="middle" style="font:800 16px 'Segoe UI','Pretendard',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#FFEBE9">!</text>
-  <text x="616" y="236" class="bad">등급을 불러오지 못했습니다</text>
+  <circle cx="586" cy="230" r="12" fill="#CF222E"/>
+  <text x="586" y="236" text-anchor="middle" style="font:800 16px 'Segoe UI','Pretendard',-apple-system,'Helvetica Neue',Arial,sans-serif;fill:#FFEBE9">!</text>
+  <text x="608" y="236"><tspan class="ctx">API 장애 ·&#160;</tspan><tspan class="bad">등급을 불러오지 못했습니다</tspan></text>
 </svg>
