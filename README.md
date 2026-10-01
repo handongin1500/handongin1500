@@ -31,7 +31,7 @@
 
 <br/>
 
-<a href="#user-content-about">About Me</a> · <a href="#user-content-stack">Tech Stack</a> · <a href="#user-content-projects">Projects</a> · <a href="#user-content-principles">일하는 원칙</a> · <a href="#user-content-retro">돌아보며</a>
+<a href="#user-content-about">About Me</a> · <a href="#user-content-stack">Tech Stack</a> · <a href="#user-content-projects">Projects</a> · <a href="#user-content-principles">일⁠하⁠는&nbsp;원⁠칙</a>&nbsp;·&nbsp;<a href="#user-content-retro">돌⁠아⁠보⁠며</a>
 
 </div>
 
@@ -51,7 +51,7 @@ ChatGPT가 등장해 사람들이 일하고 배우는 방식이 바뀌는 흐름
 
 <br/>
 
-### 💪 이런 방식으로 일합니다
+### 💪 이⁠런 방⁠식⁠으⁠로 일⁠합⁠니⁠다
 
 | 강⁠점 | 근거가 된 경험 |
 |---|---|
@@ -62,28 +62,28 @@ ChatGPT가 등장해 사람들이 일하고 배우는 방식이 바뀌는 흐름
 
 <br/>
 
-## 🗂 한눈에 보기
+## 🗂 한⁠눈⁠에 보⁠기
 
 <table>
 <tr>
 <td width="33%" valign="top">
 <a href="#user-content-zzutopia"><img src="./assets/jjutopia-home.png" alt="쮸토피아 주주 홈"/></a>
 <p><b>🌳 쮸⁠토⁠피⁠아</b><br/><sub>주⁠주 우⁠대 제⁠도⁠를 설⁠계 · 운⁠영⁠하⁠는 B2B SaaS</sub></p>
-<p><sub>2026.08 – 09 · 프⁠론⁠트⁠엔⁠드 담⁠당 · 7명 팀</sub></p>
+<p><sub>2026.08 – 09 · 프⁠론⁠트⁠엔⁠드 담⁠당 · 7⁠명&nbsp;팀</sub></p>
 <p>“실⁠패⁠는 실⁠패⁠라⁠고, 모⁠르⁠는 숫⁠자⁠는 모⁠른⁠다⁠고 말⁠하⁠는 화⁠면”</p>
 <p><sub>✅ 테⁠스⁠트 1,212개 통⁠과<br/>✅ 프⁠론⁠트⁠엔⁠드 코⁠드 88% 작⁠성</sub></p>
 </td>
 <td width="33%" valign="top">
 <a href="#user-content-ssacurity"><img src="./assets/ssacurity-overview.png" alt="SSACURITY 관제 개요"/></a>
 <p><b>🤖 SSACURITY</b><br/><sub>셔⁠틀 승⁠강⁠장 출⁠입⁠을 관⁠제⁠하⁠는 무⁠인 태⁠깅 로⁠봇</sub></p>
-<p><sub>2026.07 – 08 · 프⁠론⁠트⁠엔⁠드 · 발⁠표 · 6명 팀</sub></p>
+<p><sub>2026.07 – 08 · 프⁠론⁠트⁠엔⁠드 · 발⁠표 · 6⁠명&nbsp;팀</sub></p>
 <p>“보⁠안 요⁠원⁠의 동⁠선⁠대⁠로 써 보⁠며 짚⁠은 문⁠제, 로⁠그⁠로 좁⁠혀 간 시⁠연 실⁠패⁠의 원⁠인”</p>
 <p><sub>✅ 거⁠짓 경⁠보 · 로⁠그⁠인 루⁠프 짚⁠어 전⁠달<br/>✅ 시⁠연 미⁠출⁠발 조⁠건⁠을 로⁠그⁠로 특⁠정</sub></p>
 </td>
 <td width="33%" valign="top">
 <a href="#user-content-jobssafy"><img src="./assets/jobssafy-interview-result.png" alt="잡싸피 면접 연습 결과"/></a>
 <p><b>💼 잡⁠싸⁠피</b><br/><sub>SSAFY 교⁠육⁠생 AI 취⁠업 준⁠비 플⁠랫⁠폼</sub></p>
-<p><sub>2026.05 – 06 · 팀⁠장 · 프⁠론⁠트⁠엔⁠드 · 2명 팀</sub></p>
+<p><sub>2026.05 – 06 · 팀⁠장 · 프⁠론⁠트⁠엔⁠드 · 2⁠명&nbsp;팀</sub></p>
 <p>“목⁠소⁠리⁠가 브⁠라⁠우⁠저 밖⁠으⁠로 나⁠가⁠지 않⁠는 AI 면⁠접 연⁠습”</p>
 <p><sub>✅ 음⁠성 데⁠이⁠터 서⁠버 전⁠송 0건<br/>✅ 첫 화⁠면 JS −73%</sub></p>
 </td>
@@ -130,12 +130,12 @@ ChatGPT가 등장해 사람들이 일하고 배우는 방식이 바뀌는 흐름
 
 | 분야 · 기술 · 숙⁠련⁠도 | 그걸로 한 일 |
 |---|---|
-| **프론트엔드** <picture><img src="./assets/level-4.svg" height="12" alt="숙련도 4/5"/></picture><br/>React 19 · TypeScript | 주주 웹과 IR 콘솔을 한 SPA로 만들고 프론트엔드 코드의 88%를 썼습니다. IR 콘솔은 지연 로딩으로 나눠 주주가 받지 않게 했습니다. <sub>쮸⁠토⁠피⁠아</sub> |
-| **프론트엔드** <picture><img src="./assets/level-4.svg" height="12" alt="숙련도 4/5"/></picture><br/>Vue 3 · Vue Router · Pinia | 로그인 여부를 전역 가드 한곳에서 판단하고, 화면 14개 중 12개를 지연 로딩해 첫 화면 JS를 73% 줄였습니다. <sub>잡⁠싸⁠피</sub> |
-| **상태 · 데이터** <picture><img src="./assets/level-3.svg" height="12" alt="숙련도 3/5"/></picture><br/>TanStack Query · Zustand · Zod | 서버 값은 쿼리 캐시에, 화면에서만 생기는 값은 스토어 두 개에 나눠 담았습니다. 요청마다 기본 12초 상한과 재시도 규칙을 걸어 멈추는 대신 실패를 알리고, 제도 설계 입력은 Zod로 칸마다 검사합니다. <sub>쮸⁠토⁠피⁠아</sub> |
-| **목 · 테스트** <picture><img src="./assets/level-3.svg" height="12" alt="숙련도 3/5"/></picture><br/>MSW · Vitest · Testing Library · Playwright · axe-core | 백엔드보다 먼저 목 서버로 화면을 완성하고, 경로 단위로 실서버에 옮기는 스위치를 만들었습니다. 테스트 1,212개를 모두 통과시켰고, E2E 24곳에서 axe 접근성 위반(serious · critical) 0건을 확인했습니다. <sub>쮸⁠토⁠피⁠아</sub> |
-| **온디바이스 AI** <picture><img src="./assets/level-3.svg" height="12" alt="숙련도 3/5"/></picture><br/>Transformers.js · Whisper | 음성 인식 모델을 브라우저 안에서 돌려, 음성을 서버로 보내지 않는 면접 연습을 만들었습니다(23.5초 답변을 3.2초에 인식). <sub>잡⁠싸⁠피</sub> |
-| **백엔드(공동)** <picture><img src="./assets/level-4.svg" height="12" alt="숙련도 4/5"/></picture><br/>Python · Django REST Framework · django-filter | 커뮤니티 검색을 필드 성격에 맞춰 완전 일치 · 부분 일치 · 제목 + 본문 통합 검색으로 나눴습니다. <sub>잡⁠싸⁠피</sub> |
+| **프론트엔드** <picture><img src="./assets/level-4.svg" height="12" alt="숙련도 4/5"/></picture><br/>React 19 · TypeScript | 주주 웹과 IR 콘솔을 한 SPA로 만들고 프론트엔드 코드의 88%를 썼습니다. IR 콘솔은 지연 로딩으로 나눠 주주가 받지 않게 했습니다.&nbsp;<sub>쮸⁠토⁠피⁠아</sub> |
+| **프론트엔드** <picture><img src="./assets/level-4.svg" height="12" alt="숙련도 4/5"/></picture><br/>Vue 3 · Vue Router · Pinia | 로그인 여부를 전역 가드 한곳에서 판단하고, 화면 14개 중 12개를 지연 로딩해 첫 화면 JS를 73% 줄였습니다.&nbsp;<sub>잡⁠싸⁠피</sub> |
+| **상태 · 데이터** <picture><img src="./assets/level-3.svg" height="12" alt="숙련도 3/5"/></picture><br/>TanStack Query · Zustand · Zod | 서버 값은 쿼리 캐시에, 화면에서만 생기는 값은 스토어 두 개에 나눠 담았습니다. 요청마다 기본 12초 상한과 재시도 규칙을 걸어 멈추는 대신 실패를 알리고, 제도 설계 입력은 Zod로 칸마다 검사합니다.&nbsp;<sub>쮸⁠토⁠피⁠아</sub> |
+| **목 · 테스트** <picture><img src="./assets/level-3.svg" height="12" alt="숙련도 3/5"/></picture><br/>MSW · Vitest · Testing Library · Playwright · axe-core | 백엔드보다 먼저 목 서버로 화면을 완성하고, 경로 단위로 실서버에 옮기는 스위치를 만들었습니다. 테스트 1,212개를 모두 통과시켰고, E2E 24곳에서 axe 접근성 위반(serious · critical) 0건을 확인했습니다.&nbsp;<sub>쮸⁠토⁠피⁠아</sub> |
+| **온디바이스 AI** <picture><img src="./assets/level-3.svg" height="12" alt="숙련도 3/5"/></picture><br/>Transformers.js · Whisper | 음성 인식 모델을 브라우저 안에서 돌려, 음성을 서버로 보내지 않는 면접 연습을 만들었습니다(23.5초 답변을 3.2초에 인식).&nbsp;<sub>잡⁠싸⁠피</sub> |
+| **백엔드(공동)** <picture><img src="./assets/level-4.svg" height="12" alt="숙련도 4/5"/></picture><br/>Python · Django REST Framework · django-filter | 커뮤니티 검색을 필드 성격에 맞춰 완전 일치 · 부분 일치 · 제목 + 본문 통합 검색으로 나눴습니다.&nbsp;<sub>잡⁠싸⁠피</sub> |
 
 **AI 코딩 도구** — Claude Code와 함께 구현하되, 수정을 되돌려 테스트가 정말 깨지는지 보고 프리뷰 배포본과 실제 AI 서버에서 다시 확인했습니다(마지막 날 만든 공지 문맥 검토 경로는 프롬프트 품질을 실제 API 키로 확인하지 못함). <sub>쮸토피아</sub>
 
@@ -147,7 +147,7 @@ ChatGPT가 등장해 사람들이 일하고 배우는 방식이 바뀌는 흐름
 
 <a id="zzutopia"></a>
 
-### 🌳 쮸토피아 — 주주 우대 제도를 설계 · 운영하는 B2B SaaS
+### 🌳 쮸⁠토⁠피⁠아 — 주⁠주 우⁠대 제⁠도⁠를 설⁠계 · 운⁠영⁠하⁠는 B2B SaaS
 
 **기간** 2026.08.31 – 09.28 · **역할** 프론트엔드 담당(팀 내 FE 1명) · **팀** 7명(FE · BE · Android · AI · Infra)<br/>
 **배포** [jjutopia.site](https://jjutopia.site) <sub>09.09 배포판 · 실제 로그인(09.10)이 붙기 전이라 데이터는 보이지 않습니다</sub>
@@ -174,18 +174,18 @@ ChatGPT가 등장해 사람들이 일하고 배우는 방식이 바뀌는 흐름
 - **숫자를 지어낸 AI 답변 차단** — 개인 수치 답변은 본문 숫자를 서버 도구 결과와 대조해, 없는 숫자가 하나라도 있으면 본문을 표시하지 않음(실서버는 개인 수치 답변을 내지 않아 목에서만 검증)
 - **모르는 날을 "0"이라 말하지 않기** — '적립' · '적립 없음'에 '기록 없음'을 세 번째 상태로 더하고, 회색 명도 대신 빗금으로 구분
 - **타입 불일치를 CI가 잡게** — 서버 OpenAPI와 손으로 쓴 타입 34쌍을 `npm test`로 자동 대조
-- **비어 있던 AI 서버 경로 채우기** — 차단 항목이 없는 공지 원고를 넘겨받을 AI 서버 경로가 없어 재검토와 배포가 늘 500이어서, 마지막 날(09.28) 그 경로를 FastAPI로 직접 만듦. AI 지적은 배포를 막지 않는 경고로만 씀(프롬프트 품질은 실제 API 키로 미확인 · AI 파트 검토 전)
+- **비어 있던 공지 문맥 검토 경로 채우기** — 차단 항목이 없는 공지 원고를 넘겨받을 AI 서버 경로가 없어 재검토와 배포가 늘 500이어서, 마지막 날(09.28) 그 경로를 FastAPI로 직접 만듦. AI 지적은 배포를 막지 않는 경고로만 씀(프롬프트 품질은 실제 API 키로 확인하지 못함 · AI 파트 검토 전)
 
 **화면**
 
 <table>
 <tr>
-<td width="50%"><img src="./assets/jjutopia-home.png" alt="주주 홈"/><p align="center"><sub><b>주주 홈</b> · 승급 조건 두 가지(적립 SP · 보유 일수)를 따로 표시</sub></p></td>
-<td width="50%"><img src="./assets/jjutopia-api-failure-crop.png" alt="API 장애 시 홈"/><p align="center"><sub><b>API 장애 시 홈</b> · 멈추지 않고 카드마다 실패를 말함</sub></p></td>
+<td width="50%" valign="top"><img src="./assets/jjutopia-home.png" alt="주주 홈"/><p align="center"><sub><b>주주 홈</b> · 승급 조건 두 가지(적립 SP · 보유 일수)를 따로 표시</sub></p></td>
+<td width="50%" valign="top"><img src="./assets/jjutopia-api-failure-crop.png" alt="API 장애 시 홈"/><p align="center"><sub><b>API 장애 시 홈</b> · 멈추지 않고 카드마다 실패를 말함</sub></p></td>
 </tr>
 <tr>
-<td width="50%"><img src="./assets/jjutopia-chat-answer.png" alt="AI 개인 수치 답변"/><p align="center"><sub><b>AI 개인 수치 답변</b> · 도구 결과와 숫자가 같을 때만 표시</sub></p></td>
-<td width="50%"><img src="./assets/jjutopia-compliance-review.png" alt="공지 컴플라이언스 검토"/><p align="center"><sub><b>공지 검토</b> · 차단 항목이 있으면 배포 잠금</sub></p></td>
+<td width="50%" valign="top"><img src="./assets/jjutopia-chat-answer.png" alt="AI 개인 수치 답변"/><p align="center"><sub><b>AI 개인 수치 답변</b> · 도구 결과와 숫자가 같을 때만 표시</sub></p></td>
+<td width="50%" valign="top"><img src="./assets/jjutopia-compliance-review.png" alt="공지 컴플라이언스 검토"/><p align="center"><sub><b>공지 검토</b> · 차단 항목이 있으면 배포 잠금</sub></p></td>
 </tr>
 <tr>
 <td colspan="2"><img src="./assets/jjutopia-history-12m.png" alt="적립 이력 12개월"/><p align="center"><sub><b>적립 이력 12개월</b> · 적립 없음(회색)과 기록 없음(빗금) 구분</sub></p></td>
@@ -198,24 +198,24 @@ ChatGPT가 등장해 사람들이 일하고 배우는 방식이 바뀌는 흐름
 
 | 기술 | 왜 이걸 골랐나 |
 |---|---|
-| TanStack Query | 기획 때 상태의 대부분이 서버에서 오는 값이라고 보고, 캐시와 다시 불러오기를 맡김 |
+| TanStack&nbsp;Query | 기획 때 상태의 대부분이 서버에서 오는 값이라고 보고, 캐시와 다시 불러오기를 맡김 |
 | Zustand | 브라우저에만 있는 작은 상태용(스토어는 끝까지 두 개) |
 | MSW | 백엔드 완성을 기다리지 않고 화면을 먼저 만들려고. 서비스워커가 요청을 가로채 앱 코드를 그대로 둔 채 경로 단위로 실서버에 옮길 수 있었음 |
 | Zod | 입력 형식 검증에만 사용. 법적 판단은 서버 컴플라이언스 API에만 맡기도록 역할을 분리 |
 | Next.js 미⁠사⁠용 | 모든 화면이 세션 쿠키 뒤라 SSR로 얻을 검색 노출이 없고, 정적 배포 전제 · 서비스워커 기반 MSW와 맞지 않음(ADR 기록) |
 
 <details>
-<summary><b>🏗 요청이 가는 길 (아키텍처)</b></summary>
+<summary><b>🏗 요⁠청⁠이 가⁠는 길 (아⁠키⁠텍⁠처)</b></summary>
 <br/>
 
 브라우저 안쪽이 담당 영역이고, AI 서버에서는 마지막 날 공지 문맥 검토 경로(접수 · 결과 조회)를 만들었습니다. 목 서버는 서비스워커라 앱 코드는 어느 경로가 목인지 모르고, `VITE_LIVE_API`에 적은 경로만 실서버로 나갑니다. 운영 빌드에는 목이 아예 없습니다.
 
 ```mermaid
-flowchart LR
+flowchart TB
   subgraph Browser["브라우저 — 담당 영역"]
     SH["주주 웹 /"]
     CO["IR 콘솔 /console<br/>지연 로딩"]
-    CL["API 클라이언트<br/>기본 12초 상한 · X-Request-ID"]
+    CL["API 클라이언트<br/>기본 12초 상한<br/>X-Request-ID"]
     MSW["MSW 목 서버<br/>서비스워커"]
     SH --> CL
     CO --> CL
@@ -226,13 +226,15 @@ flowchart LR
   BE -->|"챗봇 · 공지 검토"| AI["FastAPI<br/>RAG"]
   AND["Android 주주 앱"] --> BE
   style Browser fill:#1A7F3714,stroke:#1A7F37,stroke-width:2px
+  BE ~~~ PAD["⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"]
+  style PAD fill:transparent,stroke:transparent,color:transparent
 ```
 
 </details>
 
 📖 사례마다 **문제와 판단 · 결과**, 코드는 [Notion 쮸⁠토⁠피⁠아 페⁠이⁠지](https://app.notion.com/p/3e91b429679f81728bb5ed4cedc72a62?source=copy_link)에 정리했습니다.
 
-`React 19` `TypeScript` `Vite 8` `TanStack Query` `Zustand` `Zod` `Tailwind CSS 4` `MSW 2` `Vitest` `Playwright` `axe-core` ·&nbsp;공⁠지&nbsp;문⁠맥&nbsp;검⁠토:&nbsp;`FastAPI`
+`React 19` `TypeScript` `Vite 8` `TanStack Query` `Zustand` `Zod` `Tailwind CSS 4` `MSW 2` `Vitest` `Playwright` `axe-core` ·&nbsp;공⁠지&nbsp;문⁠맥&nbsp;검⁠토:&nbsp;`FastAPI`
 
 
 <br/>
@@ -241,7 +243,7 @@ flowchart LR
 
 <a id="ssacurity"></a>
 
-### 🤖 SSACURITY — 셔틀 승강장 출입 태깅을 로봇이 대신하는 관제 시스템
+### 🤖 SSACURITY — 셔⁠틀 승⁠강⁠장 출⁠입 태⁠깅⁠을 로⁠봇⁠이 대⁠신⁠하⁠는 관⁠제 시⁠스⁠템
 
 **기간** 2026.07.13 – 08.11 · **역할** 프론트엔드 · 발표 · **팀** 6명(하드웨어 4 포함)
 
@@ -273,8 +275,8 @@ flowchart LR
 
 <table>
 <tr>
-<td width="50%"><img src="./assets/ssacurity-overview.png" alt="관제 개요"/><p align="center"><sub><b>관제 개요</b> · 로봇 위치 · 게이트 판정 · 경고를 한 화면에</sub></p></td>
-<td width="50%"><img src="./assets/ssacurity-alert.png" alt="무단 통과 경보"/><p align="center"><sub><b>무단 통과 경보</b> · 경보 창에서 바로 신원 입력으로</sub></p></td>
+<td width="50%" valign="top"><img src="./assets/ssacurity-overview.png" alt="관제 개요"/><p align="center"><sub><b>관제 개요</b> · 로봇 위치 · 게이트 판정 · 경고를 한 화면에</sub></p></td>
+<td width="50%" valign="top"><img src="./assets/ssacurity-alert.png" alt="무단 통과 경보"/><p align="center"><sub><b>무단 통과 경보</b> · 경보 창에서 바로 신원 입력으로</sub></p></td>
 </tr>
 </table>
 
@@ -282,20 +284,20 @@ flowchart LR
 
 <table>
 <tr>
-<td width="33%"><img src="./assets/ssacurity-deck-tof.png" alt="ToF 판정"/><p align="center"><sub><b>ToF 판정</b> · 통과 · 방향을 잡고 태깅 기록과 대조</sub></p></td>
-<td width="33%"><img src="./assets/ssacurity-deck-demo.png" alt="시연 구성"/><p align="center"><sub><b>시연 구성</b> · 시연자 셋 · 촬영 · 송출 둘</sub></p></td>
-<td width="33%"><img src="./assets/ssacurity-deck-apriltag.png" alt="AprilTag 보정"/><p align="center"><sub><b>AprilTag 보정</b> · 태그 지점에서 쌓인 오차를 끊고 다시 맞춤</sub></p></td>
+<td width="33%" valign="top"><img src="./assets/ssacurity-deck-tof.png" alt="ToF 판정"/><p align="center"><sub><b>ToF 판정</b> · 통과 · 방향을 잡고 태깅 기록과 대조</sub></p></td>
+<td width="33%" valign="top"><img src="./assets/ssacurity-deck-demo.png" alt="시연 구성"/><p align="center"><sub><b>시연 구성</b> · 시연자 셋 · 촬영 · 송출 둘</sub></p></td>
+<td width="33%" valign="top"><img src="./assets/ssacurity-deck-apriltag.png" alt="AprilTag 보정"/><p align="center"><sub><b>AprilTag 보정</b> · 태그 지점에서 쌓인 오차를 끊고 다시 맞춤</sub></p></td>
 </tr>
 </table>
 
 <details>
-<summary><b>🏗 요청이 가는 길 (아키텍처)</b></summary>
+<summary><b>🏗 요⁠청⁠이 가⁠는 길 (아⁠키⁠텍⁠처)</b></summary>
 <br/>
 
-역할은 **실패했을 때 무엇이 위험한가**로 나눴습니다. 모터 제어와 안전 정지는 STM32가 혼자 판단하고, 무거운 인식은 젯슨이 맡습니다.
+팀은 역할을 **실패했을 때 무엇이 위험한가**로 나눴습니다. 모터 제어와 안전 정지는 STM32가 혼자 판단하고, 무거운 인식은 젯슨이 맡습니다.
 
 ```mermaid
-flowchart LR
+flowchart TB
   UI["관제 화면<br/>단일 HTML"] <-->|"WebSocket /ws/dashboard"| API["FastAPI 관제 서버"]
   RPI["라즈베리파이 5<br/>RFID · ToF · 스피커"] -->|"HTTPS 인입"| API
   API --> DB[("PostgreSQL 16")]
@@ -308,7 +310,7 @@ flowchart LR
 
 📖 화면 검수 · 로봇 동작 검증 · 발표 · 로그 분석의 **문제와 판단 · 결과**는 [Notion SSACURITY 페이지](https://app.notion.com/p/SSACURITY-3e91b429679f814da3e4d88472095981?source=copy_link)에 정리했습니다.
 
-`관제 화면 검수` `주행 로그 분석` `초기 목업: React · TypeScript` · 팀 스택: `Vanilla JS` `WebSocket` `FastAPI` `ROS 2` `UART`
+`관제 화면 검수` `주행 로그 분석` `초기 목⁠업: React · TypeScript` · 팀 스택: `Vanilla JS` `WebSocket` `FastAPI` `ROS 2` `UART`
 
 <br/>
 
@@ -316,7 +318,7 @@ flowchart LR
 
 <a id="jobssafy"></a>
 
-### 💼 잡싸피 — SSAFY 교육생을 위한 AI 취업 준비 플랫폼
+### 💼 잡⁠싸⁠피 — SSAFY 교⁠육⁠생⁠을 위⁠한 AI 취⁠업 준⁠비 플⁠랫⁠폼
 
 **기간** 2026.05.08 – 06.26 · **역할** 팀장 · 프론트엔드 · 온디바이스 AI · **팀** 2명
 
@@ -348,55 +350,56 @@ flowchart LR
 <td colspan="2"><img src="./assets/jobssafy-interview-result.png" alt="면접 연습 결과"/><p align="center"><sub><b>면접 연습 결과</b>(예시 답변) · 브라우저 안에서 텍스트로 바꾸고 말하기 속도와 습관어를 짚음 · tiny 모델이라 '면접 → 면적'처럼 발음이 비슷한 단어는 틀리기도 함 · 화면의 답변 시간 25초는 녹음 버튼 기준(음성은 23.5초)</sub></p></td>
 </tr>
 <tr>
-<td width="50%"><img src="./assets/jobssafy-home.png" alt="잡싸피 홈"/><p align="center"><sub><b>홈</b> · 떠다니는 배경은 transform만 움직여 레이아웃 · 페인트를 다시 계산하지 않음</sub></p></td>
-<td width="50%"><img src="./assets/jobssafy-career-tools.png" alt="취업 편의 툴"/><p align="center"><sub><b>취업 편의 툴</b>(예시 문장) · 글자 수 계산 · 임시 저장 · 증명사진 변환</sub></p></td>
+<td width="50%" valign="top"><img src="./assets/jobssafy-home.png" alt="잡싸피 홈"/><p align="center"><sub><b>홈</b> · 떠다니는 배경은 transform만 움직여 레이아웃 · 페인트를 다시 계산하지 않음</sub></p></td>
+<td width="50%" valign="top"><img src="./assets/jobssafy-career-tools.png" alt="취업 편의 툴"/><p align="center"><sub><b>취업 편의 툴</b>(예시 문장) · 글자 수 계산 · 임시 저장 · 증명사진 변환</sub></p></td>
 </tr>
 </table>
 
 **기술 선택 이유** — Transformers.js는 Hugging Face의 음성 인식 모델을 브라우저에서 그대로 불러와, 2명 · 최종 구현 5일 조건에서 서버를 늘리지 않고 붙일 수 있었습니다.
 
 <details>
-<summary><b>🏗 요청이 가는 길 (아키텍처)</b></summary>
+<summary><b>🏗 요⁠청⁠이 가⁠는 길 (아⁠키⁠텍⁠처)</b></summary>
 <br/>
 
-음성은 브라우저 밖으로 나가지 않고, 음성 인식을 위해 처음 한 번 받는 것은 모델 파일(Hugging Face)과 WASM 런타임(jsDelivr CDN)뿐입니다. 서버 쪽 AI와 챗봇 · 자소서 평가 · 합격 자소서 화면은 팀원이 맡았습니다.
+음성은 브라우저 밖으로 나가지 않고, 음성 인식을 위해 처음 한 번 받는 것은 모델 파일(Hugging Face)과 WASM 런타임(jsDelivr CDN)뿐입니다. 서버 쪽 AI와 챗봇 · 자소서 평가 · 합격 자소서 화면은 팀원이 맡았습니다. 그림에서 주황 테두리가 주로 맡은 브라우저 쪽입니다.
 
 ```mermaid
 flowchart LR
-  subgraph Browser["브라우저 — 주로 담당한 영역"]
     UI["Vue 3 SPA<br/>Vue Router · Pinia"]
     STT["Whisper tiny<br/>Transformers.js"]
     LS[("localStorage<br/>면접 기록 · 자소서 초안")]
     UI -->|"녹음 → 16kHz PCM"| STT
     UI --> LS
-  end
   HF["Hugging Face Hub<br/>모델 파일 · 최초 1회"] -.-> STT
   CDN["jsDelivr CDN<br/>WASM 런타임 · 최초 1회"] -.-> STT
   UI -->|"REST · JWT"| DRF["Django REST Framework"]
   UI -->|"자소서 문장 평가"| EVAL["FastAPI<br/>Qwen2.5-1.5B + LoRA"]
   DRF --> DB[("SQLite")]
   DRF -->|"임베딩 · 챗봇"| GPT["OpenAI API"]
-  style Browser fill:#BC4C0014,stroke:#BC4C00,stroke-width:2px
+  classDef mine fill:#BC4C0014,stroke:#BC4C00,stroke-width:2px
+  class UI,STT,LS mine
+  DRF ~~~ PAD["⠀<br/>⠀<br/>⠀<br/>⠀"]
+  style PAD fill:transparent,stroke:transparent,color:transparent
 ```
 
 </details>
 
 📖 사례마다 **문제와 판단 · 결과**, 코드는 [Notion 잡⁠싸⁠피 페⁠이⁠지](https://app.notion.com/p/3e91b429679f81a8b22cf2e8cb2e0702?source=copy_link)에 정리했습니다.
 
-`Vue 3` `Vite` `Vue Router` `Pinia` `Transformers.js` `Whisper` `Web Audio API` `Django REST Framework` `django-filter`
+`Vue 3` `Vite` `Vue Router` `Pinia` `Transformers.js` `Whisper` `Web Audio API` `Django REST Framework` `django-filter`
 
 <br/>
 
 <a id="principles"></a>
 
-## 🧭 일하는 원칙 — 세 프로젝트를 잇는 것
+## 🧭 일⁠하⁠는 원⁠칙 — 세 프⁠로⁠젝⁠트⁠를 잇⁠는&nbsp;것
 
 <sub>시간순 · 잡싸피 → SSACURITY → 쮸토피아 · 펼치면 프로젝트마다 한 줄씩</sub>
 
 잡싸피에서 사용자에게 숨긴 실패는 쮸토피아의 "실패는 실패라고"가 됐고, SSACURITY에서 다시 만들어야 했던 화면은 쮸토피아의 "계약 먼저"가 됐습니다.
 
 <details>
-<summary>🔎 <b>사실만 말하는 화면</b> — 받지 못한 것, 모르는 것, 틀린 것을 미리 채우지 않습니다.</summary>
+<summary>🔎 <b>사⁠실⁠만 말⁠하⁠는 화⁠면</b> — 받⁠지 못⁠한 것, 모⁠르⁠는 것, 틀⁠린 것⁠을 미⁠리 채⁠우⁠지 않⁠습⁠니⁠다.</summary>
 <br/>
 
 - **💼 잡싸피** — 마이크 권한이 없거나 음성 분석에 실패해도 예시 문장으로 피드백을 만들어 기록에 남겨, 사용자가 진짜 결과로 오해할 수 있었습니다.
@@ -406,7 +409,7 @@ flowchart LR
 </details>
 
 <details>
-<summary>🧯 <b>안 됐을 때를 먼저</b> — 잘됐을 때보다 안 됐을 때 어떻게 물러설지를 먼저 정합니다.</summary>
+<summary>🧯 <b>안 됐⁠을 때⁠를 먼⁠저</b> — 잘⁠됐⁠을 때⁠보⁠다 안 됐⁠을 때 어⁠떻⁠게 물⁠러⁠설⁠지⁠를 먼⁠저 정⁠합⁠니⁠다.</summary>
 <br/>
 
 - **💼 잡싸피** — 음성 인식 모델을 불러오는 동안에는 녹음 버튼을 막았지만, 불러오지 못했을 때의 길은 정하지 않았습니다. 실패는 콘솔에만 남고 버튼이 다시 열려, 답변을 마친 뒤에야 예시 문장 피드백으로 넘어갔습니다.
@@ -416,7 +419,7 @@ flowchart LR
 </details>
 
 <details>
-<summary>🤝 <b>계약을 먼저</b> — 화면보다 서버와 주고받을 약속을 먼저 세웁니다.</summary>
+<summary>🤝 <b>계⁠약⁠을 먼⁠저</b> — 화⁠면⁠보⁠다 서⁠버⁠와 주⁠고⁠받⁠을 약⁠속⁠을 먼⁠저 세⁠웁⁠니⁠다.</summary>
 <br/>
 
 - **💼 잡싸피** — '내 프로필인가'를 프론트가 추측하다가 "팔로우" 버튼 버그를 냈습니다. 서버가 아는 사실은 응답에 넣자고 먼저 맞췄어야 했습니다.
@@ -426,7 +429,7 @@ flowchart LR
 </details>
 
 <details>
-<summary>📍 <b>기준은 한곳에</b> — 하나의 판단을 여러 곳에서 하지 않습니다.</summary>
+<summary>📍 <b>기⁠준⁠은 한⁠곳⁠에</b> — 하⁠나⁠의 판⁠단⁠을 여⁠러 곳⁠에⁠서 하⁠지 않⁠습⁠니⁠다.</summary>
 <br/>
 
 - **💼 잡싸피** — 로그인이 필요한 화면인지는 라우트마다 따로 막지 않고 전역 가드 한곳에서 판단했습니다.
@@ -436,7 +439,7 @@ flowchart LR
 </details>
 
 <details>
-<summary>📦 <b>필요한 사람에게 필요한 코드만</b> — 자리에 맞춰 나누되, 나눌 이유가 없으면 나누지 않습니다.</summary>
+<summary>📦 <b>필⁠요⁠한 사⁠람⁠에⁠게 필⁠요⁠한 코⁠드⁠만</b> — 자⁠리⁠에 맞⁠춰 나⁠누⁠되, 나⁠눌 이⁠유⁠가 없⁠으⁠면 나⁠누⁠지 않⁠습⁠니⁠다.</summary>
 <br/>
 
 - **💼 잡싸피** — 면접 화면에서만 쓰는 AI 라이브러리를 지연 로딩으로 빼 첫 화면 JS(gzip)를 216.2 KB에서 59.2 KB로 줄였습니다(−73%).
@@ -446,7 +449,7 @@ flowchart LR
 </details>
 
 <details>
-<summary>📏 <b>재서 판단하기</b> — 체감 대신 측정값으로 정합니다.</summary>
+<summary>📏 <b>재⁠서 판⁠단⁠하⁠기</b> — 체⁠감 대⁠신 측⁠정⁠값⁠으⁠로 정⁠합⁠니⁠다.</summary>
 <br/>
 
 - **💼 잡싸피** — 음성 인식 모델을 양자화 버전과 비교해 보지 않고 fp32(약 145 MB)로 정했습니다. 끝난 뒤 다시 측정해 보니 면접 화면 첫 로딩이 약 34초였습니다. 같은 모델의 q8 버전은 fp32의 4분의 1쯤인 약 39 MB입니다.
@@ -459,23 +462,23 @@ flowchart LR
 
 <a id="retro"></a>
 
-## 📈 돌아보며
+## 📈 돌⁠아⁠보⁠며
 
 <details>
-<summary><b>🌳 쮸토피아</b> — 증상이 아니라 길을 고쳤다 · 목에서만 참인 것들</summary>
+<summary><b>🌳 쮸⁠토⁠피⁠아</b> — 증⁠상⁠이 아⁠니⁠라 길⁠을 고⁠쳤⁠다 · 목⁠에⁠서⁠만 참⁠인 것⁠들</summary>
 <br/>
 
-**잘한 점 · 증상이 아니라 길을 고쳤다**
+**잘⁠한 점 · 증⁠상⁠이 아⁠니⁠라 길⁠을 고⁠쳤⁠다**
 - 에러 화면이 안 뜰 때 화면을 고치지 않고, **그 화면에 닿지 못하게 하는 길**(없던 시간 상한)을 찾아 막았습니다.
 - 기준값은 근거를 남겨 정했습니다. 5초 목 부팅 시한은 정상 부팅 실측(0.6–1.0초)에서, 12초 요청 상한은 느린 네트워크 기준(3초)의 4배로 정했습니다.
 - 제 변경도 틀리면 바로 되돌리거나 고쳤습니다. 증권사 부분 연동은 병합 전 검토에서 13분 만에 되돌렸고, dev에 바로 올렸던 추적 번호 회귀는 18분 만에 고쳤습니다.
 
-**아쉬운 점 · 목에서만 참인 것들**
+**아⁠쉬⁠운 점 · 목⁠에⁠서⁠만 참⁠인 것⁠들**
 - 개인 수치 대조는 끝내 실서버에서 돌지 못하고 목에서만 증명됐습니다.
 - 목에 권한 검사가 없어, 역할 버그를 E2E가 잡지 못하고 잘못된 이유로 통과한 적이 있습니다.
 - 계약 대조는 스냅샷 갱신이 CI 밖이라, 스냅샷이 낡으면 조용합니다.
 
-**다음엔 · 목도 서버만큼 엄격하게**
+**다⁠음⁠엔 · 목⁠도 서⁠버⁠만⁠큼 엄⁠격⁠하⁠게**
 - 목에도 **권한 경계**를 넣어 E2E가 역할 문제를 잡게 하겠습니다.
 - OpenAPI 스냅샷 갱신을 CI에 넣고, 손으로 쓴 타입 대신 **생성 타입**을 검토하겠습니다.
 - 서버가 개인 수치를 `figures`와 함께 내려 주는 계약을 **처음부터** AI · BE와 맞추겠습니다.
@@ -483,22 +486,22 @@ flowchart LR
 </details>
 
 <details>
-<summary><b>🤖 SSACURITY</b> — 사람이 움직이는 순서로, 좁혀서, 로그로 · 재시도를 전제한 대본, 기능 단위 리허설</summary>
+<summary><b>🤖 SSACURITY</b> — 사⁠람⁠이 움⁠직⁠이⁠는 순⁠서⁠로, 좁⁠혀⁠서, 로⁠그⁠로 · 재⁠시⁠도⁠를 전⁠제⁠한 대⁠본, 기⁠능 단⁠위 리⁠허⁠설</summary>
 <br/>
 
-**잘한 점 · 사람이 움직이는 순서로, 좁혀서, 로그로**
+**잘⁠한 점 · 사⁠람⁠이 움⁠직⁠이⁠는 순⁠서⁠로, 좁⁠혀⁠서, 로⁠그⁠로**
 - **화면을 기능이 아니라 동선으로 봤습니다.** "이걸 누가, 어떤 상황에서 보는가"라는 질문 하나로 화면 검수도, 시연 시나리오도, 대본도 정리됐습니다.
 - **문제를 좁혀서 넘겼습니다.** "안 돼요" 대신 어디까지 왔고 어디서 끊겼는지, "속도가 이상해요" 대신 어느 구간에서만 튀는지를 말하니 고칠 사람이 같은 것을 보고 움직일 수 있었습니다.
 - **눈으로는 정상 주행이어도 로그를 의심**해 저속 구간의 측정 불안정을 찾았고, **실패한 시연을 성공한 주행과 대조**해 "하드웨어 탓"으로 끝날 뻔한 일을 구조적 원인으로 좁혔습니다.
 
-**아쉬운 점 · 재시도를 전제한 대본, 기능 단위 리허설**
+**아⁠쉬⁠운 점 · 재⁠시⁠도⁠를 전⁠제⁠한 대⁠본, 기⁠능 단⁠위 리⁠허⁠설**
 - **실패 대응 문장 여덟 개가 전부 재시도를 전제**했습니다. 문장은 만들었지만, 그 문장을 언제 써야 하는지 판별할 눈은 만들지 않았습니다.
 - **기능 단위 확인을 리허설이라고 불렀습니다.** 시나리오를 만들었으면 그 시나리오 그대로 리허설했어야 했습니다.
 - **수정안은 끝내 코드에 들어가지 못했습니다.** 멈춘 조건을 찾은 시점이 발표 뒤였습니다.
 - **같은 판단 기준이 여러 곳에 흩어져** 있는 것을 거짓 경보가 난 뒤에야 알았습니다.
 - **붙어 지나가는 두 사람은 끝내 가르지 못했습니다.** 바짝 붙어 지나가면 통과가 한 번으로 집계됩니다. ToF 두 개로는 통과와 방향까지는 알아도 사람 수는 셀 수 없는 구조였습니다.
 
-**다음엔 · 물러설 길부터, 나오는 길까지**
+**다⁠음⁠엔 · 물⁠러⁠설 길⁠부⁠터, 나⁠오⁠는 길⁠까⁠지**
 - 무언가를 보여 줄 자리에서는 **어떻게 보여 줄지보다 어떻게 물러설지**를 먼저 정하겠습니다. 출발 전 상태 점검표를 두고, 재시도 여부는 발표자가 아닌 사람이 판단하게 하겠습니다.
 - 상태 기계는 **들어가는 조건과 나오는 길을** 같은 무게로 확인하겠습니다. 모든 상태에 탈출 경로가 하나 이상 있는지 표로 그려 보는 것부터입니다.
 - **'살아 있음' 신호가 끊기면 보내는 쪽이 먼저 알게 하겠습니다.** 로봇은 위험해서가 아니라 조용해서 멈췄습니다. 대기 중 중립 명령이 '살아 있지만 시킬 일은 없다'는 신호였는데, 그 신호가 끊긴 것을 받는 쪽(STM32)만 알았습니다.
@@ -508,21 +511,21 @@ flowchart LR
 </details>
 
 <details>
-<summary><b>💼 잡싸피</b> — 서버보다 브라우저에서 풀 수 있는지 따져 봤다 · 첫 로딩, 메인 스레드, 숨긴 실패</summary>
+<summary><b>💼 잡⁠싸⁠피</b> — 서⁠버⁠보⁠다 브⁠라⁠우⁠저⁠에⁠서 풀 수 있⁠는⁠지 따⁠져 봤⁠다 · 첫 로⁠딩, 메⁠인 스⁠레⁠드, 숨⁠긴 실⁠패</summary>
 <br/>
 
-**잘한 점 · 서버보다 브라우저에서 풀 수 있는지 따져 봤다**
+**잘⁠한 점 · 서⁠버⁠보⁠다 브⁠라⁠우⁠저⁠에⁠서 풀 수 있⁠는⁠지 따⁠져 봤⁠다**
 - 음성 인식을 서버 일로만 보지 않고 **브라우저에서 풀 수 있는지** 따져, 2명 · 최종 구현 5일 조건에서 백엔드 부담 없이 기능을 완성했습니다.
 - 무거운 라이브러리를 붙인 뒤 **라우트를 지연 로딩으로 바꿔**, 면접 연습을 하지 않는 사용자가 그 비용을 치르지 않게 했습니다.
 
-**아쉬운 점 · 첫 로딩, 메인 스레드, 숨긴 실패**
+**아⁠쉬⁠운 점 · 첫 로⁠딩, 메⁠인 스⁠레⁠드, 숨⁠긴 실⁠패**
 - **면접 화면의 첫 로딩이 무겁습니다.** fp32 모델(약 145 MB)과 WASM 런타임(약 22 MB)을 받아야 해서, 다시 재 보니 첫 로딩에 약 34초가 걸렸습니다. 같은 모델의 q8 양자화 버전은 약 39 MB인데, 두 버전을 비교해 보지 않고 fp32로 정했습니다.
 - **추론이 메인 스레드에서 돕니다.** 분석하는 동안에는 화면이 멈추거나 느려질 수 있습니다.
 - **실패를 숨겼습니다.** 마이크 권한이 없거나 음성 분석에 실패하면 예시 문장으로 피드백을 만들어 기록에 저장했습니다. 모델을 불러오지 못했을 때도 콘솔에만 남기고, 불러오는 동안 막아 둔 녹음 버튼을 다시 열어, 답변을 마치면 역시 예시 문장 피드백이 나왔습니다.
 - **본인 여부를 프론트에서 추측했습니다.** 요청을 한 번 더 보내 확인했지만, 서버가 `is_me` 같은 값을 내려 줬다면 요청 한 번으로 끝났을 일입니다.
 - **API 주소와 인증 헤더를 호출마다 적었습니다.** 로그인 여부는 전역 가드 한곳에서 판단했지만, 요청은 한곳을 지나지 않았습니다. 제가 쓴 코드에만 `http://localhost:8000`이 20곳, 인증 헤더를 직접 만드는 곳이 16곳이라, 주소를 바꾸거나 배포 환경으로 옮기려면 호출을 하나하나 고쳐야 하는 구조였습니다.
 
-**다음엔 · 무거운 일은 워커로, 판단은 서버로**
+**다⁠음⁠엔 · 무⁠거⁠운 일⁠은 워⁠커⁠로, 판⁠단⁠은 서⁠버⁠로**
 - 모델은 **fp32와 양자화 버전의 정확도를 비교해** 고르고, 추론은 **Web Worker**로 옮겨 화면이 멈추지 않게 하겠습니다.
 - 실패는 **실패라고 알리고** 기록에서 빼겠습니다.
 - 본인 여부 · 권한처럼 **서버가 아는 사실은 응답에 넣자고** API 설계 단계에서 먼저 맞추겠습니다.
