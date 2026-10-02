@@ -90,7 +90,7 @@ ChatGPT가 등장해 사람들이 일하고 배우는 방식이 바뀌는 흐름
 </tr>
 </table>
 
-<sub>그림을 누르면 아래 프로젝트 설명으로 갑니다 · 쮸토피아는 목 모드 화면(회사와 수치는 목 데이터), SSACURITY 관제 화면은 팀 결과물(목 모드), 잡싸피 면접 결과는 예시 답변입니다.</sub>
+<sub>그림을 누르면 아래 프로젝트 설명과 작동 GIF로 갑니다 · 쮸토피아는 목 모드 화면(회사와 수치는 목 데이터), SSACURITY 관제 화면은 팀 결과물(목 모드), 잡싸피 면접 결과는 합성 음성으로 넣은 예시 답변입니다.</sub>
 
 <br/>
 
@@ -180,23 +180,23 @@ ChatGPT가 등장해 사람들이 일하고 배우는 방식이 바뀌는 흐름
 
 <table>
 <tr>
-<td colspan="2"><img src="./assets/jjutopia-timeout.gif" alt="서버가 답하지 않을 때 카드마다 실패를 말하는 홈"/><p align="center"><sub><b>서버가 답하지 않을 때</b> · 12초 상한에 재시도 한 번, 약 25초 뒤 카드마다 실패를 말함</sub></p></td>
+<td colspan="2"><img src="./assets/jjutopia-timeout.gif" alt="서버가 답하지 않을 때 카드마다 실패를 말하는 홈"/><p align="center"><sub><b>서⁠버⁠가 답⁠하⁠지 않⁠을 때</b> · 12초 상⁠한⁠에 재⁠시⁠도 한 번, 약 25초 뒤 카⁠드⁠마⁠다 실⁠패⁠를 말⁠함</sub></p></td>
 </tr>
 <tr>
-<td colspan="2"><img src="./assets/jjutopia-chat.gif" alt="AI 챗봇의 제도 지식 답변과 개인 수치 답변"/><p align="center"><sub><b>AI 답변</b> · 제도 지식은 근거 문서와 함께, 개인 수치는 도구 결과와 숫자가 같을 때만 표시(답변의 16,320 · 1,680 · 120이 왼쪽 링 · 카드와 같은 값)</sub></p></td>
+<td colspan="2"><img src="./assets/jjutopia-chat.gif" alt="AI 챗봇이 '내 등급 알려줘'에 답하고, 같은 숫자를 홈의 링과 카드에서 짚는 과정"/><p align="center"><sub><b>AI 개⁠인 수⁠치 답⁠변</b> · 본⁠문 숫⁠자⁠가 도⁠구 결⁠과⁠와 같⁠을 때⁠만 표⁠시(16,320 · 1,680 · 120이 왼⁠쪽 링 · 카⁠드⁠와 같⁠은 값)</sub></p></td>
 </tr>
 <tr>
-<td colspan="2"><img src="./assets/jjutopia-review.gif" alt="공지 검토에서 제안 문구로 바꿔 배포가 열리는 과정"/><p align="center"><sub><b>공지 검토</b> · 차단 항목이 있으면 배포 잠금, 제안 문구로 바꾸면 다시 검토해 경고만 남으면 배포 가능</sub></p></td>
+<td colspan="2"><img src="./assets/jjutopia-review.gif" alt="공지 검토에서 제안 문구로 바꿔 배포가 열리는 과정"/><p align="center"><sub><b>공⁠지 검⁠토</b> · 차⁠단 항⁠목⁠이 있⁠으⁠면 배⁠포 잠⁠금, 제⁠안 문⁠구⁠로 바⁠꾸⁠면 다⁠시 검⁠토⁠해 경⁠고⁠만 남⁠으⁠면 배⁠포 가⁠능</sub></p></td>
 </tr>
 <tr>
-<td colspan="2"><img src="./assets/jjutopia-home.png" alt="주주 홈"/><p align="center"><sub><b>주주 홈</b> · 승급 조건 두 가지(적립 SP · 보유 일수)를 따로 표시</sub></p></td>
+<td colspan="2"><img src="./assets/jjutopia-wizard.gif" alt="제도 설계에서 최소 보유 수량에 따라 경고와 차단이 붙는 과정"/><p align="center"><sub><b>제⁠도 설⁠계</b> · 최⁠소 보⁠유 수⁠량⁠을 올⁠리⁠면 서⁠버 판⁠정⁠이 입⁠력 아⁠래 붙⁠음(120주 경⁠고 · 460주 차⁠단), 현⁠금 지⁠급⁠은 고⁠를 수 없⁠음</sub></p></td>
 </tr>
 <tr>
-<td colspan="2"><img src="./assets/jjutopia-history-12m.png" alt="적립 이력 12개월"/><p align="center"><sub><b>적립 이력 12개월</b> · 적립 없음(회색)과 기록 없음(빗금) 구분</sub></p></td>
+<td colspan="2"><img src="./assets/jjutopia-history-12m.png" alt="적립 이력 12개월"/><p align="center"><sub><b>적⁠립 이⁠력 12개⁠월</b> · 적⁠립 없⁠음(회⁠색)과 기⁠록 없⁠음(빗⁠금) 구⁠분</sub></p></td>
 </tr>
 </table>
 
-<sub>화면은 모두 목 모드에서 찍었고, 회사와 수치는 목 데이터입니다. '서버가 답하지 않을 때'는 앱이 뜨기 전에 fetch를 바꿔 끼워 재현했고, 기다리는 구간은 6배로 빨리 감았습니다.</sub>
+<sub>화⁠면⁠은 모⁠두 목 모⁠드⁠에⁠서 찍⁠었⁠고, 회⁠사⁠와 수⁠치⁠는 목 데⁠이⁠터⁠입⁠니⁠다. '서⁠버⁠가 답⁠하⁠지 않⁠을 때'는 앱⁠이 뜨⁠기 전⁠에 fetch를 바⁠꿔 끼⁠워 재⁠현⁠했⁠고, 기⁠다⁠리⁠는 구⁠간⁠은 6배⁠로 빨⁠리 감⁠았⁠습⁠니⁠다.</sub>
 
 **기술 선택 이유**
 
@@ -275,16 +275,18 @@ flowchart TB
 - **안 됐을 때를 먼저 쓴 발표** — 대본 14분 27초 · Q&A 대본 44문항 · 8장면 시연 시나리오 · 실패 상황별 대응 문장 8개
 - **시연 실패를 로그로 좁히기** — 39분 뒤 정상 주행 로그와 대조해, 하드웨어가 아니라 끊긴 중립 명령이 로봇을 세웠다는 조건까지 특정(끊긴 이유는 남은 질문)
 
-**화면** <sub>(관제 화면은 팀 결과물 · 목 모드 캡처)</sub>
+**화면** <sub>(관⁠제 화⁠면⁠은 팀 결⁠과⁠물 · 목 모⁠드 화⁠면)</sub>
 
 <table>
 <tr>
-<td colspan="2"><img src="./assets/ssacurity-ident.gif" alt="무단 통과 경보에서 신원 입력으로 넘어가는 과정"/><p align="center"><sub><b>무단 통과 경보 → 신원 입력</b> · 경보 창에서 바로 신원 입력으로, 확인한 요원 칸은 로그인한 이름으로 채워짐(이름은 예시)</sub></p></td>
+<td colspan="2"><img src="./assets/ssacurity-overview.png" alt="관제 개요"/><p align="center"><sub><b>관⁠제 개⁠요</b> · 로⁠봇 위⁠치 · 게⁠이⁠트 판⁠정 · 경⁠고⁠를 한 화⁠면⁠에</sub></p></td>
 </tr>
 <tr>
-<td colspan="2"><img src="./assets/ssacurity-overview.png" alt="관제 개요"/><p align="center"><sub><b>관제 개요</b> · 로봇 위치 · 게이트 판정 · 경고를 한 화면에</sub></p></td>
+<td colspan="2"><img src="./assets/ssacurity-ident.gif" alt="무단 통과 경보에서 신원 입력으로 넘어가는 과정"/><p align="center"><sub><b>무⁠단 통⁠과 경⁠보 → 신⁠원 입⁠력</b> · 경⁠보 창⁠에⁠서 바⁠로 신⁠원 입⁠력⁠으⁠로, 확⁠인⁠한 요⁠원 칸⁠은 로⁠그⁠인⁠한 이⁠름⁠으⁠로 채⁠워⁠짐</sub></p></td>
 </tr>
 </table>
+
+<sub>신⁠원 칸 이⁠름⁠은 예⁠시⁠입⁠니⁠다. 목 모⁠드⁠에⁠는 보⁠고⁠를 받⁠을 서⁠버⁠가 없⁠어 '보⁠고 보⁠내⁠기' 직⁠전⁠까⁠지 담⁠았⁠습⁠니⁠다.</sub>
 
 **발표 장표** <sub>(발표 담당)</sub>
 
@@ -353,15 +355,17 @@ flowchart TB
 
 <table>
 <tr>
-<td colspan="2" align="center"><img src="./assets/jobssafy-interview.gif" alt="면접 연습 녹음부터 결과까지"/><p align="center"><sub><b>면접 연습</b>(예시 답변 · 합성 음성) · 브라우저 안에서 텍스트로 바꾸고 말하기 속도와 습관어를 짚음 · tiny 모델이라 '면접 → 면적'처럼 발음이 비슷한 단어는 틀리기도 함 · 화면의 답변 시간 25초는 녹음 버튼 기준(음성은 23.5초) · 녹음 구간은 6배로 빨리 감음</sub></p></td>
+<td colspan="2"><img src="./assets/jobssafy-interview.gif" alt="면접 연습 녹음부터 결과까지"/><p align="center"><sub><b>면⁠접 연⁠습</b> · 녹⁠음⁠한 답⁠변⁠을 브⁠라⁠우⁠저 안⁠에⁠서 텍⁠스⁠트⁠로 바⁠꾸⁠고 말⁠하⁠기 속⁠도⁠와 습⁠관⁠어⁠를 짚⁠음(예⁠시 답⁠변 · 합⁠성 음⁠성)</sub></p></td>
 </tr>
 <tr>
-<td colspan="2" align="center"><img src="./assets/jobssafy-tools.gif" alt="자소서 글자 수 세기 · 임시 저장 · 보관함 저장"/><p align="center"><sub><b>취업 편의 툴</b>(예시 문장) · 서버 없이 글자 수 계산 · 새로 고쳐도 남는 임시 저장 · 보관함 저장(같은 화면에 증명사진 변환기도 있음) · 입력 일부는 2배로 빨리 감음</sub></p></td>
+<td colspan="2"><img src="./assets/jobssafy-tools.gif" alt="자소서 글자 수 세기 · 임시 저장 · 보관함 저장"/><p align="center"><sub><b>취⁠업 편⁠의 툴</b> · 서⁠버 없⁠이 글⁠자 수 계⁠산 · 새⁠로⁠고⁠침⁠해⁠도 남⁠는 임⁠시 저⁠장 · 보⁠관⁠함 저⁠장(예⁠시 문⁠장)</sub></p></td>
 </tr>
 <tr>
-<td colspan="2"><img src="./assets/jobssafy-home.png" alt="잡싸피 홈"/><p align="center"><sub><b>홈</b> · 떠다니는 배경은 transform만 움직여 레이아웃 · 페인트를 다시 계산하지 않음</sub></p></td>
+<td colspan="2"><img src="./assets/jobssafy-home.png" alt="잡싸피 홈"/><p align="center"><sub><b>홈</b> · 떠⁠다⁠니⁠는 배⁠경⁠은 transform만 움⁠직⁠여 레⁠이⁠아⁠웃 · 페⁠인⁠트⁠를 다⁠시 계⁠산⁠하⁠지 않⁠음</sub></p></td>
 </tr>
 </table>
+
+<sub>면⁠접 연⁠습⁠은 모⁠델⁠을 불⁠러⁠온 뒤⁠부⁠터 녹⁠화⁠했⁠고, 녹⁠음 구⁠간⁠과 취⁠업 편⁠의 툴⁠의 입⁠력 일⁠부⁠는 빨⁠리 감⁠았⁠습⁠니⁠다(GIF 안⁠에 배⁠속 표⁠시). tiny 모⁠델⁠이⁠라 '면⁠접 → 면⁠적'처⁠럼 발⁠음⁠이 비⁠슷⁠한 단⁠어⁠는 틀⁠리⁠기⁠도 하⁠고, 화⁠면⁠의 답⁠변 시⁠간 25초⁠는 녹⁠음 버⁠튼 기⁠준⁠입⁠니⁠다(음⁠성⁠은 23.5초). 취⁠업 편⁠의 툴 화⁠면⁠에⁠는 증⁠명⁠사⁠진 변⁠환⁠기⁠도 있⁠습⁠니⁠다.</sub>
 
 **기술 선택 이유** — Transformers.js는 Hugging Face의 음성 인식 모델을 브라우저에서 그대로 불러와, 2명 · 최종 구현 5일 조건에서 서버를 늘리지 않고 붙일 수 있었습니다.
 
