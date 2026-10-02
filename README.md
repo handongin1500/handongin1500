@@ -18,7 +18,7 @@
 <td align="center" width="50%">💻 <b>Frontend Developer</b><br/><sub>React · TypeScript · Vue.js</sub></td>
 </tr>
 <tr>
-<td align="center">🏦&nbsp;<b>핀⁠테⁠크</b>&nbsp;· 🤖&nbsp;<b>로⁠봇&nbsp;관⁠제</b>&nbsp;· 💼&nbsp;<b>AI&nbsp;취⁠업&nbsp;준⁠비</b><br/><sub>SSAFY 프⁠로⁠젝⁠트 3개</sub></td>
+<td align="center">🏦&nbsp;<b>핀⁠테⁠크</b>&nbsp;· 🤖&nbsp;<b>로⁠봇&nbsp;관⁠제</b>&nbsp;· 💼&nbsp;<b>AI&nbsp;취⁠업&nbsp;준⁠비</b><br/><sub>SSAFY 프⁠로⁠젝⁠트 3⁠개</sub></td>
 <td align="center">🔍 <b>프⁠론⁠트⁠엔⁠드 포⁠지⁠션⁠을 찾⁠고 있⁠어⁠요</b><br/><sub>편⁠하⁠게 연⁠락 주⁠세⁠요 · d5353973@gmail.com</sub></td>
 </tr>
 </table>
@@ -53,12 +53,12 @@ ChatGPT가 등장해 사람들이 일하고 배우는 방식이 바뀌는 흐름
 
 ### 💪 이⁠런 방⁠식⁠으⁠로 일⁠합⁠니⁠다
 
-| 강⁠점 | 근거가 된 경험 |
+| 강⁠점 | 근⁠거⁠가 된 경⁠험 |
 |---|---|
-| **🤝 협⁠력** | 다른 파트에 보낼 요청은 번호 붙은 문안으로 관리하고, **보내기 전에 코드와 수치를 다시 재서** 이미 해결된 일을 요청하지 않았습니다. |
-| **🧱 논⁠리** | "FE는 도메인 수치를 계산하지 않는다" 같은 **불변 규칙 12개**를 세우고 eslint · 테스트로 강제했습니다. 라이브 시연 실패는 정상 주행 로그와 **대조 분석**해, 하드웨어가 아니라 끊긴 중립 명령이 로봇을 세웠다는 조건까지 좁혔습니다(끊긴 이유는 남은 질문). |
-| **🌱 학⁠습** | 수학 전공에서 개발로 넘어와 Vue.js에 브라우저 음성 인식(Whisper)을 붙이는 것으로 시작했고, 로봇 관제 프로젝트의 검수 · 발표를 거쳐 React · TypeScript 핀테크 서비스의 프론트엔드를 유일한 담당으로 맡기까지 **프로젝트마다 새 역할과 스택으로 결과를 냈습니다.** |
-| **🙇 검⁠증** | 테스트가 통과해도 믿지 않고 **가드를 일부러 되돌려 실패하는지 확인**합니다. 회고에서는 잘한 점만큼 아쉬운 점과 다음에 바꿀 점을 구체적으로 남깁니다. |
+| **🤝 협⁠력** | 다⁠른 파⁠트⁠에 보⁠낼 요⁠청⁠은 번⁠호 붙⁠은 문⁠안⁠으⁠로 관⁠리⁠하⁠고, **보⁠내⁠기 전⁠에 코⁠드⁠와 수⁠치⁠를 다⁠시 재⁠서** 이⁠미 해⁠결⁠된 일⁠을 요⁠청⁠하⁠지 않⁠았⁠습⁠니⁠다. |
+| **🧱 논⁠리** | "FE⁠는 도⁠메⁠인 수⁠치⁠를 계⁠산⁠하⁠지 않⁠는⁠다" 같⁠은 **불⁠변 규⁠칙 12⁠개**를 세⁠우⁠고 eslint · 테⁠스⁠트⁠로 강⁠제⁠했⁠습⁠니⁠다. 라⁠이⁠브 시⁠연 실⁠패⁠는 정⁠상 주⁠행 로⁠그⁠와 **대⁠조 분⁠석**해, 하⁠드⁠웨⁠어⁠가 아⁠니⁠라 끊⁠긴 중⁠립 명⁠령⁠이 로⁠봇⁠을 세⁠웠⁠다⁠는 조⁠건⁠까⁠지 좁⁠혔⁠습⁠니⁠다(끊⁠긴 이⁠유⁠는 남⁠은 질⁠문). |
+| **🌱 학⁠습** | 수⁠학 전⁠공⁠에⁠서 개⁠발⁠로 넘⁠어⁠와 Vue.js⁠에 브⁠라⁠우⁠저 음⁠성 인⁠식(Whisper)⁠을 붙⁠이⁠는 것⁠으⁠로 시⁠작⁠했⁠고, 로⁠봇 관⁠제 프⁠로⁠젝⁠트⁠의 검⁠수 · 발⁠표⁠를 거⁠쳐 React · TypeScript 핀⁠테⁠크 서⁠비⁠스⁠의 프⁠론⁠트⁠엔⁠드⁠를 유⁠일⁠한 담⁠당⁠으⁠로 맡⁠기⁠까⁠지 **프⁠로⁠젝⁠트⁠마⁠다 새 역⁠할⁠과 스⁠택⁠으⁠로 결⁠과⁠를 냈⁠습⁠니⁠다.** |
+| **🙇 검⁠증** | 테⁠스⁠트⁠가 통⁠과⁠해⁠도 믿⁠지 않⁠고 **가⁠드⁠를 일⁠부⁠러 되⁠돌⁠려 실⁠패⁠하⁠는⁠지 확⁠인**합⁠니⁠다. 회⁠고⁠에⁠서⁠는 잘⁠한 점⁠만⁠큼 아⁠쉬⁠운 점⁠과 다⁠음⁠에 바⁠꿀 점⁠을 구⁠체⁠적⁠으⁠로 남⁠깁⁠니⁠다. |
 
 <br/>
 
@@ -71,7 +71,7 @@ ChatGPT가 등장해 사람들이 일하고 배우는 방식이 바뀌는 흐름
 <p><b>🌳 쮸⁠토⁠피⁠아</b><br/><sub>주⁠주 우⁠대 제⁠도⁠를 설⁠계 · 운⁠영⁠하⁠는 B2B SaaS</sub></p>
 <p><sub>2026.08 – 09 · 프⁠론⁠트⁠엔⁠드 담⁠당 · 7⁠명&nbsp;팀</sub></p>
 <p>“실⁠패⁠는 실⁠패⁠라⁠고, 모⁠르⁠는 숫⁠자⁠는 모⁠른⁠다⁠고 말⁠하⁠는 화⁠면”</p>
-<p><sub>✅ 테⁠스⁠트 1,212개 통⁠과<br/>✅ 프⁠론⁠트⁠엔⁠드 코⁠드 88% 작⁠성</sub></p>
+<p><sub>✅ 테⁠스⁠트 1,212⁠개 통⁠과<br/>✅ 프⁠론⁠트⁠엔⁠드 코⁠드 88% 작⁠성</sub></p>
 </td>
 <td width="33%" valign="top">
 <a href="#user-content-ssacurity"><img src="./assets/ssacurity-overview.png" alt="SSACURITY 관제 개요"/></a>
@@ -85,12 +85,12 @@ ChatGPT가 등장해 사람들이 일하고 배우는 방식이 바뀌는 흐름
 <p><b>💼 잡⁠싸⁠피</b><br/><sub>SSAFY 교⁠육⁠생 AI 취⁠업 준⁠비 플⁠랫⁠폼</sub></p>
 <p><sub>2026.05 – 06 · 팀⁠장 · 프⁠론⁠트⁠엔⁠드 · 2⁠명&nbsp;팀</sub></p>
 <p>“목⁠소⁠리⁠가 브⁠라⁠우⁠저 밖⁠으⁠로 나⁠가⁠지 않⁠는 AI 면⁠접 연⁠습”</p>
-<p><sub>✅ 음⁠성 데⁠이⁠터 서⁠버 전⁠송 0건<br/>✅ 첫 화⁠면 JS −73%</sub></p>
+<p><sub>✅ 음⁠성 데⁠이⁠터 서⁠버 전⁠송 0⁠건<br/>✅ 첫 화⁠면 JS −73%</sub></p>
 </td>
 </tr>
 </table>
 
-<sub>그림을 누르면 아래 프로젝트 설명과 작동 GIF로 갑니다 · 쮸토피아는 목 모드 화면(회사와 수치는 목 데이터), SSACURITY 관제 화면은 팀 결과물(목 모드), 잡싸피 면접 결과는 합성 음성으로 넣은 예시 답변입니다.</sub>
+<sub>그⁠림⁠을 누⁠르⁠면 아⁠래 프⁠로⁠젝⁠트 설⁠명⁠과 작⁠동 GIF⁠로 갑⁠니⁠다 · 쮸⁠토⁠피⁠아⁠는 목 모⁠드 화⁠면(회⁠사⁠와 수⁠치⁠는 목 데⁠이⁠터), SSACURITY 관⁠제 화⁠면⁠은 팀 결⁠과⁠물(목 모⁠드), 잡⁠싸⁠피 면⁠접 결⁠과⁠는 합⁠성 음⁠성⁠으⁠로 넣⁠은 예⁠시 답⁠변⁠입⁠니⁠다.</sub>
 
 <br/>
 
@@ -126,13 +126,13 @@ ChatGPT가 등장해 사람들이 일하고 배우는 방식이 바뀌는 흐름
 
 <br/>
 
-**숙련도와 쓴 곳** <sub>프로젝트에서 쓴 것만 · 숙련도는 5단계 자기 평가입니다.</sub>
+**숙⁠련⁠도⁠와 쓴 곳** <sub>프⁠로⁠젝⁠트⁠에⁠서 쓴 것⁠만 · 숙⁠련⁠도⁠는 5⁠단⁠계 자⁠기 평⁠가⁠입⁠니⁠다.</sub>
 
 | 분야 · 기술 · 숙⁠련⁠도 | 그걸로 한 일 |
 |---|---|
 | **프론트엔드** <picture><img src="./assets/level-4.svg" height="12" alt="숙련도 4/5"/></picture><br/>React 19 · TypeScript | 주주 웹과 IR 콘솔을 한 SPA로 만들고 프론트엔드 코드의 88%를 썼습니다. IR 콘솔은 지연 로딩으로 나눠 주주가 받지 않게 했습니다.&nbsp;<sub>쮸⁠토⁠피⁠아</sub> |
 | **프론트엔드** <picture><img src="./assets/level-4.svg" height="12" alt="숙련도 4/5"/></picture><br/>Vue 3 · Vue Router · Pinia | 로그인 여부를 전역 가드 한곳에서 판단하고, 화면 14개 중 12개를 지연 로딩해 첫 화면 JS를 73% 줄였습니다.&nbsp;<sub>잡⁠싸⁠피</sub> |
-| **상태 · 데이터** <picture><img src="./assets/level-3.svg" height="12" alt="숙련도 3/5"/></picture><br/>TanStack Query · Zustand · Zod | 서버 값은 쿼리 캐시에, 화면에서만 생기는 값은 스토어 두 개에 나눠 담았습니다. 요청마다 기본 12초 상한과 재시도 규칙을 걸어 멈추는 대신 실패를 알리고, 제도 설계 입력은 Zod로 칸마다 검사합니다.&nbsp;<sub>쮸⁠토⁠피⁠아</sub> |
+| **상태 · 데이터** <picture><img src="./assets/level-3.svg" height="12" alt="숙련도 3/5"/></picture><br/>TanStack Query · Zustand · Zod | 서⁠버 값⁠은 쿼⁠리 캐⁠시⁠에, 필⁠터 · 탭⁠은 URL⁠에, 새⁠로⁠고⁠침⁠해⁠도 남⁠아⁠야 하⁠는 제⁠도 설⁠계 초⁠안⁠과 챗⁠봇 창 자⁠리⁠만 스⁠토⁠어 두 개⁠에 담⁠았⁠습⁠니⁠다. 요⁠청⁠마⁠다 기⁠본 12⁠초 상⁠한⁠과 재⁠시⁠도 규⁠칙⁠을 걸⁠어 멈⁠추⁠는 대⁠신 실⁠패⁠를 알⁠리⁠고, 제⁠도 설⁠계 입⁠력⁠은 Zod⁠로 칸⁠마⁠다 검사합니다.&nbsp;<sub>쮸⁠토⁠피⁠아</sub> |
 | **목 · 테스트** <picture><img src="./assets/level-3.svg" height="12" alt="숙련도 3/5"/></picture><br/>MSW · Vitest · Testing Library · Playwright · axe-core | 백엔드보다 먼저 목 서버로 화면을 완성하고, 경로 단위로 실서버에 옮기는 스위치를 만들었습니다. 테스트 1,212개를 모두 통과시켰고, E2E 24곳에서 axe 접근성 위반(serious · critical) 0건을 확인했습니다.&nbsp;<sub>쮸⁠토⁠피⁠아</sub> |
 | **온디바이스 AI** <picture><img src="./assets/level-3.svg" height="12" alt="숙련도 3/5"/></picture><br/>Transformers.js · Whisper | 음성 인식 모델을 브라우저 안에서 돌려, 음성을 서버로 보내지 않는 면접 연습을 만들었습니다(23.5초 답변을 3.2초에 인식).&nbsp;<sub>잡⁠싸⁠피</sub> |
 | **백엔드(공동)** <picture><img src="./assets/level-4.svg" height="12" alt="숙련도 4/5"/></picture><br/>Python · Django REST Framework · django-filter | 커뮤니티 검색을 필드 성격에 맞춰 완전 일치 · 부분 일치 · 제목 + 본문 통합 검색으로 나눴습니다.&nbsp;<sub>잡⁠싸⁠피</sub> |
@@ -150,7 +150,7 @@ ChatGPT가 등장해 사람들이 일하고 배우는 방식이 바뀌는 흐름
 ### 🌳 쮸⁠토⁠피⁠아 — 주⁠주 우⁠대 제⁠도⁠를 설⁠계 · 운⁠영⁠하⁠는 B2B SaaS
 
 **기간** 2026.08.31 – 09.28 · **역할** 프론트엔드 담당(팀 내 FE 1명) · **팀** 7명(FE · BE · Android · AI · Infra)<br/>
-**배포** [jjutopia.site](https://jjutopia.site) <sub>09.09 배포판 · 실제 로그인(09.10)이 붙기 전이라 데이터는 보이지 않습니다</sub>
+**배포** [jjutopia.site](https://jjutopia.site) <sub>09.09 배⁠포⁠판 · 실⁠제 로⁠그⁠인(09.10)⁠이 붙⁠기 전⁠이⁠라 카⁠드⁠마⁠다 '불⁠러⁠오⁠지 못⁠했⁠습⁠니⁠다'가 뜹⁠니⁠다</sub>
 
 > **실패는 실패라고, 모르는 숫자는 모른다고 말하는 화면을 만들었습니다.**
 
@@ -164,7 +164,7 @@ ChatGPT가 등장해 사람들이 일하고 배우는 방식이 바뀌는 흐름
 <picture><img src="https://img.shields.io/badge/%EC%9A%B4%EC%98%81_%EB%B9%8C%EB%93%9C_%EB%AA%A9_%EC%BD%94%EB%93%9C-0_KB-1A7F37?style=for-the-badge&logo=vite&logoColor=white" alt="운영 빌드 목 코드: 0 KB"/></picture>
 <picture><img src="https://img.shields.io/badge/%EC%A0%91%EA%B7%BC%EC%84%B1_%EC%9C%84%EB%B0%98-0%EA%B1%B4-1A7F37?style=for-the-badge" alt="접근성 위반: 0건"/></picture>
 
-<sub>FE 코드 비중: git blame 3.5만 줄 중 3.1만 줄 · 테스트: Vitest 898 + Playwright 314 · 주주가 받지 않는 콘솔 코드 38.4 KB(gzip) · 접근성: axe serious · critical, E2E 24곳 검사 · 2026.09.28 기준</sub>
+<sub>FE 코⁠드 비⁠중: git blame 3.5⁠만 줄 중 3.1⁠만 줄 · 테⁠스⁠트: Vitest 898 + Playwright 314 · 주⁠주⁠가 받⁠지 않⁠는 콘⁠솔 코⁠드 38.4 KB(gzip) · 접⁠근⁠성: axe serious · critical, E2E 24⁠곳 검⁠사 · 2026.09.28 기⁠준</sub>
 
 </div>
 
@@ -176,37 +176,37 @@ ChatGPT가 등장해 사람들이 일하고 배우는 방식이 바뀌는 흐름
 - **타입 불일치를 CI가 잡게** — 서버 OpenAPI와 손으로 쓴 타입 34쌍을 `npm test`로 자동 대조
 - **비어 있던 공지 문맥 검토 경로 채우기** — 차단 항목이 없는 공지 원고를 넘겨받을 AI 서버 경로가 없어 재검토와 배포가 늘 500이어서, 마지막 날(09.28) 그 경로를 FastAPI로 직접 만듦. AI 지적은 배포를 막지 않는 경고로만 씀(프롬프트 품질은 실제 API 키로 확인하지 못함 · AI 파트 검토 전)
 
-**화면**
+**화⁠면** <sub>(목 모⁠드 · 회⁠사⁠와 수⁠치⁠는 목 데⁠이⁠터)</sub>
 
 <table>
 <tr>
-<td colspan="2"><img src="./assets/jjutopia-timeout.gif" alt="서버가 답하지 않을 때 카드마다 실패를 말하는 홈"/><p align="center"><sub><b>서⁠버⁠가 답⁠하⁠지 않⁠을 때</b> · 12초 상⁠한⁠에 재⁠시⁠도 한 번, 약 25초 뒤 카⁠드⁠마⁠다 실⁠패⁠를 말⁠함</sub></p></td>
+<td colspan="2"><img src="./assets/jjutopia-timeout.gif" alt="서버가 답하지 않을 때 카드마다 실패를 말하는 홈"/><p align="center"><sub><b>서⁠버⁠가 답⁠하⁠지 않⁠을 때</b> · 12⁠초 상⁠한⁠에 재⁠시⁠도 한 번, 약 25⁠초 뒤 카⁠드⁠마⁠다 실⁠패⁠를 말⁠함</sub></p></td>
 </tr>
 <tr>
-<td colspan="2"><img src="./assets/jjutopia-chat.gif" alt="AI 챗봇이 '내 등급 알려줘'에 답하고, 같은 숫자를 홈의 링과 카드에서 짚는 과정"/><p align="center"><sub><b>AI 개⁠인 수⁠치 답⁠변</b> · 본⁠문 숫⁠자⁠가 도⁠구 결⁠과⁠와 같⁠을 때⁠만 표⁠시(16,320 · 1,680 · 120이 왼⁠쪽 링 · 카⁠드⁠와 같⁠은 값)</sub></p></td>
+<td colspan="2"><img src="./assets/jjutopia-chat.gif" alt="AI 챗봇이 '내 등급 알려줘'에 답하고, 같은 숫자를 홈의 링과 카드에서 짚는 과정"/><p align="center"><sub><b>AI 개⁠인 수⁠치 답⁠변</b> · 본⁠문 숫⁠자⁠가 도⁠구 결⁠과⁠와 같⁠을 때⁠만 표⁠시(16,320 · 1,680 · 120⁠이 왼⁠쪽 링 · 카⁠드⁠와 같⁠은 값) · 실⁠서⁠버⁠는 이 답⁠변⁠을 내⁠지 않⁠아 목⁠에⁠서⁠만 검⁠증</sub></p></td>
 </tr>
 <tr>
 <td colspan="2"><img src="./assets/jjutopia-review.gif" alt="공지 검토에서 제안 문구로 바꿔 배포가 열리는 과정"/><p align="center"><sub><b>공⁠지 검⁠토</b> · 차⁠단 항⁠목⁠이 있⁠으⁠면 배⁠포 잠⁠금, 제⁠안 문⁠구⁠로 바⁠꾸⁠면 다⁠시 검⁠토⁠해 경⁠고⁠만 남⁠으⁠면 배⁠포 가⁠능</sub></p></td>
 </tr>
 <tr>
-<td colspan="2"><img src="./assets/jjutopia-wizard.gif" alt="제도 설계에서 최소 보유 수량에 따라 경고와 차단이 붙는 과정"/><p align="center"><sub><b>제⁠도 설⁠계</b> · 최⁠소 보⁠유 수⁠량⁠을 올⁠리⁠면 서⁠버 판⁠정⁠이 입⁠력 아⁠래 붙⁠음(120주 경⁠고 · 460주 차⁠단), 현⁠금 지⁠급⁠은 고⁠를 수 없⁠음</sub></p></td>
+<td colspan="2"><img src="./assets/jjutopia-wizard.gif" alt="제도 설계에서 최소 보유 수량에 따라 경고와 차단이 붙는 과정"/><p align="center"><sub><b>제⁠도 설⁠계</b> · 최⁠소 보⁠유 수⁠량⁠을 올⁠리⁠면 서⁠버 판⁠정⁠이 입⁠력 아⁠래 붙⁠음(120⁠주 경⁠고 · 460⁠주 차⁠단), 현⁠금 지⁠급⁠은 고⁠를 수 없⁠음</sub></p></td>
 </tr>
 <tr>
-<td colspan="2"><img src="./assets/jjutopia-history-12m.png" alt="적립 이력 12개월"/><p align="center"><sub><b>적⁠립 이⁠력 12개⁠월</b> · 적⁠립 없⁠음(회⁠색)과 기⁠록 없⁠음(빗⁠금) 구⁠분</sub></p></td>
+<td colspan="2"><img src="./assets/jjutopia-history-12m.png" alt="적립 이력 12개월"/><p align="center"><sub><b>적⁠립 이⁠력 12⁠개⁠월</b> · 적⁠립 없⁠음(회⁠색)⁠과 기⁠록 없⁠음(빗⁠금) 구⁠분</sub></p></td>
 </tr>
 </table>
 
-<sub>화⁠면⁠은 모⁠두 목 모⁠드⁠에⁠서 찍⁠었⁠고, 회⁠사⁠와 수⁠치⁠는 목 데⁠이⁠터⁠입⁠니⁠다. '서⁠버⁠가 답⁠하⁠지 않⁠을 때'는 앱⁠이 뜨⁠기 전⁠에 fetch를 바⁠꿔 끼⁠워 재⁠현⁠했⁠고, 기⁠다⁠리⁠는 구⁠간⁠은 6배⁠로 빨⁠리 감⁠았⁠습⁠니⁠다.</sub>
+<sub>'서⁠버⁠가 답⁠하⁠지 않⁠을 때'는 앱⁠이 뜨⁠기 전⁠에 fetch⁠를 바⁠꿔 끼⁠워 재⁠현⁠했⁠고, 기⁠다⁠리⁠는 구⁠간⁠은 6⁠배⁠로 빨⁠리 감⁠았⁠습⁠니⁠다(GIF 안⁠에 배⁠속 표⁠시).</sub>
 
 **기술 선택 이유**
 
-| 기술 | 왜 이걸 골랐나 |
+| 기⁠술 | 왜 이⁠걸 골⁠랐⁠나 |
 |---|---|
-| TanStack&nbsp;Query | 기획 때 상태의 대부분이 서버에서 오는 값이라고 보고, 캐시와 다시 불러오기를 맡김 |
-| Zustand | 브라우저에만 있는 작은 상태용(스토어는 끝까지 두 개) |
-| MSW | 백엔드 완성을 기다리지 않고 화면을 먼저 만들려고. 서비스워커가 요청을 가로채 앱 코드를 그대로 둔 채 경로 단위로 실서버에 옮길 수 있었음 |
-| Zod | 입력 형식 검증에만 사용. 법적 판단은 서버 컴플라이언스 API에만 맡기도록 역할을 분리 |
-| Next.js 미⁠사⁠용 | 모든 화면이 세션 쿠키 뒤라 SSR로 얻을 검색 노출이 없고, 정적 배포 전제 · 서비스워커 기반 MSW와 맞지 않음(ADR 기록) |
+| TanStack&nbsp;Query | 기⁠획 때 상⁠태⁠의 대⁠부⁠분⁠이 서⁠버⁠에⁠서 오⁠는 값⁠이⁠라⁠고 보⁠고, 캐⁠시⁠와 다⁠시 불⁠러⁠오⁠기⁠를 맡⁠김 |
+| Zustand | 브⁠라⁠우⁠저⁠에⁠만 있⁠는 작⁠은 상⁠태⁠용(스⁠토⁠어⁠는 끝⁠까⁠지 두 개) |
+| MSW | 백⁠엔⁠드 완⁠성⁠을 기⁠다⁠리⁠지 않⁠고 화⁠면⁠을 먼⁠저 만⁠들⁠려⁠고. 서⁠비⁠스⁠워⁠커⁠가 요⁠청⁠을 가⁠로⁠채 앱 코⁠드⁠를 그⁠대⁠로 둔 채 경⁠로 단⁠위⁠로 실⁠서⁠버⁠에 옮⁠길 수 있⁠었⁠음 |
+| Zod | 입⁠력 형⁠식 검⁠증⁠에⁠만 사⁠용. 법⁠적 판⁠단⁠은 서⁠버 컴⁠플⁠라⁠이⁠언⁠스 API⁠에⁠만 맡⁠기⁠도⁠록 역⁠할⁠을 분⁠리 |
+| Next.js 미⁠사⁠용 | 모⁠든 화⁠면⁠이 세⁠션 쿠⁠키 뒤⁠라 SSR⁠로 얻⁠을 검⁠색 노⁠출⁠이 없⁠고, 정⁠적 배⁠포 전⁠제 · 서⁠비⁠스⁠워⁠커 기⁠반 MSW⁠와 맞⁠지 않⁠음(ADR 기⁠록) |
 
 <details>
 <summary><b>🏗 요⁠청⁠이 가⁠는 길 (아⁠키⁠텍⁠처)</b></summary>
@@ -260,11 +260,11 @@ flowchart TB
 
 <picture><img src="https://img.shields.io/badge/%EA%B1%B0%EC%A7%93_%EC%9E%AC%EC%97%B0%EA%B2%B0_%EA%B2%BD%EB%B3%B4%28%EC%8B%9C%EC%97%B0_%EA%B0%81%EB%B3%B8%29-%EC%A7%9A%EC%96%B4_%EC%A0%84%EB%8B%AC_%E2%86%92_%ED%8C%80%EC%9B%90_%EB%B0%98%EC%98%81-0969DA?style=for-the-badge" alt="거짓 재연결 경보(시연 각본): 짚어 전달 → 팀원 반영"/></picture>
 <picture><img src="https://img.shields.io/badge/%EA%B6%8C%ED%95%9C_%EB%B6%80%EC%A1%B1_%EB%A1%9C%EA%B7%B8%EC%9D%B8_%EB%A3%A8%ED%94%84-%EC%A7%9A%EC%96%B4_%EC%A0%84%EB%8B%AC_%E2%86%92_%ED%8C%80%EC%9B%90_%EB%B0%98%EC%98%81-0969DA?style=for-the-badge" alt="권한 부족 로그인 루프: 짚어 전달 → 팀원 반영"/></picture>
-<picture><img src="https://img.shields.io/badge/%EC%B8%A1%EC%A0%95_%EC%86%8D%EB%8F%84_%ED%9D%94%EB%93%A4%EB%A6%BC-%EC%95%BD_70%25_%EA%B0%90%EC%86%8C-0969DA?style=for-the-badge" alt="측정 속도 흔들림: 약 70% 감소"/></picture>
+<picture><img src="https://img.shields.io/badge/%EC%B8%A1%EC%A0%95_%EC%86%8D%EB%8F%84_%ED%9D%94%EB%93%A4%EB%A6%BC%28%ED%8C%80%EC%9B%90_%EC%88%98%EC%A0%95%29-%EC%95%BD_70%25_%EA%B0%90%EC%86%8C-0969DA?style=for-the-badge" alt="측정 속도 흔들림(팀원 수정): 약 70% 감소"/></picture>
 <picture><img src="https://img.shields.io/badge/%EB%AA%85%EB%A0%B9_%EC%86%A1%EC%8B%A0_%EB%A1%9C%EA%B7%B8_%EB%8C%80%EC%A1%B0-0%ED%9A%8C_%E2%86%94_202%ED%9A%8C-0969DA?style=for-the-badge" alt="명령 송신 로그 대조: 0회 ↔ 202회"/></picture>
 <picture><img src="https://img.shields.io/badge/%EB%B0%9C%ED%91%9C_%EB%8C%80%EB%B3%B8-14%EB%B6%84_27%EC%B4%88_%C2%B7_Q%26A_%EB%8C%80%EB%B3%B8_44%EB%AC%B8%ED%95%AD-0969DA?style=for-the-badge" alt="발표 대본: 14분 27초 · Q&A 대본 44문항"/></picture>
 
-<sub>관제 화면 사례는 짚어 전달, 로봇 사례는 로그로 조건을 좁혀 넘김 · 코드 반영은 담당 팀원 · 흔들림은 동일 조건 3회 반복 주행 기준(이동창을 거친 측정값) · 시연 미출발은 멈춘 조건만 특정(중립 명령이 끊긴 이유는 남은 질문)</sub>
+<sub>관⁠제 화⁠면 사⁠례⁠는 짚⁠어 전⁠달, 로⁠봇 사⁠례⁠는 로⁠그⁠로 조⁠건⁠을 좁⁠혀 넘⁠김 · 코⁠드 반⁠영⁠은 담⁠당 팀⁠원 · 흔⁠들⁠림⁠은 동⁠일 조⁠건 3⁠회 반⁠복 주⁠행 기⁠준(이⁠동⁠창⁠을 거⁠친 측⁠정⁠값) · 시⁠연 미⁠출⁠발⁠은 멈⁠춘 조⁠건⁠만 특⁠정(중⁠립 명⁠령⁠이 끊⁠긴 이⁠유⁠는 남⁠은 질⁠문)</sub>
 
 </div>
 
@@ -282,7 +282,7 @@ flowchart TB
 <td colspan="2"><img src="./assets/ssacurity-overview.png" alt="관제 개요"/><p align="center"><sub><b>관⁠제 개⁠요</b> · 로⁠봇 위⁠치 · 게⁠이⁠트 판⁠정 · 경⁠고⁠를 한 화⁠면⁠에</sub></p></td>
 </tr>
 <tr>
-<td colspan="2"><img src="./assets/ssacurity-ident.gif" alt="무단 통과 경보에서 신원 입력으로 넘어가는 과정"/><p align="center"><sub><b>무⁠단 통⁠과 경⁠보 → 신⁠원 입⁠력</b> · 경⁠보 창⁠에⁠서 바⁠로 신⁠원 입⁠력⁠으⁠로, 확⁠인⁠한 요⁠원 칸⁠은 로⁠그⁠인⁠한 이⁠름⁠으⁠로 채⁠워⁠짐</sub></p></td>
+<td colspan="2"><img src="./assets/ssacurity-ident.gif" alt="무단 통과 경보에서 신원 입력으로 넘어가는 과정"/><p align="center"><sub><b>무⁠단 통⁠과 경⁠보 → 신⁠원 입⁠력</b> · 경⁠보 창⁠에⁠서 바⁠로 신⁠원 입⁠력⁠으⁠로, 확⁠인⁠한 요⁠원 칸⁠은 로⁠그⁠인⁠한 계⁠정 이⁠름(demo)⁠으⁠로 채⁠워⁠짐</sub></p></td>
 </tr>
 </table>
 
@@ -292,9 +292,9 @@ flowchart TB
 
 <table>
 <tr>
-<td width="33%" valign="top"><img src="./assets/ssacurity-deck-tof.png" alt="ToF 판정"/><p align="center"><sub><b>ToF 판정</b> · 통과 · 방향을 잡고 태깅 기록과 대조</sub></p></td>
-<td width="33%" valign="top"><img src="./assets/ssacurity-deck-demo.png" alt="시연 구성"/><p align="center"><sub><b>시연 구성</b> · 시연자 셋 · 촬영 · 송출 둘</sub></p></td>
-<td width="33%" valign="top"><img src="./assets/ssacurity-deck-apriltag.png" alt="AprilTag 보정"/><p align="center"><sub><b>AprilTag 보정</b> · 태그 지점에서 쌓인 오차를 끊고 다시 맞춤</sub></p></td>
+<td width="33%" valign="top"><img src="./assets/ssacurity-deck-tof.png" alt="ToF 판정"/><p align="center"><sub><b>ToF 판⁠정</b> · 통⁠과 · 방⁠향⁠을 잡⁠고 태⁠깅 기⁠록⁠과 대⁠조</sub></p></td>
+<td width="33%" valign="top"><img src="./assets/ssacurity-deck-demo.png" alt="시연 구성"/><p align="center"><sub><b>시⁠연 구⁠성</b> · 시⁠연⁠자 셋 · 촬⁠영 · 송⁠출 둘</sub></p></td>
+<td width="33%" valign="top"><img src="./assets/ssacurity-deck-apriltag.png" alt="AprilTag 보정"/><p align="center"><sub><b>AprilTag 보⁠정</b> · 태⁠그 지⁠점⁠에⁠서 쌓⁠인 오⁠차⁠를 끊⁠고 다⁠시 맞⁠춤</sub></p></td>
 </tr>
 </table>
 
@@ -341,7 +341,7 @@ flowchart TB
 <picture><img src="https://img.shields.io/badge/23.5%EC%B4%88_%EB%8B%B5%EB%B3%80_%EC%9D%B8%EC%8B%9D-3.2%EC%B4%88-BC4C00?style=for-the-badge" alt="23.5초 답변 인식: 3.2초"/></picture>
 <picture><img src="https://img.shields.io/badge/%EC%B2%AB_%ED%99%94%EB%A9%B4_JS-216.2_%E2%86%92_59.2_KB_%28%E2%88%9273%25%29-BC4C00?style=for-the-badge" alt="첫 화면 JS: 216.2 → 59.2 KB (−73%)"/></picture>
 
-<sub>인식 시간은 WASM · Edge · Core Ultra 7 155H 기준 · JS는 gzip · 화면 14개 중 12개 지연 로딩</sub>
+<sub>인⁠식 시⁠간⁠은 WASM · Edge · Core Ultra 7 155H 기⁠준 · JS⁠는 gzip · 화⁠면 14⁠개 중 12⁠개 지⁠연 로⁠딩</sub>
 
 </div>
 
@@ -361,11 +361,11 @@ flowchart TB
 <td colspan="2"><img src="./assets/jobssafy-tools.gif" alt="자소서 글자 수 세기 · 임시 저장 · 보관함 저장"/><p align="center"><sub><b>취⁠업 편⁠의 툴</b> · 서⁠버 없⁠이 글⁠자 수 계⁠산 · 새⁠로⁠고⁠침⁠해⁠도 남⁠는 임⁠시 저⁠장 · 보⁠관⁠함 저⁠장(예⁠시 문⁠장)</sub></p></td>
 </tr>
 <tr>
-<td colspan="2"><img src="./assets/jobssafy-home.png" alt="잡싸피 홈"/><p align="center"><sub><b>홈</b> · 떠⁠다⁠니⁠는 배⁠경⁠은 transform만 움⁠직⁠여 레⁠이⁠아⁠웃 · 페⁠인⁠트⁠를 다⁠시 계⁠산⁠하⁠지 않⁠음</sub></p></td>
+<td colspan="2"><img src="./assets/jobssafy-home.png" alt="잡싸피 홈"/><p align="center"><sub><b>홈</b> · 떠⁠다⁠니⁠는 배⁠경⁠은 transform⁠만 움⁠직⁠여 레⁠이⁠아⁠웃 · 페⁠인⁠트⁠를 다⁠시 계⁠산⁠하⁠지 않⁠음</sub></p></td>
 </tr>
 </table>
 
-<sub>면⁠접 연⁠습⁠은 모⁠델⁠을 불⁠러⁠온 뒤⁠부⁠터 녹⁠화⁠했⁠고, 녹⁠음 구⁠간⁠과 취⁠업 편⁠의 툴⁠의 입⁠력 일⁠부⁠는 빨⁠리 감⁠았⁠습⁠니⁠다(GIF 안⁠에 배⁠속 표⁠시). tiny 모⁠델⁠이⁠라 '면⁠접 → 면⁠적'처⁠럼 발⁠음⁠이 비⁠슷⁠한 단⁠어⁠는 틀⁠리⁠기⁠도 하⁠고, 화⁠면⁠의 답⁠변 시⁠간 25초⁠는 녹⁠음 버⁠튼 기⁠준⁠입⁠니⁠다(음⁠성⁠은 23.5초). 취⁠업 편⁠의 툴 화⁠면⁠에⁠는 증⁠명⁠사⁠진 변⁠환⁠기⁠도 있⁠습⁠니⁠다.</sub>
+<sub>면⁠접 연⁠습⁠은 모⁠델⁠을 불⁠러⁠온 뒤⁠부⁠터 녹⁠화⁠했⁠고, 녹⁠음 구⁠간⁠과 취⁠업 편⁠의 툴⁠의 입⁠력 일⁠부⁠는 빨⁠리 감⁠았⁠습⁠니⁠다(GIF 안⁠에 배⁠속 표⁠시). tiny 모⁠델⁠이⁠라 '면⁠접 → 면⁠적'처⁠럼 발⁠음⁠이 비⁠슷⁠한 단⁠어⁠는 틀⁠리⁠기⁠도 하⁠고, 화⁠면⁠의 답⁠변 시⁠간 25⁠초⁠는 녹⁠음 버⁠튼 기⁠준⁠입⁠니⁠다(음⁠성⁠은 23.5⁠초). 취⁠업 편⁠의 툴 화⁠면⁠에⁠는 증⁠명⁠사⁠진 변⁠환⁠기⁠도 있⁠습⁠니⁠다.</sub>
 
 **기술 선택 이유** — Transformers.js는 Hugging Face의 음성 인식 모델을 브라우저에서 그대로 불러와, 2명 · 최종 구현 5일 조건에서 서버를 늘리지 않고 붙일 수 있었습니다.
 
@@ -486,7 +486,7 @@ flowchart LR
 - 제 변경도 틀리면 바로 되돌리거나 고쳤습니다. 증권사 부분 연동은 병합 전 검토에서 13분 만에 되돌렸고, dev에 바로 올렸던 추적 번호 회귀는 18분 만에 고쳤습니다.
 
 **아⁠쉬⁠운 점 · 목⁠에⁠서⁠만 참⁠인 것⁠들**
-- 개인 수치 대조는 끝내 실서버에서 돌지 못하고 목에서만 증명됐습니다.
+- 개인 수치 대조는 끝내 실서버에서 돌지 못하고 목에서만 확인됐습니다.
 - 목에 권한 검사가 없어, 역할 버그를 E2E가 잡지 못하고 잘못된 이유로 통과한 적이 있습니다.
 - 계약 대조는 스냅샷 갱신이 CI 밖이라, 스냅샷이 낡으면 조용합니다.
 
@@ -504,7 +504,7 @@ flowchart LR
 **잘⁠한 점 · 사⁠람⁠이 움⁠직⁠이⁠는 순⁠서⁠로, 좁⁠혀⁠서, 로⁠그⁠로**
 - **화면을 기능이 아니라 동선으로 봤습니다.** "이걸 누가, 어떤 상황에서 보는가"라는 질문 하나로 화면 검수도, 시연 시나리오도, 대본도 정리됐습니다.
 - **문제를 좁혀서 넘겼습니다.** "안 돼요" 대신 어디까지 왔고 어디서 끊겼는지, "속도가 이상해요" 대신 어느 구간에서만 튀는지를 말하니 고칠 사람이 같은 것을 보고 움직일 수 있었습니다.
-- **눈으로는 정상 주행이어도 로그를 의심**해 저속 구간의 측정 불안정을 찾았고, **실패한 시연을 성공한 주행과 대조**해 "하드웨어 탓"으로 끝날 뻔한 일을 구조적 원인으로 좁혔습니다.
+- **눈으로는 정상 주행이어도 로그를 의심**해 저속 구간의 측정 불안정을 찾았고, **실패한 시연을 성공한 주행과 대조**해 "하드웨어 탓"으로 끝날 뻔한 일을 멈춘 조건으로 좁혔습니다.
 
 **아⁠쉬⁠운 점 · 재⁠시⁠도⁠를 전⁠제⁠한 대⁠본, 기⁠능 단⁠위 리⁠허⁠설**
 - **실패 대응 문장 여덟 개가 전부 재시도를 전제**했습니다. 문장은 만들었지만, 그 문장을 언제 써야 하는지 판별할 눈은 만들지 않았습니다.
@@ -556,12 +556,12 @@ flowchart LR
 <br/>
 
 <picture><img src="https://img.shields.io/badge/%EC%BB%A4%EB%B0%8B-224_%C2%B7_%ED%8C%80_%EB%82%B4_%EC%B5%9C%EB%8B%A4-1A7F37?style=for-the-badge&logo=gitlab&logoColor=white" alt="커밋: 224 · 팀 내 최다"/></picture>
-<picture><img src="https://img.shields.io/badge/%EB%B3%91%ED%95%A9%EB%90%9C_MR-62-1A7F37?style=for-the-badge&logo=gitlab&logoColor=white" alt="병합된 MR: 62"/></picture>
 <picture><img src="https://img.shields.io/badge/%EA%B7%B8%EC%A4%91_%EB%AC%B8%EC%84%9C_%EC%BB%A4%EB%B0%8B-117-1A7F37?style=for-the-badge&logo=gitlab&logoColor=white" alt="그중 문서 커밋: 117"/></picture>
+<picture><img src="https://img.shields.io/badge/%EB%B3%91%ED%95%A9%EB%90%9C_MR-62-1A7F37?style=for-the-badge&logo=gitlab&logoColor=white" alt="병합된 MR: 62"/></picture>
 
 <br/>
 
-<sub>최종 dev(2026.09.28) 기준 · 커밋은 병합 제외 · MR은 dev에 병합된 본인 MR · 문서 커밋은 커밋 224개 가운데 📝 커밋</sub><br/>
+<sub>최⁠종 dev(2026.09.28) 기⁠준 · 커⁠밋⁠은 병⁠합 제⁠외 · MR⁠은 dev⁠에 병⁠합⁠된 본⁠인 MR · 문⁠서 커⁠밋⁠은 커⁠밋 224⁠개 가⁠운⁠데 📝 커⁠밋</sub><br/>
 <sub>GitHub에는 앞으로의 개인 작업과 학습 기록을 쌓아 갈 예정입니다.</sub>
 
 </div>
