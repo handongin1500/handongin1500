@@ -180,19 +180,23 @@ ChatGPT가 등장해 사람들이 일하고 배우는 방식이 바뀌는 흐름
 
 <table>
 <tr>
-<td width="50%" valign="top"><img src="./assets/jjutopia-home.png" alt="주주 홈"/><p align="center"><sub><b>주주 홈</b> · 승급 조건 두 가지(적립 SP · 보유 일수)를 따로 표시</sub></p></td>
-<td width="50%" valign="top"><img src="./assets/jjutopia-api-failure-crop.png" alt="API 장애 시 홈"/><p align="center"><sub><b>API 장애 시 홈</b> · 멈추지 않고 카드마다 실패를 말함</sub></p></td>
+<td colspan="2"><img src="./assets/jjutopia-timeout.gif" alt="서버가 답하지 않을 때 카드마다 실패를 말하는 홈"/><p align="center"><sub><b>서버가 답하지 않을 때</b> · 12초 상한에 재시도 한 번, 약 25초 뒤 카드마다 실패를 말함</sub></p></td>
 </tr>
 <tr>
-<td width="50%" valign="top"><img src="./assets/jjutopia-chat-answer.png" alt="AI 개인 수치 답변"/><p align="center"><sub><b>AI 개인 수치 답변</b> · 도구 결과와 숫자가 같을 때만 표시</sub></p></td>
-<td width="50%" valign="top"><img src="./assets/jjutopia-compliance-review.png" alt="공지 컴플라이언스 검토"/><p align="center"><sub><b>공지 검토</b> · 차단 항목이 있으면 배포 잠금</sub></p></td>
+<td colspan="2"><img src="./assets/jjutopia-chat.gif" alt="AI 챗봇의 제도 지식 답변과 개인 수치 답변"/><p align="center"><sub><b>AI 답변</b> · 제도 지식은 근거 문서와 함께, 개인 수치는 도구 결과와 숫자가 같을 때만 표시(답변의 16,320 · 1,680 · 120이 왼쪽 링 · 카드와 같은 값)</sub></p></td>
+</tr>
+<tr>
+<td colspan="2"><img src="./assets/jjutopia-review.gif" alt="공지 검토에서 제안 문구로 바꿔 배포가 열리는 과정"/><p align="center"><sub><b>공지 검토</b> · 차단 항목이 있으면 배포 잠금, 제안 문구로 바꾸면 다시 검토해 경고만 남으면 배포 가능</sub></p></td>
+</tr>
+<tr>
+<td colspan="2"><img src="./assets/jjutopia-home.png" alt="주주 홈"/><p align="center"><sub><b>주주 홈</b> · 승급 조건 두 가지(적립 SP · 보유 일수)를 따로 표시</sub></p></td>
 </tr>
 <tr>
 <td colspan="2"><img src="./assets/jjutopia-history-12m.png" alt="적립 이력 12개월"/><p align="center"><sub><b>적립 이력 12개월</b> · 적립 없음(회색)과 기록 없음(빗금) 구분</sub></p></td>
 </tr>
 </table>
 
-<sub>화면은 모두 목 모드에서 찍었고, 회사와 수치는 목 데이터입니다. API 장애 시 홈과 AI 답변은 해당 부분만 잘라 키웠습니다.</sub>
+<sub>화면은 모두 목 모드에서 찍었고, 회사와 수치는 목 데이터입니다. '서버가 답하지 않을 때'는 앱이 뜨기 전에 fetch를 바꿔 끼워 재현했고, 기다리는 구간은 6배로 빨리 감았습니다.</sub>
 
 **기술 선택 이유**
 
@@ -275,8 +279,10 @@ flowchart TB
 
 <table>
 <tr>
-<td width="50%" valign="top"><img src="./assets/ssacurity-overview.png" alt="관제 개요"/><p align="center"><sub><b>관제 개요</b> · 로봇 위치 · 게이트 판정 · 경고를 한 화면에</sub></p></td>
-<td width="50%" valign="top"><img src="./assets/ssacurity-alert.png" alt="무단 통과 경보"/><p align="center"><sub><b>무단 통과 경보</b> · 경보 창에서 바로 신원 입력으로</sub></p></td>
+<td colspan="2"><img src="./assets/ssacurity-ident.gif" alt="무단 통과 경보에서 신원 입력으로 넘어가는 과정"/><p align="center"><sub><b>무단 통과 경보 → 신원 입력</b> · 경보 창에서 바로 신원 입력으로, 확인한 요원 칸은 로그인한 이름으로 채워짐(이름은 예시)</sub></p></td>
+</tr>
+<tr>
+<td colspan="2"><img src="./assets/ssacurity-overview.png" alt="관제 개요"/><p align="center"><sub><b>관제 개요</b> · 로봇 위치 · 게이트 판정 · 경고를 한 화면에</sub></p></td>
 </tr>
 </table>
 
@@ -347,11 +353,13 @@ flowchart TB
 
 <table>
 <tr>
-<td colspan="2"><img src="./assets/jobssafy-interview-result.png" alt="면접 연습 결과"/><p align="center"><sub><b>면접 연습 결과</b>(예시 답변) · 브라우저 안에서 텍스트로 바꾸고 말하기 속도와 습관어를 짚음 · tiny 모델이라 '면접 → 면적'처럼 발음이 비슷한 단어는 틀리기도 함 · 화면의 답변 시간 25초는 녹음 버튼 기준(음성은 23.5초)</sub></p></td>
+<td colspan="2" align="center"><img src="./assets/jobssafy-interview.gif" alt="면접 연습 녹음부터 결과까지"/><p align="center"><sub><b>면접 연습</b>(예시 답변 · 합성 음성) · 브라우저 안에서 텍스트로 바꾸고 말하기 속도와 습관어를 짚음 · tiny 모델이라 '면접 → 면적'처럼 발음이 비슷한 단어는 틀리기도 함 · 화면의 답변 시간 25초는 녹음 버튼 기준(음성은 23.5초) · 녹음 구간은 6배로 빨리 감음</sub></p></td>
 </tr>
 <tr>
-<td width="50%" valign="top"><img src="./assets/jobssafy-home.png" alt="잡싸피 홈"/><p align="center"><sub><b>홈</b> · 떠다니는 배경은 transform만 움직여 레이아웃 · 페인트를 다시 계산하지 않음</sub></p></td>
-<td width="50%" valign="top"><img src="./assets/jobssafy-career-tools.png" alt="취업 편의 툴"/><p align="center"><sub><b>취업 편의 툴</b>(예시 문장) · 글자 수 계산 · 임시 저장 · 증명사진 변환</sub></p></td>
+<td colspan="2" align="center"><img src="./assets/jobssafy-tools.gif" alt="자소서 글자 수 세기 · 임시 저장 · 보관함 저장"/><p align="center"><sub><b>취업 편의 툴</b>(예시 문장) · 서버 없이 글자 수 계산 · 새로 고쳐도 남는 임시 저장 · 보관함 저장(같은 화면에 증명사진 변환기도 있음) · 입력 일부는 2배로 빨리 감음</sub></p></td>
+</tr>
+<tr>
+<td colspan="2"><img src="./assets/jobssafy-home.png" alt="잡싸피 홈"/><p align="center"><sub><b>홈</b> · 떠다니는 배경은 transform만 움직여 레이아웃 · 페인트를 다시 계산하지 않음</sub></p></td>
 </tr>
 </table>
 
