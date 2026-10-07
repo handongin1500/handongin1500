@@ -29,7 +29,7 @@
 | 📄 **AI 문서 아카이브** | 2026.07.06 – 07.09 | OCR 전처리 · 형태소 키워드 · **사진 분기**(EXIF · GPS · YOLO · 지도) 구현 | 기준 앱 대비 +611 / −318줄 |
 | 📚 **AI 스토리북** | 2026.07.06 – 07.08 | **문단 단위 편집**과 고친 문단만 다시 그리기, 우주 SF 테마 전환 | 기준 앱 대비 +383 / −221줄 |
 | 🛍 **AI 쇼핑 어시스턴트** | 2026.07.06 – 07.08 | 옷 **색상 인식** · 자연어 **예산 필터** · **CLIP 이미지 유사 검색** | 기준 앱 대비 +635 / −276줄 |
-| ⚙️ **MLOps** | 2026.07.09 – 07.10 | MLflow 추적 서버로 학습 → 추적 → 레지스트리 등록 실행(코드 변경 없음) | epoch loss **0.19 → 0.045** · 2회 실행 |
+| ⚙️ **MLOps** | 2026.07.09 – 07.10 | MLflow로 학습 → 추적 → 레지스트리 등록, BentoML 서버 기동(코드 변경 없음) | epoch loss **0.19 → 0.045** · 2회 실행 |
 | 🏷 **LLM 라벨 생성 · Judge** | 2026.08.19 | Teacher LLM으로 SQL 라벨 생성, LLM-as-a-Judge 채점, JSON 파서 보강 | Judge 평균 **4.6점** · 실제 스키마와 맞는 쿼리 **4 / 10** |
 | 🎯 **LoRA Text-to-SQL** | 2026.08.19 – 08.20 | 360M 모델 LoRA 학습, 평가 DB 구성, 추론 | 실행 정확도 **0.567 → 0.717** |
 | 🧊 **QLoRA** | 2026.08.19 | 1.7B 모델을 4bit로 6 GB GPU에서 학습 | 학습 **373초** · GPU 메모리 **5,915 / 6,141 MiB** <sub>(장치 전체)</sub> |
@@ -224,7 +224,7 @@ def save_products_with_clip_vectors(products):
 
 > **MLflow 추적 서버를 띄워 학습 → 추적 → 레지스트리 등록을 두 번 돌렸습니다.**
 
-강사가 준 MLOps 스켈레톤(MLflow · BentoML · DVC · Prometheus · Grafana · docker-compose · EC2 배포 스크립트)에서 **코드는 바꾸지 않았고**, 로컬 MLflow 추적 서버(SQLite 백엔드)를 띄워 MNIST CNN을 GPU로 학습하고 모델 레지스트리에 등록했습니다. 아래는 그 `mlflow.db`를 읽은 값입니다.
+강사가 준 MLOps 스켈레톤(MLflow · BentoML · DVC · Prometheus · Grafana · docker-compose · EC2 배포 스크립트)에서 **코드는 바꾸지 않았고**, 로컬 MLflow 추적 서버(SQLite 백엔드)를 띄워 MNIST CNN을 GPU로 학습하고 모델 레지스트리에 등록했습니다. BentoML 서버도 띄워 봤습니다. 아래는 MLflow 기록(`mlflow.db`)을 읽은 값입니다.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/ai-mlflow-loss-dark.png"/>
