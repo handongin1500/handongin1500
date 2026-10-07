@@ -4,7 +4,7 @@
   <source media="(max-width: 1011px) and (prefers-color-scheme: dark)" srcset="./assets/header-mobile-dark.svg"/>
   <source media="(max-width: 1011px)" srcset="./assets/header-mobile.svg"/>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg"/>
-  <img src="./assets/header.svg" alt="Han Dongin · Frontend Developer — 화면이 사실만 말하게 만드는 개발자. 쮸토피아 화면을 본뜬 예시: 기록이 없는 기간은 빗금('기록 없음')으로 따로 표시"/>
+  <img src="./assets/header.svg" alt="Han Dongin · Frontend Developer — 화면이 사실만 말하게 만드는 개발자"/>
 </picture>
 
 <br/>
