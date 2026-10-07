@@ -14,9 +14,9 @@
 프로젝트에서 AI 기능을 화면에 연결해 온 프론트엔드 개발자가, **모델을 직접 붙이고, 학습하고, 서빙하고, 채점해 본** 기록입니다.
 
 > **📖 읽는 법**
-> - **7월 앱 3종**은 강사가 준 기준 앱 위에 기능을 직접 더했고, **8월 노트북**은 코드를 거의 바꾸지 않고 제 GPU(RTX 4050 Laptop 6 GB)에서 돌려 실습끼리 이어 붙였습니다.
+> - **7월 앱 3종**은 기준 앱 위에 기능을 직접 더했고, **8월 노트북**은 제 GPU(RTX 4050 Laptop 6 GB)에서 돌려 실습끼리 이어 붙였습니다.
 > - 기능마다 **제 몫과 제공받은 몫을 나눠** 적었고, 숫자는 **제 실행 기록**(노트북 출력 · 체크포인트 · 로그 · MLflow DB · git 이력)에서만 가져왔습니다. 끝난 뒤 다시 잰 값에는 날짜를 붙였습니다.
-> - **제출본**은 SSAFY GitLab에 낸 저장소(비공개 · 요청 시 공개)이고, **작업 사본**은 제 PC에서 실제로 돌린 폴더입니다. 8월 숫자 중 LoRA 예측 · QLoRA 실행 출력 · `run_lora.log`는 작업 사본에만 남아 있습니다.
+> - **제출본**은 SSAFY GitLab에 낸 저장소(비공개 · 요청 시 공개)이고, **작업 사본**은 제 PC에서 실제로 돌린 폴더입니다. 8월 숫자 중 LoRA 예측 · QLoRA 실행 출력 · `run_lora.log`는 작업 사본에 남아 있습니다.
 
 <br/>
 
@@ -240,10 +240,10 @@ def save_products_with_clip_vectors(products):
 
 **아쉬운 점**
 - **loss만 남고 정확도는 없습니다.** 스켈레톤이 정확도를 기록하지 않았고, 저도 테스트셋 평가를 더하지 않았습니다. `train_metrics.json`의 정확도 0.92는 코드에 박힌 상수라 쓰지 않았습니다.
-- **레지스트리와 서빙이 이어져 있지 않았습니다.** BentoML이 서빙하는 `model.pt`는 레지스트리의 ConvNet이 아니라 **학습되지 않은 다른 모델**(SimpleNet)이었는데, 당시에는 알아차리지 못했습니다. 버전을 붙이는 것과 그 버전을 실제로 서빙하는 것은 별개의 연결이라는 걸 돌아보며 알았습니다.
+- **레지스트리와 서빙이 이어져 있지 않았습니다.** 07.09에 BentoML 서버를 띄워 문서 화면(Swagger)까지 열었는데, 그 서버가 올린 `model.pt`는 레지스트리의 ConvNet이 아니라 **학습되지 않은 다른 모델**(SimpleNet)이었습니다. 마지막 실행의 요청 집계에 예측 호출은 0건이고, 당시에는 알아차리지 못했습니다. 버전을 붙이는 것과 그 버전을 실제로 서빙하는 것은 별개의 연결이라는 걸 돌아보며 알았습니다.
 - DVC · docker-compose 전체 스택 · EC2 배포는 **실행하지 않았습니다.**
 
-`MLflow` `PyTorch` <sub>· 스켈레톤의 BentoML · DVC · Prometheus · Grafana · Docker Compose는 실행 기록 없음</sub>
+`MLflow` `PyTorch` `BentoML` <sub>· 스켈레톤의 DVC · Prometheus · Grafana · Docker Compose는 실행 기록 없음</sub>
 
 <br/>
 
@@ -332,7 +332,7 @@ def json_parsing(output_text: str) -> dict:
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/ai-text2sql-accuracy-dark.png"/>
-  <img src="./assets/ai-text2sql-accuracy.png" alt="Text-to-SQL 실행 정확도. 베이스 모델 대비 LoRA 적용 후 easy 0.682→0.773, medium 0.250→0.562, 전체 0.567→0.717"/>
+  <img src="./assets/ai-text2sql-accuracy.png" alt="Text-to-SQL 실행 정확도. 베이스(강사 제공 예측) 대비 LoRA 적용 후 easy 0.682→0.773, medium 0.250→0.562, 전체 0.567→0.717"/>
 </picture>
 
 | 실행 정확도 (60문항) | easy (44) | medium (16) | 전체 |
@@ -523,7 +523,7 @@ SELECT name FROM employees WHERE age > 30
 **다음엔**
 - LLM이 만든 결과는 **실행해 보는 검증을 먼저** 두고, 점수는 그다음에 매기겠습니다(라벨 · SQL 모두).
 - 실험마다 **평가 지표를 학습 기록과 같은 자리에**(MLflow run 등) 남기고, 비교는 **같은 조건 · 반복 측정**으로 하겠습니다.
-- 폴백은 사용자에게 **폴백했다고 알리고**, 지원한다고 적은 입력은 **테스트로 고정**하겠습니다.
+- 폴백은 사용자에게 **폴백했다고 알리고**, 파서가 읽어야 할 문장은 **테스트로 고정**하겠습니다.
 - 결과물(예측 · 로그 · 채점 결과)은 제출본에서 빠지지 않게 **산출물 경로를 따로 정해 두겠습니다.**
 
 <br/>
@@ -538,7 +538,7 @@ SELECT name FROM employees WHERE age > 30
 | 평가 | Spider test-suite(실행 정확도) | ② |
 | 비전 · 문서 | PaddleOCR · DiT · LayoutLMv3 · Donut · YOLOv8 · CLIP · Stable Diffusion(DreamShaper) · OpenCV | 📄 🛍 📚 |
 | 검색 | ko-sroberta 임베딩 · ChromaDB · konlpy · TF-IDF | 📄 🛍 |
-| MLOps | MLflow(추적 · 레지스트리) <sub>· BentoML · DVC · Prometheus · Grafana는 스켈레톤에 있었지만 실행 기록 없음</sub> | ⚙️ |
+| MLOps | MLflow(추적 · 레지스트리) · BentoML(서버 기동까지) <sub>· DVC · Prometheus · Grafana는 스켈레톤에 있었지만 실행 기록 없음</sub> | ⚙️ |
 | 앱 · 데이터 | Streamlit · Gradio · SQLModel · SQLite · ReportLab · folium | 📄 📚 🛍 |
 
 <sub>2026.10.07 기준 · 저장소는 SSAFY GitLab 비공개(요청 시 공개)</sub>
