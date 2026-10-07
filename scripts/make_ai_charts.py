@@ -148,7 +148,7 @@ def chart_accuracy(t_name):
 def chart_training_loss(t_name):
     t = THEMES[t_name]
     fig, ax = frame(t, "학습 loss — LoRA 360M vs QLoRA 1.7B",
-                    "두 모델 모두 400건 × 4 에폭 · 100 step · 굵은 선은 10 step 이동 평균 · 학습 지표이며 정확도가 아님",
+                    "두 모델 모두 400건 × 4에폭 · 100 step · 굵은 선은 10 step 이동 평균 · 학습 지표이며 정확도가 아님",
                     [(t["s1"], "LoRA · SmolLM2-360M", "line"), (t["s2"], "QLoRA 4bit · SmolLM2-1.7B", "line")])
     for steps, loss, color, name in ((lora_steps, lora_loss, t["s1"], "LoRA 360M"), (qlora_steps, qlora_loss, t["s2"], "QLoRA 1.7B")):
         ax.plot(steps, loss, color=color, linewidth=pt(1), alpha=0.28, solid_joinstyle="round")
@@ -171,7 +171,7 @@ def chart_mlflow(t_name):
     labels = ["1회차 · 07.09", "2회차 · 07.10"]
     colors = [t["s1"], t["s2"]]
     fig, ax = frame(t, "MNIST CNN epoch loss — MLflow에 기록된 두 번의 실행",
-                    "Adam lr 0.001 · batch 64 · 5 에폭 · CUDA · mlflow.db에서 읽음 · 정확도는 기록하지 않았음",
+                    "Adam lr 0.001 · batch 64 · 5에폭 · CUDA · mlflow.db에서 읽음 · 정확도는 기록하지 않았음",
                     [(c, l, "line") for c, l in zip(colors, labels)], right_px=32)
     for (start, epochs, vals), color in zip(mlflow_runs, colors):
         ax.plot(epochs, vals, color=color, linewidth=pt(2), marker="o", markersize=pt(9),
