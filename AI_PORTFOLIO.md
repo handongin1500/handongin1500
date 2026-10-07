@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧪 한동인 · AI 실습 포트폴리오
+# 🧪 한동인 · AI 포트폴리오
 
 **삼성청년SW·AI아카데미(SSAFY) 15기 AI 실습 기록**<br/>
 <sub>개인 실습 · 7월 AI 서비스 실습(앱 3종 · MLOps) · 8월 AI 특화 LLM 실습(라벨 생성 · LoRA · QLoRA · vLLM)</sub>
@@ -14,7 +14,6 @@
 프로젝트에서 AI 기능을 화면에 연결해 온 프론트엔드 개발자가, **모델을 직접 붙이고, 학습하고, 서빙하고, 채점해 본** 기록입니다.
 
 > **📖 읽는 법**
-> - 모든 실습은 강사가 준 **스켈레톤 위에서** 했습니다. 스켈레톤은 빈칸이 있는 코드가 아니라, 그대로 실행되는 기준 앱과 참고 노트북이었습니다.
 > - **7월 앱 3종**은 기준 앱 위에 기능을 직접 더했고, **8월 노트북**은 코드를 거의 바꾸지 않고 제 GPU(RTX 4050 Laptop 6 GB)에서 돌려 실습끼리 이어 붙였습니다.
 > - 기능마다 **제 몫과 제공받은 몫을 나눠** 적었고, 숫자는 **제 실행 기록**(노트북 출력 · 체크포인트 · 로그 · MLflow DB · git 이력)에서만 가져왔습니다. 끝난 뒤 다시 잰 값에는 날짜를 붙였습니다.
 > - **제출본**은 SSAFY GitLab에 낸 저장소(비공개 · 요청 시 공개)이고, **작업 사본**은 제 PC에서 실제로 돌린 폴더입니다. 8월 숫자 중 LoRA 예측 · QLoRA 실행 출력 · `run_lora.log`는 작업 사본에만 남아 있습니다.
@@ -61,18 +60,20 @@
 문서 이미지를 올리면 **분류 → OCR → 구조화 → 요약 → 키워드 → 임베딩**을 거쳐 SQLite에 보관하고, 의미 검색과 키워드 검색으로 다시 찾는 Streamlit 앱입니다.
 
 ```mermaid
-flowchart LR
-  UP["업로드"] --> DIT["DiT<br/>문서 분류"]
-  DIT --> PRE["OCR 전처리<br/>켜고 끌 수 있음"]
-  PRE --> OCR["PaddleOCR<br/>한국어"]
-  OCR --> Q{"사진인가?"}
+flowchart TB
+  subgraph IN[" "]
+    direction LR
+    UP["업로드"] --> DIT["DiT<br/>문서 분류"] --> PRE["OCR 전처리<br/>켜고 끌 수 있음"] --> OCR["PaddleOCR<br/>한국어"]
+  end
+  style IN fill:transparent,stroke:transparent
+  IN --> Q{"사진인가?"}
   Q -->|"사진"| PH["EXIF · GPS<br/>YOLOv8n 객체<br/>역지오코딩"]
   PH --> PE["요약 + 키워드를<br/>임베딩"]
-  Q -->|"문서"| DOC["LayoutLMv3 · Donut<br/>KoBART 요약<br/>형태소 키워드"]
+  Q -->|"문서"| DOC["LayoutLMv3<br/>Donut<br/>KoBART 요약<br/>형태소 키워드"]
   DOC --> DE["본문 + 요약을<br/>임베딩"]
   PE --> DB[("SQLite<br/>위도 · 경도 컬럼")]
   DE --> DB
-  DB --> S["의미 검색 · 키워드 검색"]
+  DB --> S["의미 검색<br/>키워드 검색"]
   DB --> MAP["사진 지도 탭"]
   classDef mine fill:#8250DF14,stroke:#8250DF,stroke-width:2px
   class PRE,Q,PH,PE,MAP mine
@@ -257,13 +258,14 @@ def save_products_with_clip_vectors(products):
 ```mermaid
 flowchart LR
   subgraph S1["① 라벨 만들기"]
-    T["Solar pro3<br/>Teacher"] --> L["SQL 라벨 10건"] --> J["같은 모델이<br/>Judge 1–5점"]
+    direction LR
+    T["Solar pro3<br/>Teacher"] --> L["SQL 라벨<br/>10건"] --> J["같은 모델이<br/>Judge 1–5점"]
   end
-  D["Spider 학습 데이터<br/>강사 제공 7,000건"] -->|"앞 400건 × 4에폭"| A["② SmolLM2-360M<br/>LoRA r=32"]
+  D["Spider<br/>학습 데이터<br/>강사 제공<br/>7,000건"] -->|"앞 400건 × 4에폭"| A["② LoRA r=32<br/>SmolLM2<br/>360M"]
   A --> AD["제 어댑터<br/>checkpoint-100"]
   AD -->|"60문항 채점"| EV["실행 정확도<br/>0.567 → 0.717"]
-  D -->|"같은 400건"| Q["③ SmolLM2-1.7B<br/>4bit QLoRA"]
-  AD -->|"그대로 가져감"| V["④ vLLM<br/>Runtime LoRA · Merged"]
+  D -->|"같은 400건"| Q["③ 4bit QLoRA<br/>SmolLM2<br/>1.7B"]
+  AD -->|"그대로 가져감"| V["④ vLLM 서빙<br/>Runtime LoRA<br/>Merged"]
   classDef mine fill:#8250DF14,stroke:#8250DF,stroke-width:2px
   class AD,EV,V mine
 ```
@@ -410,7 +412,7 @@ LoRA  : SELECT country FROM singer WHERE age > 20
 <sub>두 어댑터의 `trainer_state.json`(step마다 기록된 loss 100개)에서 그렸습니다.</sub>
 
 **아쉬운 점 — 학습은 끝냈는데 채점을 못 했습니다**
-- 평가 DB 폴더에 **`.sqlite` 파일이 하나도 없어**(DB 폴더 안에는 압축을 풀다 생긴 `testsuitedatabases/database/` 폴더와 readme만 있었음) 베이스 모델 평가가 `unable to open database file`로 실패했습니다. ②에서는 DB를 배치해 놓고, ③에서는 그 과정을 빠뜨렸습니다. 바로잡지 않은 채 학습으로 넘어가, `inference.py`로 하는 **학습 후 60문항 추론과 채점도 하지 않았습니다.**
+- 평가 DB 폴더에 **`.sqlite` 파일이 없어**(DB 폴더 안에는 압축을 풀다 생긴 `testsuitedatabases/database/` 폴더와 readme만 있었음) 베이스 모델 평가가 `unable to open database file`로 실패했습니다. ②에서는 DB를 배치해 놓고, ③에서는 그 과정을 빠뜨렸습니다. 바로잡지 않은 채 학습으로 넘어가, `inference.py`로 하는 **학습 후 60문항 추론과 채점도 하지 않았습니다.**
 - 그래서 학습 loss가 ②보다 낮게 끝났어도(마지막 10 step 평균 0.997 대 1.231), **SQL을 더 잘 맞히는지는 모릅니다.** 단건 추론 예시는 존재하지 않는 `company` 테이블을 쓴 오답이었습니다.
 - 양자화 전 메모리는 같은 조건에서 재지 않았습니다. "fp16이면 약 4 GB"는 노트북 설명의 추정이라 쓰지 않았습니다.
 

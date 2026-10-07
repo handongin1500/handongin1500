@@ -26,12 +26,12 @@
 <a href="mailto:d5353973@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email d5353973@gmail.com"/></a>
 <a href="https://app.notion.com/p/3e91b429679f8183ae77c26eb318da9e"><img src="https://img.shields.io/badge/Portfolio-3178C6?style=for-the-badge&logo=notion&logoColor=white" alt="Notion 포트폴리오"/></a>
 
-📂 프로젝트별 포트폴리오(Notion) — <a href="https://app.notion.com/p/3e91b429679f81728bb5ed4cedc72a62?source=copy_link">🌳&nbsp;쮸⁠토⁠피⁠아</a>&nbsp;· <a href="https://app.notion.com/p/SSACURITY-3e91b429679f814da3e4d88472095981?source=copy_link">🤖&nbsp;SSACURITY</a>&nbsp;· <a href="https://app.notion.com/p/3e91b429679f81a8b22cf2e8cb2e0702?source=copy_link">💼&nbsp;잡⁠싸⁠피</a><br/>🧪 AI&nbsp;실⁠습&nbsp;포⁠트⁠폴⁠리⁠오 — <a href="./AI_PORTFOLIO.md">GitHub&nbsp;문⁠서</a>&nbsp;· <a href="https://app.notion.com/p/3f21b429679f81398e33c3dae3a1dc43">Notion</a><br/><sub>저장소는 SSAFY GitLab 비공개 · 요청 시 공개</sub>
+📂 프로젝트별 포트폴리오(Notion) — <a href="https://app.notion.com/p/3e91b429679f81728bb5ed4cedc72a62?source=copy_link">🌳&nbsp;쮸⁠토⁠피⁠아</a>&nbsp;· <a href="https://app.notion.com/p/SSACURITY-3e91b429679f814da3e4d88472095981?source=copy_link">🤖&nbsp;SSACURITY</a>&nbsp;· <a href="https://app.notion.com/p/3e91b429679f81a8b22cf2e8cb2e0702?source=copy_link">💼&nbsp;잡⁠싸⁠피</a><br/>🧪 AI&nbsp;포⁠트⁠폴⁠리⁠오 — <a href="./AI_PORTFOLIO.md">GitHub&nbsp;문⁠서</a>&nbsp;· <a href="https://app.notion.com/p/3f21b429679f81398e33c3dae3a1dc43">Notion</a><br/><sub>저장소는 SSAFY GitLab 비공개 · 요청 시 공개</sub>
 <!-- ▲ 헤더 카드: 여기까지 -->
 
 <br/>
 
-<a href="#user-content-about">About Me</a> · <a href="#user-content-stack">Tech Stack</a> · <a href="#user-content-projects">Projects</a> · <a href="#user-content-principles">일⁠하⁠는&nbsp;원⁠칙</a>&nbsp;·&nbsp;<a href="#user-content-retro">돌⁠아⁠보⁠며</a>&nbsp;·&nbsp;<a href="./AI_PORTFOLIO.md">🧪&nbsp;AI&nbsp;실⁠습</a>
+<a href="#user-content-about">About Me</a> · <a href="#user-content-stack">Tech Stack</a> · <a href="#user-content-projects">Projects</a> · <a href="#user-content-principles">일⁠하⁠는&nbsp;원⁠칙</a>&nbsp;·&nbsp;<a href="#user-content-retro">돌⁠아⁠보⁠며</a>&nbsp;·&nbsp;<a href="./AI_PORTFOLIO.md">🧪&nbsp;AI&nbsp;포⁠트⁠폴⁠리⁠오</a>
 
 </div>
 
