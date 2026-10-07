@@ -95,7 +95,7 @@ flowchart TB
 - **사진 분기** — EXIF에 카메라 · 촬영일 · GPS가 있거나 OCR 글자가 10자 미만이면 사진으로 보고, 문서용 모델(LayoutLMv3 · Donut · KoBART)을 건너뜁니다. 대신 EXIF · YOLOv8n 객체 · GPS 역지오코딩 주소로 **요약과 키워드를 만들어 그것을 임베딩**합니다. 사진에는 OCR 본문이 없으니, 이렇게 해야 사진도 의미 검색에 걸립니다.
 - **위치를 데이터로** — GPS를 도분초에서 십진수로 바꿔 DB의 위도 · 경도 컬럼에 저장하고, 저장된 사진을 지도 한 장에 모아 보는 **'사진 지도' 탭**을 더했습니다.
 - **OCR 전처리** — 그레이스케일 → 노이즈 제거 → 대비 개선(CLAHE) → 기울기 보정 → 적응형 이진화. 기울기는 **0.5–15°일 때만** 돌려 과보정을 막았고, 전처리는 **체크박스로 켜고 끄며 원본과 나란히 비교**할 수 있게 했습니다.
-- **키워드 추출** — 공백으로 자르고 불용어를 빼던 방식을 **형태소 분석(Okt) 명사 + 이어진 명사로 만든 복합명사 + TF-IDF 순위**로 바꾸고, 구조화 결과에서 키워드로 넣는 항목을 기준 앱의 store · date에서 LayoutLMv3 결과의 상호명 · 날짜 · 제목까지 넓혔습니다.
+- **키워드 추출** — 공백으로 자르고 불용어를 빼던 방식을 **형태소 분석(Okt) 명사 + 이어진 명사로 만든 복합명사 + 빈도 순위**(TfidfVectorizer를 썼지만 문서 한 장으로 계산해 사실상 단어 빈도)로 바꾸고, 구조화 결과에서 키워드로 넣는 항목을 기준 앱의 store · date에서 LayoutLMv3 결과의 상호명 · 날짜 · 제목까지 넓혔습니다.
 - **없는 라이브러리는 기능만 끄기** — konlpy · ultralytics · folium 등을 불러오지 못해도 앱은 뜨고, 그 기능만 꺼지게 플래그를 뒀습니다.
 
 <details>
@@ -500,7 +500,7 @@ SELECT name FROM employees WHERE age > 30
 <summary>🧯 <b>안 됐을 때를 먼저</b> — 학습은 끝까지, 채점은 못 한 채로</summary>
 <br/>
 
-🧊 평가 경로가 깨진 채 학습으로 넘어가 가장 큰 모델(1.7B)의 결과를 채점하지 못했고, 🚀 우회에 성공한 실행 로그(`run_lora.log`)는 `.gitignore`(`*.log`)에 걸려 제출본에 들어가지 않았습니다. 평가 경로는 학습 전에 베이스 모델로 먼저 통과시키고, 실패와 우회는 함께 남겼어야 했습니다.
+🧊 평가 경로가 깨진 채 학습으로 넘어가 가장 큰 모델(1.7B)의 결과를 채점하지 못했고, 🚀 우회에 성공한 실행 로그(`run_lora.log`)는 `.gitignore`(`*.log`)에 걸려, ② LoRA 예측은 작업 사본에만 있어 제출본에 들어가지 않았습니다. 평가 경로는 학습 전에 베이스 모델로 먼저 통과시키고, 실패와 우회는 함께 남겼어야 했습니다.
 
 </details>
 
@@ -529,7 +529,7 @@ SELECT name FROM employees WHERE age > 30
 | LLM 활용 | Upstage Solar(OpenAI SDK 호환) · JSON Schema 출력 · LLM-as-a-Judge · LangChain · Bllossom | ① 🛍 📚 |
 | 평가 | Spider test-suite(실행 정확도) | ② |
 | 비전 · 문서 | PaddleOCR · DiT · LayoutLMv3 · Donut · YOLOv8 · CLIP · Stable Diffusion(DreamShaper) · OpenCV | 📄 🛍 📚 |
-| 검색 | ko-sroberta 임베딩 · ChromaDB · konlpy · TF-IDF | 📄 🛍 |
+| 검색 | ko-sroberta 임베딩 · ChromaDB · konlpy | 📄 🛍 |
 | MLOps | MLflow(추적 · 레지스트리) · BentoML(서버 기동까지) <sub>· DVC · Prometheus · Grafana는 스켈레톤에 있었지만 실행 기록 없음</sub> | ⚙️ |
 | 앱 · 데이터 | Streamlit · Gradio · SQLModel · SQLite · ReportLab · folium | 📄 📚 🛍 |
 
