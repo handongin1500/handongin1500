@@ -3,7 +3,7 @@
 # 🧪 한동인 · AI 포트폴리오
 
 **AI 결과를 그대로 믿지 않고, 다시 재 보고, 화면 기능으로 엮는 프론트엔드 개발자**<br/>
-<sub>삼성청년SW·AI아카데미(SSAFY) 15기 AI 실습 · 2026.07 – 08 · 개인 실습</sub>
+<sub>삼성청년SW·AI아카데미(SSAFY) 15기 · 2026.07 – 08 · 개인 실습</sub>
 
 <a href="./README.md">← 메인 포트폴리오</a> · <a href="#user-content-glance">역량 한눈에</a> · <a href="#user-content-integrate">🧩 통합</a> · <a href="#user-content-verify">🔬 검증</a> · <a href="#user-content-constraint">🔋 제약</a> · <a href="#user-content-frontend">프론트엔드로</a> · <a href="#user-content-retro">돌아보며</a> · <a href="#user-content-records">실습별 기록</a>
 
@@ -19,7 +19,7 @@
 
 | 역량 | 대표 근거 | 사례 |
 |---|---|---|
-| 🧩 **통합**<br/>모델을 화면 기능으로 엮습니다 | 쓰이지 않던 **CLIP을 검색에 연결** · OCR 글자 없는 **사진도 검색되게** 경로 분기 · **고친 문단만 다시 그리기** · 흔들리는 LLM 출력을 받아 내는 JSON 파서 | 🛍 · 📄 · 📚 · 🏷 ① |
+| 🧩 **통합**<br/>모델을 화면 기능으로 엮습니다 | 쓰이지 않던 **CLIP을 검색에 연결** · OCR 글자 없는 **사진도 검색되게** 경로 분기 · **고친 문단만 다시 그리기** | 🛍 · 📄 · 📚 |
 | 🔬 **검증**<br/>점수 대신 실물로 확인합니다 | LLM 채점 평균 4.6점인 라벨 중 스키마에 있는 이름만 쓴 것은 **4 / 10** · 강사 값 0.567을 먼저 재현한 뒤 제 어댑터를 **0.717**로 채점 · 벤치마크 배수를 조건별로 분해 <sub>(모두 2026.10.07, 실습 기록을 Claude Code와 함께 다시 열어서)</sub> | 🏷 ① · 🎯 ② · 🚀 ④ · ⚙️ |
 | 🔋 **제약**<br/>작은 GPU에 맞춰 돌려 냅니다 | 6 GB 노트북 GPU에서 **1.7B QLoRA** 학습(5,915 / 6,141 MiB) · vLLM 시작 검사 실패를 **별도 프로세스 스크립트**로 넘겨 제 어댑터 실행 | 🚀 ④ · 🧊 ③ |
 
@@ -204,44 +204,13 @@ def create_storybook(story_id):
 
 <br/>
 
-<a id="parser"></a>
-
-### 🏷 흔들리는 LLM 출력을 받아 내기 — ① 라벨 실습의 JSON 파서
-
-> **코드 블록이 있든 없든 LLM 응답에서 JSON을 꺼내고, 못 꺼내면 원문을 담아 실패하게 했습니다.**
-
-- **흔들리는 LLM 출력을 견디는 JSON 파서** — 실습 앞부분의 JSON 응답 예제에서, 기준 코드는 ```` ```json ```` 표시를 찾는 방식이라 코드 블록 없이 JSON만 오면 예외가 나는 구조였습니다. 코드 블록(언어 표시 유무 무관)을 정규식으로 먼저 찾고, 없으면 첫 `{`부터 마지막 `}`까지 잘라 읽고, 그래도 없으면 원문을 담아 실패하게 바꿨습니다. 라벨 생성은 SQL 문자열을 그대로 받고 Judge는 `response_format`(JSON schema)으로 받아, 두 단계 모두 이 파서를 거치지 않습니다.
-- 제출본의 한 셀에는 추론형(reasoning) 모델이 영어 독백만 남기고 답을 맺지 못한 출력이 남아 있습니다. 작업 사본에서는 프롬프트 앞에 "한국어로"를 붙여 **출력 언어를 고정**했고, 한국어 답을 받았습니다.
-
-<details>
-<summary><b>코드 · 코드 블록 → 중괄호 구간 → 실패 순으로 읽기</b></summary>
-
-```python
-def json_parsing(output_text: str) -> dict:
-    # 1) ```json ... ``` 또는 ``` ... ``` 코드 블록 우선 추출
-    match = re.search(r"```(?:json)?\s*(.*?)\s*```", output_text, re.DOTALL)
-    if match:
-        output_text = match.group(1)
-    else:
-        # 2) 코드 블록이 없으면 첫 '{' ~ 마지막 '}' 구간 추출
-        start, end = output_text.find("{"), output_text.rfind("}")
-        if start == -1 or end == -1:
-            raise ValueError(f"JSON을 찾을 수 없습니다:\n{output_text}")
-        output_text = output_text[start:end + 1]
-    return json.loads(output_text)
-```
-
-</details>
-
-<br/>
-
 ---
 
 <a id="verify"></a>
 
 ## 🔬 검증 — 점수 대신 실물로 확인합니다
 
-8월 실습 기록을 포트폴리오로 정리하며(2026.10.07) Claude Code와 함께 다시 열어, 점수와 수치를 실물과 대조했습니다. 실습 당시가 아니라 정리하면서 한 일이라 날짜를 붙였고, 실습 중에 놓친 것은 놓쳤다고 적었습니다.
+7 · 8월 실습 기록을 포트폴리오로 정리하며(2026.10.07) Claude Code와 함께 다시 열어, 점수와 수치를 실물과 대조했습니다. 실습 당시가 아니라 정리하면서 한 일이라 날짜를 붙였고, 실습 중에 놓친 것은 놓쳤다고 적었습니다.
 
 <a id="label"></a>
 
@@ -262,6 +231,32 @@ def json_parsing(output_text: str) -> dict:
 - Judge는 4점을 준 쿼리에서 "스키마를 확인하지 않고 컬럼명을 가정했다"고 일부 짚었지만, **두 건은 5점으로 통과시켰습니다.**
 - 원인은 생성 프롬프트와 채점 프롬프트 **둘 다 스키마를 받지 못했고**, 실제로 실행해 보는 단계가 없었다는 데 있습니다. 같은 모델이 쓰고 같은 모델이 채점한 것도 한계입니다.
 - **다음엔** 스키마를 프롬프트에 넣고, 점수를 매기기 전에 **SQLite에서 먼저 실행해 보는 검증**을 Judge 앞에 두겠습니다. 점수는 실행을 통과한 것끼리 비교할 때 의미가 있습니다.
+
+<details>
+<summary><b>같은 실습에서 고친 것 · 흔들리는 LLM 출력을 받아 내는 JSON 파서</b></summary>
+<br/>
+
+- **JSON 파서** — 실습 앞부분의 JSON 응답 예제에서, 기준 코드는 ```` ```json ```` 표시를 찾는 방식이라 코드 블록 없이 JSON만 오면 예외가 나는 구조였습니다. 코드 블록(언어 표시 유무 무관)을 정규식으로 먼저 찾고, 없으면 첫 `{`부터 마지막 `}`까지 잘라 읽고, 그래도 없으면 원문을 담아 실패하게 바꿨습니다. 라벨 생성은 SQL 문자열을 그대로 받고 Judge는 `response_format`(JSON schema)으로 받아, 두 단계 모두 이 파서를 거치지 않습니다.
+- **출력 언어 고정** — 제출본의 한 셀에는 추론형(reasoning) 모델이 영어 독백만 남기고 답을 맺지 못한 출력이 남아 있습니다. 작업 사본에서는 프롬프트 앞에 "한국어로"를 붙여 출력 언어를 고정했고, 한국어 답을 받았습니다.
+
+파서와 JSON schema가 잡아 주는 것은 **형식**까지입니다. 위 대조처럼 형식이 맞아도 내용은 틀릴 수 있어, 내용은 따로 검증해야 합니다.
+
+```python
+def json_parsing(output_text: str) -> dict:
+    # 1) ```json ... ``` 또는 ``` ... ``` 코드 블록 우선 추출
+    match = re.search(r"```(?:json)?\s*(.*?)\s*```", output_text, re.DOTALL)
+    if match:
+        output_text = match.group(1)
+    else:
+        # 2) 코드 블록이 없으면 첫 '{' ~ 마지막 '}' 구간 추출
+        start, end = output_text.find("{"), output_text.rfind("}")
+        if start == -1 or end == -1:
+            raise ValueError(f"JSON을 찾을 수 없습니다:\n{output_text}")
+        output_text = output_text[start:end + 1]
+    return json.loads(output_text)
+```
+
+</details>
 
 `Upstage Solar` `OpenAI SDK` `JSON Schema` `LLM-as-a-Judge`
 
@@ -334,7 +329,7 @@ LoRA  : SELECT country FROM singer WHERE age > 20
 
 > **노트북이 낸 '10.7배'를 그대로 쓰지 않고, 두 쪽이 무엇을 같게 쟀고 무엇을 다르게 쟀는지부터 확인했습니다.**
 
-노트북의 측정 코드로 HF Transformers와 vLLM의 생성 속도를 비교했습니다. 포트폴리오를 정리하며(2026.10.07) 측정 코드를 다시 읽어 보니, 두 쪽은 같은 조건이 아니었습니다.
+노트북의 측정 코드로 HF Transformers와 vLLM의 생성 속도를 비교했습니다. 포트폴리오를 정리하며(2026.10.07) 측정 코드를 다시 읽어 보니, 두 쪽은 같은 조건이 아니었습니다. ④ 실습에서 무엇을 돌렸는지는 아래 <a href="#user-content-vllm">🔋 제약 ④</a>에 있습니다.
 
 | HF Transformers ↔ vLLM (프롬프트 5개 · 64토큰 · greedy) | HF | vLLM |
 |---|---|---|
@@ -376,7 +371,7 @@ LoRA  : SELECT country FROM singer WHERE age > 20
 
 ## 🔋 제약 — 작은 GPU에 맞춰 돌려 냅니다
 
-8월 노트북은 빈칸 없는 **참고 코드**였고, 강사가 2026.02에 돌린 출력이 들어 있었습니다. 저는 그것을 노트북 GPU(RTX 4050 Laptop 6 GB)에서 직접 돌렸고, 노트북에서 막힌 곳은 스크립트로 넘겼습니다.
+8월 노트북은 빈칸 없는 **참고 코드**였고, 강사가 2026.02에 돌린 출력이 들어 있었습니다. 저는 그것을 노트북 GPU(RTX 4050 Laptop 6 GB)에서 직접 돌렸습니다. 막혀서 제가 손댄 곳은 vLLM 실행(④) 하나이고, QLoRA(③)는 노트북 설정 그대로 6 GB 안에서 돌았습니다(학습 직후 5,915 / 6,141 MiB).
 
 <a id="vllm"></a>
 
@@ -465,6 +460,7 @@ SELECT name FROM employees WHERE age > 30
 
 ## 🖥 프론트엔드로 가져가는 것
 
+- **바뀐 것만 다시 만듭니다.** 📚에서 문단마다 '다시 그려야 함' 플래그를 둬, 고친 문단의 그림만 다시 그렸습니다. 화면에서도 모델 호출 · 이미지 생성처럼 비싼 작업은 무엇이 바뀌면 다시 할지를 상태로 들고 있어야 합니다.
 - **AI 결과는 화면에 올리기 전에 실물과 대조합니다.** 🏷 ①에서 형식을 JSON schema로 고정한 채점도 내용은 틀릴 수 있었습니다(4.6점 대 4 / 10). 화면에서도 응답 형식 검증과 내용 검증을 따로 둬야 합니다.
 - **폴백했으면 폴백했다고 알립니다.** 🛍 예산 필터는 거르지 못한 목록을 걸렀다고 안내했습니다. 빈 결과는 빈 결과라고 말하는 화면이 맞습니다.
 - **속도는 사용자가 체감하는 지표로 봅니다.** 🚀 ④에서 처리량과 첫 토큰 시간은 서로 다른 것을 쟀고, 배수는 조건에 따라 크게 흔들렸습니다. 채팅 화면이라면 처리량보다 첫 토큰이 뜨는 시간을 먼저 재겠습니다.
@@ -479,7 +475,7 @@ SELECT name FROM employees WHERE age > 30
 
 ✅ **잘한 점** — 받은 코드를 끝까지 이어 붙였습니다. 사례는 위 🧩 통합과 🔋 제약에 있습니다.
 
-<sub>아래 셋은 메인 포트폴리오의 <a href="./README.md#user-content-principles">일하는 원칙</a>에 비춘 아쉬운 점입니다. 사례는 위 각 사례의 본문에 있습니다.</sub>
+<sub>아래 셋은 메인 포트폴리오의 <a href="./README.md#user-content-principles">일하는 원칙</a>에 비춘 아쉬운 점입니다.</sub>
 
 <details>
 <summary>🔎 <b>사실만 말하기</b> — 폴백과 점수가 실패를 가렸다</summary>
@@ -538,7 +534,7 @@ SELECT name FROM employees WHERE age > 30
 <summary>🗺 <b>8월 실습 흐름</b> — ① 라벨 · ② LoRA · ③ QLoRA · ④ vLLM이 어떻게 이어졌나</summary>
 <br/>
 
-노트북은 빈칸 없는 **참고 코드**였고, 강사가 2026.02에 돌린 출력이 들어 있었습니다. 제 몫은 그것을 **제 GPU에서 직접 돌리고**, 평가 DB를 받아 배치하고, **직접 학습한 ② 어댑터를 ④ vLLM 실습으로 가져가 서빙까지** 이은 것입니다.
+제 몫은 참고 노트북을 **제 GPU에서 직접 돌리고**, 평가 DB를 받아 배치하고, **직접 학습한 ② 어댑터를 ④ vLLM 실습으로 가져가 추론까지** 이은 것입니다.
 
 ```mermaid
 flowchart LR
