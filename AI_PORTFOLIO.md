@@ -5,7 +5,7 @@
 **삼성청년SW·AI아카데미(SSAFY) 15기 AI 실습 기록**<br/>
 <sub>개인 실습 · 7월 AI 서비스 실습(앱 3종 · MLOps) · 8월 AI 특화 LLM 실습(라벨 생성 · LoRA · QLoRA · vLLM)</sub>
 
-<a href="./README.md">← 메인 포트폴리오(프론트엔드)</a> · <a href="#user-content-glance">한눈에 보기</a> · <a href="#user-content-july">7월</a> · <a href="#user-content-august">8월</a> · <a href="#user-content-retro">돌아보며</a>
+<a href="./README.md">← 메인 포트폴리오</a> · <a href="#user-content-glance">한눈에 보기</a> · <a href="#user-content-july">7월</a> · <a href="#user-content-august">8월</a> · <a href="#user-content-retro">돌아보며</a>
 
 </div>
 
@@ -122,10 +122,7 @@ if is_photo(image, doc_type, content):
 </details>
 
 **아쉬운 점**
-- **키워드 TF-IDF가 사실상 TF였습니다.** 문서 한 장으로 fit하니 IDF가 상수가 됩니다. 주석에 적어 두고도 그대로 뒀습니다.
-- **휴대폰으로 찍은 영수증도 사진으로 갈 수 있습니다.** 카메라 EXIF만 있어도 사진으로 판정하기 때문입니다.
 - **새 의존성을 requirements.txt에 적지 않았습니다.** 다른 PC에서는 EXIF · GPS · 객체 정보가 **경고 없이 빠져** 사진이 '일반 사진'으로만 저장되고, 키워드도 공백 분리로 조용히 돌아갑니다(지도 탭만 설치 안내를 띄움). 실패를 막으려고 둔 장치가 실패를 가린 셈입니다.
-- 요약 학습을 거치지 않은 사전학습 모델(`gogamza/kobart-base-v2`)로 요약 모델을 바꿨는데, **바꾼 이유를 남기지 않았습니다.**
 
 `Streamlit` `PaddleOCR` `DiT` `LayoutLMv3` `Donut` `KoBART` `ko-sroberta` `YOLOv8n` `OpenCV` `konlpy` `folium` `SQLModel`
 
@@ -168,9 +165,7 @@ def create_storybook(story_id):
 </details>
 
 **아쉬운 점**
-- **처음 만들 때는 캐시를 늘 건너뜁니다.** 새 문단은 플래그가 켜진 채 저장되고, 그 플래그를 `force`로 넘기기 때문입니다. '고친 문단만'은 지켰지만 '같은 그림은 다시 안 그리기'는 첫 생성에서 깨졌습니다.
 - **한글 폰트가 없으면 Helvetica로 넘어가 PDF의 한글이 깨집니다.** 폴백이 오류를 막는 대신 깨진 결과를 내는 구조였습니다.
-- 캐릭터 LoRA 과제는 **불러오는 자리만 만들고 가중치는 학습하지 못했습니다**(경로 `None`).
 
 `Gradio` `Bllossom 5B` `diffusers` `DreamShaper 8` `ReportLab` `SQLModel`
 
@@ -213,16 +208,9 @@ def save_products_with_clip_vectors(products):
 
 </details>
 
-**아쉬운 점 — 거르지 못했는데 걸렀다고 말했습니다**
-- 조건에 맞는 상품이 하나도 없으면 **거르기 전 목록을 그대로 돌려주면서**, 안내문은 "50,000원 이하의 상품을 저렴한 순으로 정리했습니다"라고 말했습니다. 사용자는 예산을 넘는 상품을 예산 안의 상품으로 믿게 됩니다.
-
-  ```python
-  def apply_budget_filter(products, budget_info):
-      ...
-      return filtered if filtered else products   # 비면 원본 — 그런데 안내문은 그대로
-  ```
-- **예산 파서가 읽게 하려던 말을 못 읽었습니다.** 함수를 떼어 실행해 보니(2026.10.07) "3만원에서 5만원" · "3만원부터 5만원까지"가 범위가 아니라 **"3만원 이하"**로 읽혔습니다. 범위 정규식 `[~부터에서\-]`에 '에서' · '부터'를 넣었지만, 한 글자씩만 맞추는 문자 집합이라 두 글자 단어를 잡지 못했습니다. "3개 이하로 보여줘"도 1,000 미만 숫자를 만원 단위로 보는 규칙 때문에 3만원 이하가 됐습니다. 읽게 하려던 문장을 테스트로 남겼다면 바로 잡혔을 일입니다.
-- 이미지 결과는 상품명, 텍스트 결과는 상품 ID로 중복을 판별해 **같은 상품이 두 번 나올 수 있었고**, 탐지 경로에서 상품 이미지를 동기로 내려받아(최대 10개 × 5초) 느려질 수 있었습니다.
+**아쉬운 점**
+- **거르지 못했는데 걸렀다고 안내했습니다.** 조건에 맞는 상품이 하나도 없으면 거르기 전 목록을 그대로 돌려주면서, 안내문은 "50,000원 이하의 상품을 저렴한 순으로 정리했습니다"라고 말했습니다. 사용자는 예산을 넘는 상품을 예산 안의 상품으로 믿게 됩니다.
+- **예산 파서가 읽게 하려던 말을 못 읽었습니다.** 함수를 떼어 실행해 보니(2026.10.07) "3만원에서 5만원" · "3만원부터 5만원까지"가 범위가 아니라 **"3만원 이하"**로 읽혔습니다. 범위 정규식 `[~부터에서\-]`에 '에서' · '부터'를 넣었지만, 한 글자씩만 맞추는 문자 집합이라 두 글자 단어를 잡지 못했습니다. 읽게 하려던 문장을 테스트로 남겼다면 바로 잡혔을 일입니다.
 
 `Gradio` `YOLOv8 (DeepFashion2)` `CLIP ViT-B/32` `ChromaDB` `LangChain` `Bllossom 3B` `ko-sroberta` `OpenCV` `네이버 쇼핑 API`
 
@@ -250,10 +238,9 @@ def save_products_with_clip_vectors(products):
 
 **아쉬운 점**
 - **loss만 남고 정확도는 없습니다.** 스켈레톤이 정확도를 기록하지 않았고, 저도 테스트셋 평가를 더하지 않았습니다. `train_metrics.json`의 정확도 0.92는 코드에 박힌 상수라 쓰지 않았습니다.
-- **레지스트리와 서빙이 이어져 있지 않았습니다.** 07.09에 BentoML 서버를 띄워 문서 화면(Swagger)까지 열었는데, 그 서버가 올린 `model.pt`는 레지스트리의 ConvNet이 아니라 **학습되지 않은 다른 모델**(SimpleNet)이었습니다. 마지막 실행의 요청 집계에 예측 호출은 0건이고, 당시에는 알아차리지 못했습니다. 버전을 붙이는 것과 그 버전을 실제로 서빙하는 것은 별개의 연결이라는 걸 돌아보며 알았습니다.
-- DVC · docker-compose 전체 스택 · EC2 배포는 **실행하지 않았습니다.**
+- **레지스트리와 서빙이 이어져 있지 않았습니다.** 07.09에 띄운 BentoML 서버가 올린 `model.pt`는 레지스트리의 ConvNet이 아니라 **학습되지 않은 다른 모델**(SimpleNet)이었습니다. 마지막 실행의 요청 집계에 예측 호출은 0건이고, 당시에는 알아차리지 못했습니다. 버전을 붙이는 것과 그 버전을 실제로 서빙하는 것은 별개의 연결이라는 걸 돌아보며 알았습니다.
 
-`MLflow` `PyTorch` `BentoML` <sub>· 스켈레톤의 DVC · Prometheus · Grafana · Docker Compose는 실행 기록 없음</sub>
+`MLflow` `PyTorch` `BentoML` <sub>· 스켈레톤의 DVC · Prometheus · Grafana · Docker Compose · EC2 배포는 실행 기록 없음</sub>
 
 <br/>
 
@@ -385,9 +372,7 @@ LoRA  : SELECT country FROM singer WHERE age > 20
 ```
 
 **아쉬운 점**
-- **프롬프트에 스키마가 없어** 모델이 테이블 이름을 추측합니다. 전체로는 나아졌지만 베이스가 맞히고 LoRA가 틀린 문항도 있습니다. 맞던 `airports`를 없는 `airport`로 바꾸거나(#10), 물어본 `birth_date` 컬럼을 빠뜨렸습니다(#54).
-- 7,000건 중 400건만, 보수적인 학습률(2e-5)로 100 step 학습했습니다. 평가셋도 60문항이라 0.15 차이를 일반화하기엔 작습니다.
-- **제출본만으로는 다시 채점할 수 없습니다.** 어댑터는 ④ 실습 폴더(`4. skeleton04`)에 들어갔지만, LoRA 예측과 채점 결과는 없습니다. 제출본의 `predict.txt`는 베이스 예측과 같은 파일이고, 평가 DB는 `.gitignore`(`database/*/`)로 빠졌습니다.
+- **표본이 작고, 프롬프트에 스키마가 없습니다.** 7,000건 중 400건을 보수적인 학습률(2e-5)로 100 step만 학습했고, 평가셋도 60문항이라 0.15 차이를 일반화하기엔 작습니다. 스키마 없이 테이블 이름을 추측해, 베이스가 맞힌 문항을 LoRA가 틀리기도 했습니다(맞던 `airports`를 없는 `airport`로 바꾼 #10 등).
 
 `Transformers` `PEFT (LoRA)` `TRL SFTTrainer` `Spider test-suite`
 
@@ -421,10 +406,8 @@ LoRA  : SELECT country FROM singer WHERE age > 20
 
 <sub>두 어댑터의 `trainer_state.json`(step마다 기록된 loss 100개)에서 그렸습니다.</sub>
 
-**아쉬운 점 — 학습은 끝냈는데 채점을 못 했습니다**
-- 평가 DB 폴더에 **`.sqlite` 파일이 없어**(DB 폴더 안에는 압축을 풀다 생긴 `testsuitedatabases/database/` 폴더와 readme만 있었음) 베이스 모델 평가가 `unable to open database file`로 실패했습니다. ②에서는 DB를 배치해 놓고, ③에서는 그 과정을 빠뜨렸습니다. 바로잡지 않은 채 학습으로 넘어가, `inference.py`로 하는 **학습 후 60문항 추론과 채점도 하지 않았습니다.**
-- 그래서 학습 loss가 ②보다 낮게 끝났어도(마지막 10 step 평균 0.997 대 1.231), **SQL을 더 잘 맞히는지는 모릅니다.** 단건 추론 예시는 존재하지 않는 `company` 테이블을 쓴 오답이었습니다.
-- 양자화 전 메모리는 같은 조건에서 재지 않았습니다. "fp16이면 약 4 GB"는 노트북 설명의 추정이라 쓰지 않았습니다.
+**아쉬운 점**
+- **학습은 끝냈는데 채점을 못 했습니다.** ②에서 배치했던 평가 DB를 ③에서는 빠뜨려 베이스 모델 평가가 `unable to open database file`로 실패했고, 바로잡지 않은 채 학습으로 넘어가 학습 후 60문항 추론과 채점도 하지 않았습니다. 그래서 loss가 ②보다 낮게 끝났어도(마지막 10 step 평균 0.997 대 1.231) **SQL을 더 잘 맞히는지는 모릅니다.**
 
 `bitsandbytes (NF4)` `PEFT (QLoRA)` `TRL` `Windows · CUDA`
 
@@ -482,7 +465,6 @@ SELECT name FROM employees WHERE age > 30
 
 **아쉬운 점**
 - 벤치마크 수치를 받아 들고 **측정 조건이 같은지 확인하지 않았습니다.** 같은 배치 크기 · 같은 정밀도 · 워밍업 후 반복 측정으로 다시 재야 "몇 배"라고 말할 수 있습니다.
-- 실패한 셀을 고치지 않아(16:22에 다시 돌려도 같은 오류), 제출본에 **실패 출력이 그대로** 남았습니다.
 
 `vLLM 0.13` `PagedAttention` `LoRARequest` `PEFT merge_and_unload` `WSL`
 
