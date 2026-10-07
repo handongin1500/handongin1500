@@ -119,8 +119,8 @@ def save(fig, t_name, name):
 def chart_accuracy(t_name):
     t = THEMES[t_name]
     fig, ax = frame(t, "Text-to-SQL 실행 정확도 — 베이스 vs LoRA",
-                    "SmolLM2-360M · Spider 60문항 · 예측 2026.08.20 · 채점 2026.10.07",
-                    [(t["neutral"], "베이스 모델", "bar"), (t["s1"], "LoRA 적용 (직접 학습한 어댑터)", "bar")],
+                    "SmolLM2-360M · Spider 60문항 · LoRA 예측 2026.08.20 · 채점 2026.10.07",
+                    [(t["neutral"], "베이스 모델 (강사 제공 예측)", "bar"), (t["s1"], "LoRA 적용 (직접 학습한 어댑터)", "bar")],
                     right_px=32)
     ax.set_xlim(-0.6, 2.6)
     ax.set_ylim(0, 1.0)
